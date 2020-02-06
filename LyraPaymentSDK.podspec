@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.dependency 'Sentry', '~> 4.3.2'
 
   s.subspec 'AdditionalSDK' do |subspec|
-        subspec.vendored_frameworks = ['LyraCardsRecognizer.framework']
+        subspec.dependency = 'LyraCardsRecognizer'
   end
 end
