@@ -1,0 +1,4 @@
+*.h linguist-detectable=false
+*.mm linguist-detectable=false
+*.swift linguist-detectable=true
+*.swift linguist-language=Swift

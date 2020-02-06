@@ -1,0 +1,1045 @@
+{
+    "cards": [
+        {
+            "brand": "VISA",
+            "cards": [
+                {
+                    "pan": "4970100000000055",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000048",
+                    "status": "accepted",
+                    "detail": "payment_sdk_buyer_not_3DS",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000030",
+                    "status": "accepted",
+                    "detail": "payment_sdk_merchant_not_3DS",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000022",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000014",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000006",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000113",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000089",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_cvv_error",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000063",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970100000000071",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970110000000013",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_without_3DS_method",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970110000001029",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970110000002035",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method_timeout",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970110000000021",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_without_3DS_method",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970110000001003",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_with_3DS_method",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970110000002019",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_with_3DS_method_timeout",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970110000000054",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_timeout",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4970110000000039",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_refused",
+                    "brands": [
+                        "VISA",
+                        "CB"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "CB",
+            "cards": [
+                {
+                    "pan": "4970100000000055",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000048",
+                    "status": "accepted",
+                    "detail": "payment_sdk_buyer_not_3DS",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000030",
+                    "status": "accepted",
+                    "detail": "payment_sdk_merchant_not_3DS",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000022",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000014",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000006",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000113",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000089",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_cvv_error",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000063",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000071",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970110000000013",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_without_3DS_method",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970110000001029",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970110000002035",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method_timeout",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970110000000021",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_without_3DS_method",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970110000001003",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_with_3DS_method",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970110000002019",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_with_3DS_method_timeout",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970110000000054",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_timeout",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                },
+                {
+                    "pan": "4970110000000039",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_refused",
+                    "brands": [
+                        "CB",
+                        "VISA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_ELECTRON",
+            "cards": [
+                {
+                    "pan": "4917480000000057",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000032",
+                    "status": "accepted",
+                    "detail": "payment_sdk_buyer_not_3DS",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000024",
+                    "status": "accepted",
+                    "detail": "payment_sdk_merchant_not_3DS",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000107",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000081",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_cvv_error",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000016",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000008",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000065",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000073",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917480000000040",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "VISA_ELECTRON",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "4917481000000006",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_without_3DS_method",
+                    "brands": [
+                        "VISA_ELECTRON"
+                    ]
+                },
+                {
+                    "pan": "4917481000000402",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method",
+                    "brands": [
+                        "VISA_ELECTRON"
+                    ]
+                },
+                {
+                    "pan": "4917481000000014",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_without_3DS_method",
+                    "brands": [
+                        "VISA_ELECTRON"
+                    ]
+                },
+                {
+                    "pan": "4917481000000410",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_with_3DS_method",
+                    "brands": [
+                        "VISA_ELECTRON"
+                    ]
+                },
+                {
+                    "pan": "4917481000000204",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method_timeout",
+                    "brands": [
+                        "VISA_ELECTRON"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MASTERCARD",
+            "cards": [
+                {
+                    "pan": "5970100300000067",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000042",
+                    "status": "accepted",
+                    "detail": "payment_sdk_buyer_not_3DS",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000034",
+                    "status": "accepted",
+                    "detail": "payment_sdk_merchant_not_3DS",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000109",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000091",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_cvv_error",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000026",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000018",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000075",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000083",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5970100300000059",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_contact_issuer",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5100010000002045",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_without_3DS_method",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5100010000001047",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5100010000001013",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method_timeout",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5100010000000049",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_without_3DS_method",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5100010000000106",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_with_3DS_method",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5100010000001054",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_with_3DS_method_timeout",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5100010000000056",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_timeout",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5100010000000064",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_refused",
+                    "brands": [
+                        "MASTERCARD",
+                        "CB"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MAESTRO",
+            "cards": [
+                {
+                    "pan": "5000550000000052",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MAESTRO",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5000550000000102",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MAESTRO",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5000550000000011",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "MAESTRO",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5000550000000029",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "MAESTRO",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5000550000000060",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "MAESTRO",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5000550000000078",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "MAESTRO",
+                        "CB"
+                    ]
+                },
+                {
+                    "pan": "5000551000000001",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_without_3DS_method",
+                    "brands": [
+                        "MAESTRO"
+                    ]
+                },
+                {
+                    "pan": "5000551000000407",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method",
+                    "brands": [
+                        "MAESTRO"
+                    ]
+                },
+                {
+                    "pan": "5000551000000019",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_without_3DS_method",
+                    "brands": [
+                        "MAESTRO"
+                    ]
+                },
+                {
+                    "pan": "5000551000000415",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_challenge_with_3DS_method",
+                    "brands": [
+                        "MAESTRO"
+                    ]
+                },
+                {
+                    "pan": "5000551000000209",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_frictionless_with_3DS_method_timeout",
+                    "brands": [
+                        "MAESTRO"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "AMEX",
+            "cards": [
+                {
+                    "pan": "378282000000008",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "AMEX"
+                    ]
+                },
+                {
+                    "pan": "378283000000022",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "AMEX"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "BANCONTACT",
+            "cards": [
+                {
+                    "pan": "6703111122223334",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "BANCONTACT",
+                        "MAESTRO"
+                    ]
+                },
+                {
+                    "pan": "5970100300000018",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "BANCONTACT",
+                        "MAESTRO"
+                    ]
+                },
+                {
+                    "pan": "5970100300000026",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "BANCONTACT",
+                        "MAESTRO"
+                    ]
+                },
+                {
+                    "pan": "5970100300000083",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "BANCONTACT",
+                        "MAESTRO"
+                    ]
+                },
+                {
+                    "pan": "5970100300000075",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "BANCONTACT",
+                        "MAESTRO"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "E-CARTEBLEUE",
+            "cards": [
+                {
+                    "pan": "4150560000000011",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "E-CARTEBLEUE"
+                    ]
+                },
+                {
+                    "pan": "4150563000000098",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "E-CARTEBLEUE"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "CABAL",
+            "cards": [
+                {
+                    "pan": "6035227716427021",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "CABAL"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "JCB",
+            "cards": [
+                {
+                    "pan": "3528000000000000007",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "JCB"
+                    ]
+                },
+                {
+                    "pan": "3528000000000000015",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "JCB"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "AURA",
+            "cards": [
+                {
+                    "pan": "4970100000000055",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "AURA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000022",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "AURA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000014",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "AURA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000113",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "AURA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000063",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "AURA"
+                    ]
+                },
+                {
+                    "pan": "4970100000000071",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "AURA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "DINERS",
+            "cards": [
+                {
+                    "pan": "36000000000008",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "DINERS"
+                    ]
+                },
+                {
+                    "pan": "36000000000008",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "DINERS"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "HIPER",
+            "cards": [
+                {
+                    "pan": "4970100000000055",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "HIPER"
+                    ]
+                },
+                {
+                    "pan": "4970100000000022",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "HIPER"
+                    ]
+                },
+                {
+                    "pan": "4970100000000014",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "HIPER"
+                    ]
+                },
+                {
+                    "pan": "4970100000000113",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "HIPER"
+                    ]
+                },
+                {
+                    "pan": "4970100000000063",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "HIPER"
+                    ]
+                },
+                {
+                    "pan": "4970100000000071",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "HIPER"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "HIPERCARD",
+            "cards": [
+                {
+                    "pan": "4970100000000055",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "HIPERCARD"
+                    ]
+                },
+                {
+                    "pan": "4970100000000022",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds_interactive",
+                    "brands": [
+                        "HIPERCARD"
+                    ]
+                },
+                {
+                    "pan": "4970100000000014",
+                    "status": "acceptedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_accepted_3ds",
+                    "brands": [
+                        "HIPERCARD"
+                    ]
+                },
+                {
+                    "pan": "4970100000000113",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "HIPERCARD"
+                    ]
+                },
+                {
+                    "pan": "4970100000000063",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_3ds",
+                    "brands": [
+                        "HIPERCARD"
+                    ]
+                },
+                {
+                    "pan": "4970100000000071",
+                    "status": "refusedWithStrongAuthentication",
+                    "detail": "payment_sdk_card_refused_limit",
+                    "brands": [
+                        "HIPERCARD"
+                    ]
+                }
+            ]
+        }
+    ]
+}

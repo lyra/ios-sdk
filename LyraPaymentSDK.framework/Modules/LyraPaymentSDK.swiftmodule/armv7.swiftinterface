@@ -1,0 +1,283 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)
+// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name LyraPaymentSDK
+import AVFoundation
+import Foundation
+@_exported import LyraPaymentSDK
+import Material
+import PayCardsRecognizer
+import Sentry
+import SnapKit
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+@objc final public class Lyra : ObjectiveC.NSObject {
+  @objc public static var themeFileName: Swift.String
+  @objc public static var apiServerName: Swift.String
+  @objc public static var cardScanningEnabled: Swift.String
+  @objc public static func initialize(_ publicKey: Swift.String, _ options: [Swift.String : Any] = [:]) throws
+  @objc public static func getSDKVersion() -> Swift.String
+  @objc public static func process(contextViewController: UIKit.UIViewController, serverResponse: Swift.String, onSuccess: @escaping ((LyraPaymentSDK.LyraResponse) -> Swift.Void), onError: @escaping ((LyraPaymentSDK.LyraError, LyraPaymentSDK.LyraResponse?) -> Swift.Void)) throws
+  @objc public static func getFormTokenVersion() -> Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UITextField {
+  @objc override dynamic open func canPerformAction(_ action: ObjectiveC.Selector, withSender sender: Any?) -> Swift.Bool
+}
+@objc public class LyraError : ObjectiveC.NSObject, Swift.Error {
+  @objc public var errorCode: Swift.String
+  @objc public var errorMessage: Swift.String
+  @objc public var detailErrorCode: Swift.String
+  @objc public var detailErrorMessage: Swift.String
+  @objc public var isTechnicalError: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class LyraResponse : ObjectiveC.NSObject {
+  @objc public func getResponseDataString() -> Swift.String
+  @objc public func getResponseData() -> Foundation.Data
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias Index = Swift.Int
+public typealias Closure = () -> Swift.Void
+public typealias SelectionClosure = (LyraPaymentSDK.Index, Swift.String) -> Swift.Void
+public typealias MultiSelectionClosure = ([LyraPaymentSDK.Index], [Swift.String]) -> Swift.Void
+public typealias ConfigurationClosure = (LyraPaymentSDK.Index, Swift.String) -> Swift.String
+public typealias CellConfigurationClosure = (LyraPaymentSDK.Index, Swift.String, LyraPaymentSDK.DropDownCell) -> Swift.Void
+@objc public protocol AnchorView : AnyObject {
+  @objc var plainView: UIKit.UIView { get }
+}
+extension UIView : LyraPaymentSDK.AnchorView {
+  @objc dynamic public var plainView: UIKit.UIView {
+    @objc get
+  }
+}
+extension UIBarButtonItem : LyraPaymentSDK.AnchorView {
+  @objc dynamic public var plainView: UIKit.UIView {
+    @objc get
+  }
+}
+@objc final public class DropDownKH : UIKit.UIView {
+  public enum DismissMode {
+    case onTap
+    case automatic
+    case manual
+    public static func == (a: LyraPaymentSDK.DropDownKH.DismissMode, b: LyraPaymentSDK.DropDownKH.DismissMode) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public enum Direction {
+    case any
+    case top
+    case bottom
+    public static func == (a: LyraPaymentSDK.DropDownKH.Direction, b: LyraPaymentSDK.DropDownKH.Direction) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  weak public static var VisibleDropDown: LyraPaymentSDK.DropDownKH?
+  final public func setLabelText(_ text: Swift.String)
+  final public func setColorForLabelText(_ color: UIKit.UIColor)
+  weak final public var anchorView: LyraPaymentSDK.AnchorView? {
+    get
+    set(newValue)
+  }
+  final public var direction: LyraPaymentSDK.DropDownKH.Direction
+  final public var topOffset: CoreGraphics.CGPoint {
+    get
+    set(newValue)
+  }
+  final public var bottomOffset: CoreGraphics.CGPoint {
+    get
+    set(newValue)
+  }
+  final public var offsetFromWindowBottom: CoreGraphics.CGFloat {
+    get
+    set(newValue)
+  }
+  final public var width: CoreGraphics.CGFloat? {
+    get
+    set(newValue)
+  }
+  final public var arrowIndicationX: CoreGraphics.CGFloat? {
+    get
+    set(newValue)
+  }
+  @objc dynamic final public var cellHeight: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc override final public var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set(newValue)
+  }
+  final public var dimmedBackgroundColor: UIKit.UIColor {
+    get
+    set(newValue)
+  }
+  @objc dynamic final public var selectionBackgroundColor: UIKit.UIColor
+  @objc dynamic final public var separatorColor: UIKit.UIColor {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic final public var cornerRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic final public func setupCornerRadius(_ radius: CoreGraphics.CGFloat)
+  @available(iOS 11.0, *)
+  @objc dynamic final public func setupMaskedCorners(_ cornerMask: QuartzCore.CACornerMask)
+  @objc dynamic final public var shadowOffset: CoreGraphics.CGSize {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic final public var shadowOpacity: Swift.Float {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic final public var shadowRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic final public var animationduration: Swift.Double
+  public static var animationEntranceOptions: UIKit.UIView.AnimationOptions
+  public static var animationExitOptions: UIKit.UIView.AnimationOptions
+  final public var animationEntranceOptions: UIKit.UIView.AnimationOptions
+  final public var animationExitOptions: UIKit.UIView.AnimationOptions
+  final public var downScaleTransform: CoreGraphics.CGAffineTransform {
+    get
+    set(newValue)
+  }
+  @objc dynamic final public var textColor: UIKit.UIColor {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic final public var selectedTextColor: UIKit.UIColor {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic final public var textFont: UIKit.UIFont? {
+    @objc get
+    @objc set(newValue)
+  }
+  final public var cellNib: UIKit.UINib {
+    get
+    set(newValue)
+  }
+  final public var dataSource: [Swift.String] {
+    get
+    set(newValue)
+  }
+  final public var localizationKeysDataSource: [Swift.String] {
+    get
+    set(newValue)
+  }
+  final public var cellConfiguration: LyraPaymentSDK.ConfigurationClosure? {
+    get
+    set(newValue)
+  }
+  final public var customCellConfiguration: LyraPaymentSDK.CellConfigurationClosure? {
+    get
+    set(newValue)
+  }
+  final public var selectionAction: LyraPaymentSDK.SelectionClosure?
+  final public var multiSelectionAction: LyraPaymentSDK.MultiSelectionClosure?
+  final public var willShowAction: LyraPaymentSDK.Closure?
+  final public var cancelAction: LyraPaymentSDK.Closure?
+  final public var dismissMode: LyraPaymentSDK.DropDownKH.DismissMode {
+    get
+    set(newValue)
+  }
+  @objc deinit
+  @objc dynamic public convenience init()
+  public convenience init(anchorView: LyraPaymentSDK.AnchorView, selectionAction: LyraPaymentSDK.SelectionClosure? = nil, dataSource: [Swift.String] = [], topOffset: CoreGraphics.CGPoint? = nil, bottomOffset: CoreGraphics.CGPoint? = nil, cellConfiguration: LyraPaymentSDK.ConfigurationClosure? = nil, cancelAction: LyraPaymentSDK.Closure? = nil)
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+}
+extension DropDownKH {
+  @objc override final public func updateConstraints()
+  @objc override final public func layoutSubviews()
+}
+extension DropDownKH {
+  @objc(show) final public func objc_show() -> Foundation.NSDictionary
+  @discardableResult
+  final public func show(onTopOf window: UIKit.UIWindow? = nil, beforeTransform transform: CoreGraphics.CGAffineTransform? = nil, anchorPoint: CoreGraphics.CGPoint? = nil) -> (canBeDisplayed: Swift.Bool, offscreenHeight: CoreGraphics.CGFloat?)
+  @objc override final public func accessibilityPerformEscape() -> Swift.Bool
+  final public func hide()
+}
+extension DropDownKH {
+  final public func reloadAllComponents()
+  final public func selectRow(at index: LyraPaymentSDK.Index?, scrollPosition: UIKit.UITableView.ScrollPosition = .none)
+  final public func selectRows(at indices: Swift.Set<LyraPaymentSDK.Index>?)
+  final public func deselectRow(at index: LyraPaymentSDK.Index?)
+  final public func deselectRows(at indices: Swift.Set<LyraPaymentSDK.Index>?)
+  final public var indexForSelectedRow: LyraPaymentSDK.Index? {
+    get
+  }
+  final public var selectedItem: Swift.String? {
+    get
+  }
+  @objc final public func selectRow(_ index: Swift.Int, scrollPosition: UIKit.UITableView.ScrollPosition = .none)
+  @objc final public func clearSelection()
+  @objc final public func deselectRow(_ index: Swift.Int)
+  @objc final public var indexPathForSelectedRow: Foundation.NSIndexPath? {
+    @objc get
+  }
+}
+extension DropDownKH : UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
+  @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc final public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension DropDownKH {
+  @objc override final public func hitTest(_ point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+}
+extension DropDownKH {
+  @objc public static func startListeningToKeyboard()
+}
+@objc open class DropDownCell : UIKit.UITableViewCell {
+  @objc @IBOutlet open var optionLabel: UIKit.UILabel!
+  @available(iOS 3.0, *)
+  @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension DropDownCell {
+  @objc override dynamic open func awakeFromNib()
+  @objc override dynamic open var isSelected: Swift.Bool {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc override dynamic open var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc override dynamic open func setHighlighted(_ highlighted: Swift.Bool, animated: Swift.Bool)
+  @objc override dynamic open func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+}
+public class TLCustomMask {
+  public var formattingPattern: Swift.String {
+    get
+    set(newPattern)
+  }
+  public init(formattingPattern: Swift.String = "")
+  public func formatStringMixed(string: Swift.String) -> Swift.String
+  public func formatString(string: Swift.String) -> Swift.String
+  @objc deinit
+}
+@objc public class LyraMobError : LyraPaymentSDK.LyraError {
+  @objc deinit
+}
+extension DropDownKH {
+  final public class func setupDefaultAppearance()
+}
+public class Validator {
+  @objc deinit
+}
