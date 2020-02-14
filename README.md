@@ -1,5 +1,3 @@
-# Lyra Mobile SDK - iOS
+# Mobile Payment SDK - iOS
 
-This aim of this repository is to present the releases of Lyra SDK Mobile for iOS.
-
-That will be enriched very soon :)
+This repository contains our iOS Payment SDK. Please refer to your Payment Service Provider documentation for more information.
