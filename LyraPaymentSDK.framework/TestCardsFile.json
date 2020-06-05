@@ -1040,6 +1040,889 @@
                     ]
                 }
             ]
+        },
+         {
+            "brand": "AMEX_BANSUD",
+            "cards": [
+                {
+                    "pan": "3777770000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "AMEX_BANSUD"
+                    ]
+                },
+                {
+                    "pan": "3777770000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "AMEX_BANSUD"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "AMEX_GALICIA",
+            "cards": [
+                {
+                    "pan": "3715930000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "AMEX_GALICIA"
+                    ]
+                },
+                {
+                    "pan": "3715930000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "AMEX_GALICIA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "AMEX_HSBC",
+            "cards": [
+                {
+                    "pan": "3778020000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "AMEX_HSBC"
+                    ]
+                },
+                {
+                    "pan": "3778020000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "AMEX_HSBC"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "AMEX_NARANJA",
+            "cards": [
+                {
+                    "pan": "3777980000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "AMEX_NARANJA"
+                    ]
+                },
+                {
+                    "pan": "3777980000000001",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "AMEX_NARANJA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "AMEX_PATAGONIA",
+            "cards": [
+                {
+                    "pan": "3767130000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "AMEX_PATAGONIA"
+                    ]
+                },
+                {
+                    "pan": "3767130000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "AMEX_PATAGONIA"
+                    ]
+                }
+            ]
+        },
+         {
+            "brand": "AMEX_SANTANDER",
+            "cards": [
+                {
+                    "pan": "3715950000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "AMEX_SANTANDER"
+                    ]
+                },
+                {
+                    "pan": "3715950000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "AMEX_SANTANDER"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_BBVA",
+            "cards": [
+                {
+                    "pan": "5165850000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_BBVA"
+                    ]
+                },
+                {
+                    "pan": "5165850000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_BBVA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_CENCOSUD",
+            "cards": [
+                {
+                    "pan": "5105410000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_CENCOSUD"
+                    ]
+                },
+                {
+                    "pan": "5105410000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_CENCOSUD"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_CITYBANK",
+            "cards": [
+                {
+                    "pan": "5169810000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_CITYBANK"
+                    ]
+                },
+                {
+                    "pan": "5169810000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_CITYBANK"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_COLUMBIA",
+            "cards": [
+                {
+                    "pan": "5158250000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_COLUMBIA"
+                    ]
+                },
+                {
+                    "pan": "5158250000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_COLUMBIA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_COMAFI",
+            "cards": [
+                {
+                    "pan": "5258600000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_COMAFI"
+                    ]
+                },
+                {
+                    "pan": "5258600000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_COMAFI"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_FALABELLA",
+            "cards": [
+                {
+                    "pan": "5570390000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_FALABELLA"
+                    ]
+                },
+                {
+                    "pan": "5570390000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_FALABELLA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_GALICIA",
+            "cards": [
+                {
+                    "pan": "5239370000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_GALICIA"
+                    ]
+                },
+                {
+                    "pan": "5239370000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_GALICIA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_HSBC",
+            "cards": [
+                {
+                    "pan": "5156950000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_HSBC"
+                    ]
+                },
+                {
+                    "pan": "5156950000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_HSBC"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_ICBC",
+            "cards": [
+                {
+                    "pan": "5579700000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_ICBC"
+                    ]
+                },
+                {
+                    "pan": "5579700000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_ICBC"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_ITAU",
+            "cards": [
+                {
+                    "pan": "5197100000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_ITAU"
+                    ]
+                },
+                {
+                    "pan": "5197100000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_ITAU"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_MACRO",
+            "cards": [
+                {
+                    "pan": "5117390000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_MACRO"
+                    ]
+                },
+                {
+                    "pan": "5117390000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_MACRO"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_NACION",
+            "cards": [
+                {
+                    "pan": "5102110000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_NACION"
+                    ]
+                },
+                {
+                    "pan": "5102110000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_NACION"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_PATAGONIA",
+            "cards": [
+                {
+                    "pan": "5150730000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_PATAGONIA"
+                    ]
+                },
+                {
+                    "pan": "5150730000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_PATAGONIA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "MC_SANTANDER",
+            "cards": [
+                {
+                    "pan": "5123700000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "MC_SANTANDER"
+                    ]
+                },
+                {
+                    "pan": "5123700000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "MC_SANTANDER"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_BBVA",
+            "cards": [
+                {
+                    "pan": "4040220000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_BBVA"
+                    ]
+                },
+                {
+                    "pan": "4040220000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_BBVA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_CHACO",
+            "cards": [
+                {
+                    "pan": "4722600000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_CHACO"
+                    ]
+                },
+                {
+                    "pan": "4722600000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_CHACO"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_CIUDAD",
+            "cards": [
+                {
+                    "pan": "4338100000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_CIUDAD"
+                    ]
+                },
+                {
+                    "pan": "4338100000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_CIUDAD"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_COLUMBIA",
+            "cards": [
+                {
+                    "pan": "4056430000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_COLUMBIA"
+                    ]
+                },
+                {
+                    "pan": "4056430000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_COLUMBIA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_COMAFI",
+            "cards": [
+                {
+                    "pan": "4027850000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_COMAFI"
+                    ]
+                },
+                {
+                    "pan": "4027850000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_COMAFI"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_CORDOBESA",
+            "cards": [
+                {
+                    "pan": "4765370000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_CORDOBESA"
+                    ]
+                },
+                {
+                    "pan": "4765370000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_CORDOBESA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_CORRIENTES",
+            "cards": [
+                {
+                    "pan": "4769410000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_CORRIENTES"
+                    ]
+                },
+                {
+                    "pan": "4769410000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_CORRIENTES"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_CREDICOOP",
+            "cards": [
+                {
+                    "pan": "4100840000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_CREDICOOP"
+                    ]
+                },
+                {
+                    "pan": "4100840000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_CREDICOOP"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_FORMOSA",
+            "cards": [
+                {
+                    "pan": "4338340000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_FORMOSA"
+                    ]
+                },
+                {
+                    "pan": "4338340000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_FORMOSA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_GALICIA",
+            "cards": [
+                {
+                    "pan": "4110320000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_GALICIA"
+                    ]
+                },
+                {
+                    "pan": "4110320000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_GALICIA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_HIPOTECARIO",
+            "cards": [
+                {
+                    "pan": "4304950000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_HIPOTECARIO"
+                    ]
+                },
+                {
+                    "pan": "4304950000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_HIPOTECARIO"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_HSBC",
+            "cards": [
+                {
+                    "pan": "4164980000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_HSBC"
+                    ]
+                },
+                {
+                    "pan": "4164980000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_HSBC"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_ICBC",
+            "cards": [
+                {
+                    "pan": "4101290000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_ICBC"
+                    ]
+                },
+                {
+                    "pan": "4101290000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_ICBC"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_INDUSTRIAL",
+            "cards": [
+                {
+                    "pan": "4854820000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_INDUSTRIAL"
+                    ]
+                },
+                {
+                    "pan": "4854820000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_INDUSTRIAL"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_ITAU",
+            "cards": [
+                {
+                    "pan": "4338170000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_ITAU"
+                    ]
+                },
+                {
+                    "pan": "4338170000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_ITAU"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_MACRO",
+            "cards": [
+                {
+                    "pan": "4110860000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_MACRO"
+                    ]
+                },
+                {
+                    "pan": "4110860000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_MACRO"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_NACION",
+            "cards": [
+                {
+                    "pan": "4484790000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_NACION"
+                    ]
+                },
+                {
+                    "pan": "4484790000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_NACION"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_NEUQUEN",
+            "cards": [
+                {
+                    "pan": "4507510000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_NEUQUEN"
+                    ]
+                },
+                {
+                    "pan": "4507510000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_NEUQUEN"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_PATAGONIA",
+            "cards": [
+                {
+                    "pan": "4338980000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_PATAGONIA"
+                    ]
+                },
+                {
+                    "pan": "4338980000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_PATAGONIA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_PROVINCIA",
+            "cards": [
+                {
+                    "pan": "4071190000000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_PROVINCIA"
+                    ]
+                },
+                {
+                    "pan": "4071190000000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_PROVINCIA"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "VISA_SANTANDER",
+            "cards": [
+                {
+                    "pan": "4509791100000001",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "VISA_SANTANDER"
+                    ]
+                },
+                {
+                    "pan": "4509791100000002",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "VISA_SANTANDER"
+                    ]
+                }
+            ]
+        },
+        {
+            "brand": "CARNET",
+            "cards": [
+                {
+                    "pan": "5907120000000000",
+                    "status": "accepted",
+                    "detail": "payment_sdk_card_accepted",
+                    "brands": [
+                        "CARNET"
+                    ]
+                },
+                {
+                    "pan": "5907120000000001",
+                    "status": "refused",
+                    "detail": "payment_sdk_card_refused",
+                    "brands": [
+                        "CARNET"
+                    ]
+                }
+            ]
         }
     ]
 }
+

@@ -20,10 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ScanData: NSObject
 
-@property(nonatomic, assign) NSString *recognizedNumber;
-@property(nonatomic, assign) NSString *recognizedHolderName;
-@property(nonatomic, assign) NSString *recognizedExpireDateMonth;
-@property(nonatomic, assign) NSString *recognizedExpireDateYear;
+@property(nonatomic, retain) NSString *recognizedNumber;
+@property(nonatomic, retain) NSString *recognizedHolderName;
+@property(nonatomic, retain) NSString *recognizedExpireDateMonth;
+@property(nonatomic, retain) NSString *recognizedExpireDateYear;
 
 @end
 
