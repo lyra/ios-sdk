@@ -372,7 +372,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// The process to be started depends on the serverResponse passed as parameter
 /// \param contextViewController Corresponds to the ViewController of the client application from which the payment process will be launched.
 ///
-/// \param serverResponse The serverResponse defines the type of process to be triggered. A serverResponse with an amount of 0 will start a process of registering the card, otherwise a payment process will start.
+/// \param formToken The formToken defines the type of process to be triggered. A formToken with an amount of 0 will start a process of registering the card, otherwise a payment process will start.
 ///
 /// \param onSuccess onSuccess Process callback
 ///
@@ -381,7 +381,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 ///
 /// throws:
 /// Throws an NSError using the LyraSdkError class if the SDK was not previously initialized.
-+ (BOOL)processWithContextViewController:(UIViewController * _Nonnull)contextViewController serverResponse:(NSString * _Nonnull)serverResponse error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
++ (BOOL)process:(UIViewController * _Nonnull)contextViewController :(NSString * _Nonnull)formToken error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
 /// Uses this method for get the formToken version supported by Lyra SDK
 ///
 /// returns:
@@ -819,7 +819,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// The process to be started depends on the serverResponse passed as parameter
 /// \param contextViewController Corresponds to the ViewController of the client application from which the payment process will be launched.
 ///
-/// \param serverResponse The serverResponse defines the type of process to be triggered. A serverResponse with an amount of 0 will start a process of registering the card, otherwise a payment process will start.
+/// \param formToken The formToken defines the type of process to be triggered. A formToken with an amount of 0 will start a process of registering the card, otherwise a payment process will start.
 ///
 /// \param onSuccess onSuccess Process callback
 ///
@@ -828,7 +828,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 ///
 /// throws:
 /// Throws an NSError using the LyraSdkError class if the SDK was not previously initialized.
-+ (BOOL)processWithContextViewController:(UIViewController * _Nonnull)contextViewController serverResponse:(NSString * _Nonnull)serverResponse error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
++ (BOOL)process:(UIViewController * _Nonnull)contextViewController :(NSString * _Nonnull)formToken error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
 /// Uses this method for get the formToken version supported by Lyra SDK
 ///
 /// returns:
@@ -1270,7 +1270,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// The process to be started depends on the serverResponse passed as parameter
 /// \param contextViewController Corresponds to the ViewController of the client application from which the payment process will be launched.
 ///
-/// \param serverResponse The serverResponse defines the type of process to be triggered. A serverResponse with an amount of 0 will start a process of registering the card, otherwise a payment process will start.
+/// \param formToken The formToken defines the type of process to be triggered. A formToken with an amount of 0 will start a process of registering the card, otherwise a payment process will start.
 ///
 /// \param onSuccess onSuccess Process callback
 ///
@@ -1279,7 +1279,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 ///
 /// throws:
 /// Throws an NSError using the LyraSdkError class if the SDK was not previously initialized.
-+ (BOOL)processWithContextViewController:(UIViewController * _Nonnull)contextViewController serverResponse:(NSString * _Nonnull)serverResponse error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
++ (BOOL)process:(UIViewController * _Nonnull)contextViewController :(NSString * _Nonnull)formToken error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
 /// Uses this method for get the formToken version supported by Lyra SDK
 ///
 /// returns:
@@ -1717,7 +1717,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// The process to be started depends on the serverResponse passed as parameter
 /// \param contextViewController Corresponds to the ViewController of the client application from which the payment process will be launched.
 ///
-/// \param serverResponse The serverResponse defines the type of process to be triggered. A serverResponse with an amount of 0 will start a process of registering the card, otherwise a payment process will start.
+/// \param formToken The formToken defines the type of process to be triggered. A formToken with an amount of 0 will start a process of registering the card, otherwise a payment process will start.
 ///
 /// \param onSuccess onSuccess Process callback
 ///
@@ -1726,7 +1726,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 ///
 /// throws:
 /// Throws an NSError using the LyraSdkError class if the SDK was not previously initialized.
-+ (BOOL)processWithContextViewController:(UIViewController * _Nonnull)contextViewController serverResponse:(NSString * _Nonnull)serverResponse error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
++ (BOOL)process:(UIViewController * _Nonnull)contextViewController :(NSString * _Nonnull)formToken error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
 /// Uses this method for get the formToken version supported by Lyra SDK
 ///
 /// returns:

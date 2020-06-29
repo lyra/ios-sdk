@@ -49,15 +49,6 @@
                     ]
                 },
                 {
-                    "pan": "4970100000000006",
-                    "status": "acceptedWithStrongAuthentication",
-                    "detail": "payment_sdk_card_accepted_3ds",
-                    "brands": [
-                        "VISA",
-                        "CB"
-                    ]
-                },
-                {
                     "pan": "4970100000000113",
                     "status": "refused",
                     "detail": "payment_sdk_card_refused",
@@ -208,15 +199,6 @@
                 },
                 {
                     "pan": "4970100000000014",
-                    "status": "acceptedWithStrongAuthentication",
-                    "detail": "payment_sdk_card_accepted_3ds",
-                    "brands": [
-                        "CB",
-                        "VISA"
-                    ]
-                },
-                {
-                    "pan": "4970100000000006",
                     "status": "acceptedWithStrongAuthentication",
                     "detail": "payment_sdk_card_accepted_3ds",
                     "brands": [

@@ -17,7 +17,7 @@ import WebKit
   @objc public static var cardScanningEnabled: Swift.String
   @objc public static func initialize(_ publicKey: Swift.String, _ options: [Swift.String : Any] = [:]) throws
   @objc public static func getSDKVersion() -> Swift.String
-  @objc public static func process(contextViewController: UIKit.UIViewController, serverResponse: Swift.String, onSuccess: @escaping ((LyraPaymentSDK.LyraResponse) -> Swift.Void), onError: @escaping ((LyraPaymentSDK.LyraError, LyraPaymentSDK.LyraResponse?) -> Swift.Void)) throws
+  @objc public static func process(_ contextViewController: UIKit.UIViewController, _ formToken: Swift.String, onSuccess: @escaping ((LyraPaymentSDK.LyraResponse) -> Swift.Void), onError: @escaping ((LyraPaymentSDK.LyraError, LyraPaymentSDK.LyraResponse?) -> Swift.Void)) throws
   @objc public static func getFormTokenVersion() -> Swift.Int
   @objc override dynamic public init()
   @objc deinit
