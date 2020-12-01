@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name LyraPaymentSDK
 import AVFoundation
 import Foundation
@@ -11,7 +11,7 @@ import Swift
 import SystemConfiguration
 import UIKit
 import WebKit
-@objc final public class Lyra : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc final public class Lyra : ObjectiveC.NSObject {
   @objc public static var themeFileName: Swift.String
   @objc public static var apiServerName: Swift.String
   @objc public static var cardScanningEnabled: Swift.String
@@ -19,13 +19,13 @@ import WebKit
   @objc public static func getSDKVersion() -> Swift.String
   @objc public static func process(_ contextViewController: UIKit.UIViewController, _ formToken: Swift.String, onSuccess: @escaping ((LyraPaymentSDK.LyraResponse) -> Swift.Void), onError: @escaping ((LyraPaymentSDK.LyraError, LyraPaymentSDK.LyraResponse?) -> Swift.Void)) throws
   @objc public static func getFormTokenVersion() -> Swift.Int
-  @objc override dynamic public init()
   @objc deinit
+  @objc override dynamic public init()
 }
 extension UITextField {
   @objc override dynamic open func canPerformAction(_ action: ObjectiveC.Selector, withSender sender: Any?) -> Swift.Bool
 }
-@objc public class LyraError : ObjectiveC.NSObject, Swift.Error {
+@_hasMissingDesignatedInitializers @objc public class LyraError : ObjectiveC.NSObject, Swift.Error {
   @objc public var errorCode: Swift.String
   @objc public var errorMessage: Swift.String
   @objc public var detailErrorCode: Swift.String
@@ -34,7 +34,7 @@ extension UITextField {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public class LyraResponse : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @objc public class LyraResponse : ObjectiveC.NSObject {
   @objc public func getResponseDataString() -> Swift.String
   @objc public func getResponseData() -> Foundation.Data
   @objc override dynamic public init()
@@ -59,7 +59,7 @@ extension UIBarButtonItem : LyraPaymentSDK.AnchorView {
     @objc get
   }
 }
-@objc final public class DropDownKH : UIKit.UIView {
+@objc @_inheritsConvenienceInitializers final public class DropDownKH : UIKit.UIView {
   public enum DismissMode {
     case onTap
     case automatic
@@ -85,32 +85,32 @@ extension UIBarButtonItem : LyraPaymentSDK.AnchorView {
   final public func setColorForLabelText(_ color: UIKit.UIColor)
   weak final public var anchorView: LyraPaymentSDK.AnchorView? {
     get
-    set(newValue)
+    set(value)
   }
   final public var direction: LyraPaymentSDK.DropDownKH.Direction
   final public var topOffset: CoreGraphics.CGPoint {
     get
-    set(newValue)
+    set(value)
   }
   final public var bottomOffset: CoreGraphics.CGPoint {
     get
-    set(newValue)
+    set(value)
   }
   final public var offsetFromWindowBottom: CoreGraphics.CGFloat {
     get
-    set(newValue)
+    set(value)
   }
   final public var width: CoreGraphics.CGFloat? {
     get
-    set(newValue)
+    set(value)
   }
   final public var arrowIndicationX: CoreGraphics.CGFloat? {
     get
-    set(newValue)
+    set(value)
   }
   @objc dynamic final public var cellHeight: CoreGraphics.CGFloat {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc override final public var backgroundColor: UIKit.UIColor? {
     @objc get
@@ -118,31 +118,31 @@ extension UIBarButtonItem : LyraPaymentSDK.AnchorView {
   }
   final public var dimmedBackgroundColor: UIKit.UIColor {
     get
-    set(newValue)
+    set(value)
   }
   @objc dynamic final public var selectionBackgroundColor: UIKit.UIColor
   @objc dynamic final public var separatorColor: UIKit.UIColor {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc dynamic final public var cornerRadius: CoreGraphics.CGFloat {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc dynamic final public func setupCornerRadius(_ radius: CoreGraphics.CGFloat)
   @available(iOS 11.0, *)
   @objc dynamic final public func setupMaskedCorners(_ cornerMask: QuartzCore.CACornerMask)
   @objc dynamic final public var shadowOffset: CoreGraphics.CGSize {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc dynamic final public var shadowOpacity: Swift.Float {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc dynamic final public var shadowRadius: CoreGraphics.CGFloat {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc dynamic final public var animationduration: Swift.Double
   public static var animationEntranceOptions: UIKit.UIView.AnimationOptions
@@ -151,39 +151,39 @@ extension UIBarButtonItem : LyraPaymentSDK.AnchorView {
   final public var animationExitOptions: UIKit.UIView.AnimationOptions
   final public var downScaleTransform: CoreGraphics.CGAffineTransform {
     get
-    set(newValue)
+    set(value)
   }
   @objc dynamic final public var textColor: UIKit.UIColor {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc dynamic final public var selectedTextColor: UIKit.UIColor {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc dynamic final public var textFont: UIKit.UIFont? {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   final public var cellNib: UIKit.UINib {
     get
-    set(newValue)
+    set(value)
   }
   final public var dataSource: [Swift.String] {
     get
-    set(newValue)
+    set(value)
   }
   final public var localizationKeysDataSource: [Swift.String] {
     get
-    set(newValue)
+    set(value)
   }
   final public var cellConfiguration: LyraPaymentSDK.ConfigurationClosure? {
     get
-    set(newValue)
+    set(value)
   }
   final public var customCellConfiguration: LyraPaymentSDK.CellConfigurationClosure? {
     get
-    set(newValue)
+    set(value)
   }
   final public var selectionAction: LyraPaymentSDK.SelectionClosure?
   final public var multiSelectionAction: LyraPaymentSDK.MultiSelectionClosure?
@@ -191,7 +191,7 @@ extension UIBarButtonItem : LyraPaymentSDK.AnchorView {
   final public var cancelAction: LyraPaymentSDK.Closure?
   final public var dismissMode: LyraPaymentSDK.DropDownKH.DismissMode {
     get
-    set(newValue)
+    set(value)
   }
   @objc deinit
   @objc dynamic public convenience init()
@@ -241,22 +241,22 @@ extension DropDownKH {
 extension DropDownKH {
   @objc public static func startListeningToKeyboard()
 }
-@objc open class DropDownCell : UIKit.UITableViewCell {
+@objc @_inheritsConvenienceInitializers open class DropDownCell : UIKit.UITableViewCell {
   @objc @IBOutlet open var optionLabel: UIKit.UILabel!
+  @objc deinit
   @available(iOS 3.0, *)
   @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 extension DropDownCell {
   @objc override dynamic open func awakeFromNib()
   @objc override dynamic open var isSelected: Swift.Bool {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc override dynamic open var isHighlighted: Swift.Bool {
     @objc get
-    @objc set(newValue)
+    @objc set(value)
   }
   @objc override dynamic open func setHighlighted(_ highlighted: Swift.Bool, animated: Swift.Bool)
   @objc override dynamic open func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
@@ -271,12 +271,12 @@ public class TLCustomMask {
   public func formatString(string: Swift.String) -> Swift.String
   @objc deinit
 }
-@objc public class LyraMobError : LyraPaymentSDK.LyraError {
+@objc @_hasMissingDesignatedInitializers public class LyraMobError : LyraPaymentSDK.LyraError {
   @objc deinit
 }
 extension DropDownKH {
   final public class func setupDefaultAppearance()
 }
-public class Validator {
+@_hasMissingDesignatedInitializers public class Validator {
   @objc deinit
 }
