@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
 
   s.dependency 'Material', '~> 2.16.4'
   s.dependency 'SnapKit', '~> 4.2.0'
-  s.dependency 'Sentry', '~> 4.3.2'
-  s.dependency 'sentry_client_cocoa'
+  s.dependency 'Sentry', '~> 6.0.9'
+  s.dependency 'sentry_client_cocoa', '~> 1.0.0'
 
   s.subspec 'AdditionalSDK' do |subspec|
         subspec.dependency 'LyraCardsRecognizer'
