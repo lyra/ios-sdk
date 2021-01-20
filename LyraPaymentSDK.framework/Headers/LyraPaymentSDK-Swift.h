@@ -350,13 +350,13 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 
 SWIFT_CLASS("_TtC14LyraPaymentSDK4Lyra")
 @interface Lyra : NSObject
-/// Keys for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull themeFileName;)
 + (NSString * _Nonnull)themeFileName SWIFT_WARN_UNUSED_RESULT;
-/// Keys for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull apiServerName;)
 + (NSString * _Nonnull)apiServerName SWIFT_WARN_UNUSED_RESULT;
-/// Keys for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
+/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
 + (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
 /// Initializes the SDK with the value of publicKey. This function must be invoked before trying to launch a payment/register-card process from the SDK.
@@ -802,13 +802,13 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 
 SWIFT_CLASS("_TtC14LyraPaymentSDK4Lyra")
 @interface Lyra : NSObject
-/// Keys for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull themeFileName;)
 + (NSString * _Nonnull)themeFileName SWIFT_WARN_UNUSED_RESULT;
-/// Keys for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull apiServerName;)
 + (NSString * _Nonnull)apiServerName SWIFT_WARN_UNUSED_RESULT;
-/// Keys for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
+/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
 + (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
 /// Initializes the SDK with the value of publicKey. This function must be invoked before trying to launch a payment/register-card process from the SDK.
@@ -1258,13 +1258,13 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 
 SWIFT_CLASS("_TtC14LyraPaymentSDK4Lyra")
 @interface Lyra : NSObject
-/// Keys for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull themeFileName;)
 + (NSString * _Nonnull)themeFileName SWIFT_WARN_UNUSED_RESULT;
-/// Keys for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull apiServerName;)
 + (NSString * _Nonnull)apiServerName SWIFT_WARN_UNUSED_RESULT;
-/// Keys for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
+/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
 + (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
 /// Initializes the SDK with the value of publicKey. This function must be invoked before trying to launch a payment/register-card process from the SDK.
@@ -1710,13 +1710,13 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 
 SWIFT_CLASS("_TtC14LyraPaymentSDK4Lyra")
 @interface Lyra : NSObject
-/// Keys for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull themeFileName;)
 + (NSString * _Nonnull)themeFileName SWIFT_WARN_UNUSED_RESULT;
-/// Keys for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull apiServerName;)
 + (NSString * _Nonnull)apiServerName SWIFT_WARN_UNUSED_RESULT;
-/// Keys for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
+/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
 + (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
 /// Initializes the SDK with the value of publicKey. This function must be invoked before trying to launch a payment/register-card process from the SDK.

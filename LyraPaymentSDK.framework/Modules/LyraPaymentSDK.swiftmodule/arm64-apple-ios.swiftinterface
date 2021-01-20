@@ -5,12 +5,12 @@ import AVFoundation
 import Foundation
 @_exported import LyraPaymentSDK
 import Material
-import Sentry
 import SnapKit
 import Swift
 import SystemConfiguration
 import UIKit
 import WebKit
+import sentry_client_cocoa
 @_inheritsConvenienceInitializers @objc final public class Lyra : ObjectiveC.NSObject {
   @objc public static var themeFileName: Swift.String
   @objc public static var apiServerName: Swift.String
