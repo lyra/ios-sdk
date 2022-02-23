@@ -1,0 +1,11 @@
+framework module LyraPaymentSDK {
+  umbrella header "LyraPaymentSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LyraPaymentSDK.Swift {
+    header "LyraPaymentSDK-Swift.h"
+    requires objc
+}

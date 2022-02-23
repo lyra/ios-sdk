@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+                <script src="lyra-authentication-client-lib.umd.js"></script>
+
+                <script>
+                    var sdkInstruction = '%@'
+
+                    function process() {
+                        try {
+                            var lyraAuth = new LyraAuth({debug: false,
+                                                        element: document.getElementById('3ds'),
+                                                        });
+                            lyraAuth.delegate(JSON.parse(sdkInstruction),
+                                function (res) {
+                                    if (res) {
+                                        webkit.messageHandlers.authenticationSuccess.postMessage(res);
+                                    }
+                                    else {
+                         webkit.messageHandlers.authenticationError.postMessage(JSON.stringify({"errorMessage": "Unexpected Error"}));
+                                    }
+                            });
+                        } catch(err) {
+                            webkit.messageHandlers.authenticationError.postMessage(err);
+                        }
+
+                    }
+                </script>
+                </head>
+
+    <body onload="process()">
+        <div id="3ds"></div>
+    </body>
+</html>
+
+</body>
+</html>
