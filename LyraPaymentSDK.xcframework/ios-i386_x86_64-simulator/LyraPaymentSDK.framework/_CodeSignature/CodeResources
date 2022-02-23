@@ -22,35 +22,35 @@
 		</data>
 		<key>BrandView.nib/objects-11.0+.nib</key>
 		<data>
-		Uil6/4r0OryE15Hu8l02oUsZZ0Y=
+		CnDSz1vPPzzz8x8nGCDu89vmupA=
 		</data>
 		<key>BrandView.nib/runtime.nib</key>
 		<data>
-		nD2Nb68vJWKgn8ZLMmM0aiHxanw=
+		DISzmVBwp58L6aJtP01vjdnjJas=
 		</data>
 		<key>CVVHelpView.nib</key>
 		<data>
-		FRcJuMyo/3w5Kj7eWRY774fd86s=
+		oetWy1GC4IjIqt0J2OFBzFSOY5w=
 		</data>
 		<key>CategoryContentView.nib</key>
 		<data>
-		xSgKtebGN4k5L3N8XTf77Fvt6uQ=
+		gwbSAi4pzBr3zF/YrYyZvyXijOI=
 		</data>
 		<key>DropDownCell.nib</key>
 		<data>
-		QxDzKChLUSxv2PKs+3/fLJ9UVJM=
+		fOiWlZq4NtRyeicWbizdMfF3Qyw=
 		</data>
 		<key>DropDownImageCell.nib</key>
 		<data>
-		FEFcT/ktWHPELN+i4aKw5qFolXM=
+		8R2R3/fKzWDh/3EwwCwLV8XEMbc=
 		</data>
 		<key>ExpiryDateKeyboard.nib/objects-11.0+.nib</key>
 		<data>
-		xE8xh4EWsCBzg818WdtyhwUsEoQ=
+		RhBkzpvZsgmXqgCaV5lT0TzZmEk=
 		</data>
 		<key>ExpiryDateKeyboard.nib/runtime.nib</key>
 		<data>
-		LAn6W46C8flYrUQTkJSakVClj1k=
+		mGXh9jYjMcbvZYmnWPg/VRuhj2M=
 		</data>
 		<key>Headers/CardScanInterop.h</key>
 		<data>
@@ -66,31 +66,31 @@
 		</data>
 		<key>HelperView.nib/objects-11.0+.nib</key>
 		<data>
-		cFd53hRWnUCWtJEftxiXPN91sQA=
+		8VxRjaChnq8Br2uZWch2X+hNDwk=
 		</data>
 		<key>HelperView.nib/runtime.nib</key>
 		<data>
-		wtFzB4EHnyXUlUICoRZRewGj3yM=
+		4M9yYmstkRUJk0ZqmCpZtf3giGc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZsO39Y+c1ejAs8lNpgtoVCpFk60=
+		yB9eh1SkQNJj7+X7ISp4v3yGd4I=
 		</data>
 		<key>LoadingView.nib/objects-11.0+.nib</key>
 		<data>
-		A5V5bFlvgLmdPRdQ2ei4vYUbOt0=
+		yhIFkXi/bHWjs81sZab8zCR33e0=
 		</data>
 		<key>LoadingView.nib/runtime.nib</key>
 		<data>
-		hxnT4HPa4dlT05Mvkv9RFnvWCe4=
+		u0Gu2KsK6le2GSdFMJTsnAws5So=
 		</data>
 		<key>MessageView.nib/objects-11.0+.nib</key>
 		<data>
-		WZVfcxKKe61J0BTnpWW3t/cPojs=
+		GYUUxRLOIe8ooaCUEXkBP1PXVRY=
 		</data>
 		<key>MessageView.nib/runtime.nib</key>
 		<data>
-		LZNBdRQI0gc15ctHO49O9Qb1fX0=
+		1QcI700eNzZwuqoJERBy+caSeT0=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SzEPxcG9xdamQaGhrTthv9m2lwA=
+		el+4OW4Fw7HX1YjS4f9EWd+0NxE=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		SzEPxcG9xdamQaGhrTthv9m2lwA=
+		el+4OW4Fw7HX1YjS4f9EWd+0NxE=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9WBF2oZIirj+V0XCOc2I9uqcaKU=
+		rZ9Q8e4NyDZTPQZaGV0m2jVxdmE=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9WBF2oZIirj+V0XCOc2I9uqcaKU=
+		rZ9Q8e4NyDZTPQZaGV0m2jVxdmE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>PaymentForm.nib/objects-11.0+.nib</key>
 		<data>
-		XO1bzSaXRx7k0Gdl6luDtoaTY5A=
+		jXt39PQEvqcXbvhIG71MGpR9X6U=
 		</data>
 		<key>PaymentForm.nib/runtime.nib</key>
 		<data>
-		g5LzRIkQtw9ESzUGMO0T3lPuco8=
+		62GBme19ygruJen4LNr+CTuuywU=
 		</data>
 		<key>PaymentSdkTheme.plist</key>
 		<data>
@@ -158,19 +158,19 @@
 		</data>
 		<key>PaymentSelectorView.nib/objects-11.0+.nib</key>
 		<data>
-		Xam2J3IwsxQOnXDUKaZPkpTyAWs=
+		3mB/zmxYyXaO+DSIe+VA8+xjNvA=
 		</data>
 		<key>PaymentSelectorView.nib/runtime.nib</key>
 		<data>
-		RfxDzB1eKzqAH9e0g7CE42X5+5U=
+		hc6mNkzrOFVh3iciMnFgHFx2tNM=
 		</data>
 		<key>TestCardForm.nib/objects-11.0+.nib</key>
 		<data>
-		vY1qpKX+nMjFqSFo2Yns92UWZdI=
+		eyImdLTY7yoJexkOwHkcBoB2HvY=
 		</data>
 		<key>TestCardForm.nib/runtime.nib</key>
 		<data>
-		IMg9Zaa/Gc2e4ZVbHoE+9cJnRwY=
+		VoIamkkWfhIIa8Y27mWDDAH+g5w=
 		</data>
 		<key>TestCardsFile.json</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>TokenContentView.nib</key>
 		<data>
-		MnydT5/nnvWpyczYPXFztW4Dxqk=
+		nL7wKkIFd0YlUTgZqUNxYWt1uXc=
 		</data>
 		<key>en_Localizable.strings</key>
 		<data>
@@ -259,88 +259,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Uil6/4r0OryE15Hu8l02oUsZZ0Y=
+			CnDSz1vPPzzz8x8nGCDu89vmupA=
 			</data>
 			<key>hash2</key>
 			<data>
-			8/C4ZQLBHpTuXNLQgTW4zjrOMY6cKJo50C1ygej1ySY=
+			Aa1m52eXsWFBXnahHRkyZJRoNwokQjAdhomRf7qbAf8=
 			</data>
 		</dict>
 		<key>BrandView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nD2Nb68vJWKgn8ZLMmM0aiHxanw=
+			DISzmVBwp58L6aJtP01vjdnjJas=
 			</data>
 			<key>hash2</key>
 			<data>
-			DYWL2t/OWH6iEtWp5QaDC2OEHbo3YAYzczrxo8zPDE4=
+			ggrl406UCTpogmGNeCadSBpd/w70K32uMdc/NuODV6A=
 			</data>
 		</dict>
 		<key>CVVHelpView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FRcJuMyo/3w5Kj7eWRY774fd86s=
+			oetWy1GC4IjIqt0J2OFBzFSOY5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUZSjtplKWVcm8TavShkGjb6Qxhp8QTJ5EsVgolhLic=
+			KX9CjbfrXRkIAY7o6plysNYChooIMjlJ96DXbWEd9ZE=
 			</data>
 		</dict>
 		<key>CategoryContentView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xSgKtebGN4k5L3N8XTf77Fvt6uQ=
+			gwbSAi4pzBr3zF/YrYyZvyXijOI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZpeC3bu7VbqEFxuMzuWhzA+XBM0qOUb+jngiIT8f3vU=
+			/xfbY08aD6DZqjvco18EL6Sa5abTeMSFOP5vh9VB7F8=
 			</data>
 		</dict>
 		<key>DropDownCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QxDzKChLUSxv2PKs+3/fLJ9UVJM=
+			fOiWlZq4NtRyeicWbizdMfF3Qyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			WjZ6wszpPanZUjtCW4DQLs3XugBm7TT6KfYIEZvgePE=
+			fDD5Xv6y0wXrNH71wVjklueGgvvqc2/Wvyntry00zaU=
 			</data>
 		</dict>
 		<key>DropDownImageCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FEFcT/ktWHPELN+i4aKw5qFolXM=
+			8R2R3/fKzWDh/3EwwCwLV8XEMbc=
 			</data>
 			<key>hash2</key>
 			<data>
-			F9lumAZsHPfF0ibAkYg2ulgnhHKRV4FKliUkn1xWJYc=
+			E5jBzrQe7r+E2ZQXDPHQQX1EnfknU0OzZJvNTKcJzWU=
 			</data>
 		</dict>
 		<key>ExpiryDateKeyboard.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xE8xh4EWsCBzg818WdtyhwUsEoQ=
+			RhBkzpvZsgmXqgCaV5lT0TzZmEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			USs2CJiEpq1UATFdVtIYppH5/6o47A2qI/RrtfU0w7s=
+			HeUovjQxzciXokeu3YScpvZB0shFjtmC60B6jlUEf4A=
 			</data>
 		</dict>
 		<key>ExpiryDateKeyboard.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LAn6W46C8flYrUQTkJSakVClj1k=
+			mGXh9jYjMcbvZYmnWPg/VRuhj2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			hHCa0f736AgzixSUF1ZT9H/JiNsI9p4nlN9vwKBQUnY=
+			T8FgaVN3k+8prpnHuXHmxNAD/lZrLdkjjCZnfwDd4+s=
 			</data>
 		</dict>
 		<key>Headers/CardScanInterop.h</key>
@@ -380,66 +380,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cFd53hRWnUCWtJEftxiXPN91sQA=
+			8VxRjaChnq8Br2uZWch2X+hNDwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			s8L0BV3cH9gldTWp0OWifTcrCMOGTIQid1VnzCTbY5c=
+			2HK8Q4LAdqyWOEjRgqxgsOf8pV3sBse+jVtfs31Nx7k=
 			</data>
 		</dict>
 		<key>HelperView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wtFzB4EHnyXUlUICoRZRewGj3yM=
+			4M9yYmstkRUJk0ZqmCpZtf3giGc=
 			</data>
 			<key>hash2</key>
 			<data>
-			YigAZAat+KE20mvb/WcrVJTkLkNlVa73uDo/ZY9NA8k=
+			9M0mpnaLbEgohbvdfkHx2klm2/dkB+WXPZofD9iV8PQ=
 			</data>
 		</dict>
 		<key>LoadingView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A5V5bFlvgLmdPRdQ2ei4vYUbOt0=
+			yhIFkXi/bHWjs81sZab8zCR33e0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZoMUU7ca+ywhnIGSTJuMeoJCn4QbJjfDmW38q4+iO+U=
+			roQXvm+7tjOPdE6dy9FR6ces632Snk+CHEI0S0bVkd0=
 			</data>
 		</dict>
 		<key>LoadingView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hxnT4HPa4dlT05Mvkv9RFnvWCe4=
+			u0Gu2KsK6le2GSdFMJTsnAws5So=
 			</data>
 			<key>hash2</key>
 			<data>
-			iYtvna9eQyA4iAc2Y/d8hWWo1Hnzlbh3/JbehSChTTk=
+			v1TUev/zNySeBZxfxhWx776dra3iBlLBZgUpvQQt1BI=
 			</data>
 		</dict>
 		<key>MessageView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WZVfcxKKe61J0BTnpWW3t/cPojs=
+			GYUUxRLOIe8ooaCUEXkBP1PXVRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			cCxDBmw+KgI0bJo4Ow2BKBi9DLxOIhTwO5bhZTYG8bA=
+			02IqoaKXhH5WI6lmhclkouHnDSj/7IqHT0g38BlzYhg=
 			</data>
 		</dict>
 		<key>MessageView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LZNBdRQI0gc15ctHO49O9Qb1fX0=
+			1QcI700eNzZwuqoJERBy+caSeT0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6+DdWmCR3Ib01wICCXLxu/nxZnPnh+RR7r0JJQWGAyE=
+			mfQiqQcJXLkKcRxkf4ekR28rhLGY/8Qzzs7RJe+9vmg=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -468,11 +468,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SzEPxcG9xdamQaGhrTthv9m2lwA=
+			el+4OW4Fw7HX1YjS4f9EWd+0NxE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bFeHyO5wueeS0c+1z4r95cE250znyjH2uVjI2bg7fd4=
+			c/tLZ/nLVtTOwZXSqmO8t4g/As5CdUqyR6ylDAYnzQA=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/i386.swiftdoc</key>
@@ -501,11 +501,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SzEPxcG9xdamQaGhrTthv9m2lwA=
+			el+4OW4Fw7HX1YjS4f9EWd+0NxE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bFeHyO5wueeS0c+1z4r95cE250znyjH2uVjI2bg7fd4=
+			c/tLZ/nLVtTOwZXSqmO8t4g/As5CdUqyR6ylDAYnzQA=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -534,11 +534,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9WBF2oZIirj+V0XCOc2I9uqcaKU=
+			rZ9Q8e4NyDZTPQZaGV0m2jVxdmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			M4Qg12ojqTw4lUyEyEhqJz3YY0d4hTE3sqOhMO6jBzM=
+			jJvletcZq5HciGkKHiBNFKKYoySX1L3z9XRvBUL4kfU=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -567,11 +567,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9WBF2oZIirj+V0XCOc2I9uqcaKU=
+			rZ9Q8e4NyDZTPQZaGV0m2jVxdmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			M4Qg12ojqTw4lUyEyEhqJz3YY0d4hTE3sqOhMO6jBzM=
+			jJvletcZq5HciGkKHiBNFKKYoySX1L3z9XRvBUL4kfU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -589,22 +589,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XO1bzSaXRx7k0Gdl6luDtoaTY5A=
+			jXt39PQEvqcXbvhIG71MGpR9X6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			jiS0owP+3FrwCkEEd/aaXPoKmhh8lDiLo1HHCbk1OaQ=
+			v/i3CmY6hrwBhYgL3OsrnxDOlzPRxddmMsyTTw4jEqY=
 			</data>
 		</dict>
 		<key>PaymentForm.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g5LzRIkQtw9ESzUGMO0T3lPuco8=
+			62GBme19ygruJen4LNr+CTuuywU=
 			</data>
 			<key>hash2</key>
 			<data>
-			lI7TMZKtB+5EJDWPm7S/gp/Dcsq6Z8U4p+zXjKJfvFI=
+			OIKjMYiSKzvwuo3yVNHEyeqDiXIbVkhd8yUKqzn/p34=
 			</data>
 		</dict>
 		<key>PaymentSdkTheme.plist</key>
@@ -622,44 +622,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xam2J3IwsxQOnXDUKaZPkpTyAWs=
+			3mB/zmxYyXaO+DSIe+VA8+xjNvA=
 			</data>
 			<key>hash2</key>
 			<data>
-			+PU4Lwes+b/ImVa3X19aw81+VdejpzZh78sj+bCm1uc=
+			ej+lzX9w7TrE6VsxTnY/+3FXMNGj9ZjqP1mOUZIBfpU=
 			</data>
 		</dict>
 		<key>PaymentSelectorView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RfxDzB1eKzqAH9e0g7CE42X5+5U=
+			hc6mNkzrOFVh3iciMnFgHFx2tNM=
 			</data>
 			<key>hash2</key>
 			<data>
-			L8TNb6Dr8fV19lIpFZxBwF3QpuxiJ1B6S5frNdqmUBg=
+			PvvX3TJP22T0GiAUlO31A87waN0uYlaPb00ohIp819E=
 			</data>
 		</dict>
 		<key>TestCardForm.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vY1qpKX+nMjFqSFo2Yns92UWZdI=
+			eyImdLTY7yoJexkOwHkcBoB2HvY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sJQ8hgaJfEhCPwU7TKKy16cPpXnd1xGw7y+lDW0AHNk=
+			cDjOLG0Kc0ld9Oy/pYkx5j0inuqlsvJ5wUJTYLue/+4=
 			</data>
 		</dict>
 		<key>TestCardForm.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IMg9Zaa/Gc2e4ZVbHoE+9cJnRwY=
+			VoIamkkWfhIIa8Y27mWDDAH+g5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			bBkGxDD5FqXmaFuaZj48l/uZiLmM7l7h77zUTu5ypRs=
+			BrRksBLe/2D5jhvoFKtZmX9teqb7mROY12OxHNMXpEk=
 			</data>
 		</dict>
 		<key>TestCardsFile.json</key>
@@ -677,11 +677,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MnydT5/nnvWpyczYPXFztW4Dxqk=
+			nL7wKkIFd0YlUTgZqUNxYWt1uXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kjea041brdRSGhT8KoGTLpGglTJtIvZUYWOTGj785pE=
+			PMkL+fhyOVpiiO/aLvkh3TKVOQZZbfsSQnQRleAprn4=
 			</data>
 		</dict>
 		<key>en_Localizable.strings</key>
