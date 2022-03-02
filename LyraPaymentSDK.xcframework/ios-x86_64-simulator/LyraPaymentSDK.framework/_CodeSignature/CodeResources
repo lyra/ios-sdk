@@ -22,27 +22,27 @@
 		</data>
 		<key>BrandView.nib</key>
 		<data>
-		GoMPYrb/9Iho1PcpjUIbx63VJbM=
+		d/Fi8GNTV0C+nriisnf4/o71njk=
 		</data>
 		<key>CVVHelpView.nib</key>
 		<data>
-		BUWJxOWcFpBBpHcuEc8gWNUxk8Q=
+		sV4O1qvfoFgVDxJhwZCFpv2Aw9w=
 		</data>
 		<key>CategoryContentView.nib</key>
 		<data>
-		abBk8Qe6jXhyKQ5QRK04++v0D+0=
+		r/C5DGdx6B5KN/HNwCuZwzV1mgQ=
 		</data>
 		<key>DropDownCell.nib</key>
 		<data>
-		hbxjKmiYrRUPxIWBnrxnKurHYsc=
+		ZXBzCpPIdQcF+pGjQXqOxruArtQ=
 		</data>
 		<key>DropDownImageCell.nib</key>
 		<data>
-		sN0h0jR3sLveK5lmnXMWZjTVcO4=
+		zHL3gIAY+wyZOMgN8GQu4++OQpE=
 		</data>
 		<key>ExpiryDateKeyboard.nib</key>
 		<data>
-		Z5LdRmpE8II2YK1oVbC8Wc7PrT4=
+		EhgZKmtzB+0JtPuwrhOsRYgGNCk=
 		</data>
 		<key>Headers/CardScanInterop.h</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>HelperView.nib</key>
 		<data>
-		VIHbXjxxE7CYoDQjSWW4xme8EyA=
+		+iNSf0AHIkH7x8NpUhH4eUqWA+4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1QJtgQTkTu3SMgeNRjaVPKmIf6Y=
+		nuYWaOV5zCTj+kORxD9Ey14hVsQ=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
-		tOtl7ebGw6yCT6pMNQk2veM9yCE=
+		gevYWb3AuMhpyPIBjFEmjHxJCv4=
 		</data>
 		<key>MessageView.nib</key>
 		<data>
-		MJ+1J1IZmPU+TeBTlmGqVzjctT0=
+		r/he1tRhmBhtVeFQ4Fz60REJd+M=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>PaymentForm.nib</key>
 		<data>
-		JwkN5S83njEoCmlD4sa9EoLLg6o=
+		JgOv9fUw/5g/ax0Dz/cbmTeaVXo=
 		</data>
 		<key>PaymentSdkTheme.plist</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>PaymentSelectorView.nib</key>
 		<data>
-		zr3zPG+etOyGszoWcqg+9amJubg=
+		mgDci1GgXYoktLHace86pUl2JPM=
 		</data>
 		<key>TestCardForm.nib</key>
 		<data>
-		GpZAXdZLOFxbmliVB0GpV4y8xyI=
+		rQ9iM71aBRC7QK1exElJ5murebE=
 		</data>
 		<key>TestCardsFile.json</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>TokenContentView.nib</key>
 		<data>
-		vfZ1Ns9A15W0RrQYyr0zSpkMKlo=
+		WUX+0nasMCDuclj5Cizw7cNDp+I=
 		</data>
 		<key>en_Localizable.strings</key>
 		<data>
@@ -187,42 +187,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sSoVu6w4g9HG3qlNBnBmhSQfPtCZJ89NJVWPI3BhR/0=
+			MECUaqxUeCuMVCNwzMtBsrSd90Bl/zkbJrYuhwIGBRM=
 			</data>
 		</dict>
 		<key>CVVHelpView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJ/Z1WpsGpbWAv+JQDO9AXFgPa3DIlyw5bSUCVPOjLU=
+			WzUj6uTSpd3kxb/8jhZimG3MN35LSgo6nCq6HZhv2a0=
 			</data>
 		</dict>
 		<key>CategoryContentView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FGCprzZtGBWfBJ+Q2aTE5E895qmXRcJeZDt0a9AuYBU=
+			5q9313S367znjAgwaYSZWe1x7RW2UMwAg7UcAt62+54=
 			</data>
 		</dict>
 		<key>DropDownCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PRa54wm8omQeGzWibvXgNkcugKO0pZw9ytt4YYpWJ4o=
+			xGi8lE8OVtiL3hERH6WA04XRlr4sqIh2pgewwz4n0LE=
 			</data>
 		</dict>
 		<key>DropDownImageCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kWkRq5fhxxzHB1yDtwcmLn8BQL5cO14QLS+MiZbGujk=
+			MVkrLZPGp1kHg7ETlulwyBHVPgGi0QKxD9XcqTOC9Zc=
 			</data>
 		</dict>
 		<key>ExpiryDateKeyboard.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XVLyIioCF0Pjq6+y7cJLsmUklIsxN1P70zV388VBmwo=
+			TVdWOcqSFgsp1Z3NV6REoH7tNwekfVkT971qBqITzZA=
 			</data>
 		</dict>
 		<key>Headers/CardScanInterop.h</key>
@@ -250,21 +250,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m2QQZzlti9aPYafDGgRzIgPkWeLYu/2Bs9TiQZvKfW0=
+			l6UIMmXunWDDoWfe1IqGDe9yD4GT3kIjFhifme3kUJc=
 			</data>
 		</dict>
 		<key>LoadingView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rhyC9Ewo8MN3t8BDPJmEFnDZhCfMmGwItMexXF+zTWA=
+			RgaNNTCFzGmwrbMVsRtGiCA80HB012rjukvbQRfMXdI=
 			</data>
 		</dict>
 		<key>MessageView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3/LM5dGe8WRvMRbho0IxAKMxtD0q9kKLa+EMRNmYEM=
+			gN3z2wkjbkKTv7S+b0SY8koUFCWNCy1x6hDbDtq2pME=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -320,7 +320,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6MoNSIDuYh2319Dn/dHHxpkhgbptozpZEYl3rzcAozY=
+			9pRVe5IWw7OJFuBDLpgF1khGFoZBJ6cVJ4b4+vtC07Q=
 			</data>
 		</dict>
 		<key>PaymentSdkTheme.plist</key>
@@ -334,14 +334,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D9Yob6uHsMxF/beNlg8hOzY9SbqwvGeYBVJUJA3qjTg=
+			GFGB8d7reu0aeHsyc+lehv/wf9f7WXGo8IuEWvk8YHY=
 			</data>
 		</dict>
 		<key>TestCardForm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OxHcguZHSlH3WqMUITqEjsUZlcVfodrvfJzuZ3zIaIY=
+			dT+9AvOlT1ze831pvGBj7hnt91ZahKNlLPURoGy1ZoE=
 			</data>
 		</dict>
 		<key>TestCardsFile.json</key>
@@ -355,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g3O1oHZWZ75W9nfH6+Rf1QW7ZRe0tROlwZobKkjxRO0=
+			aXwqzU+NzKynjG8+6LLQVsN+o7S6L3a6vVae/fhC1uU=
 			</data>
 		</dict>
 		<key>en_Localizable.strings</key>
