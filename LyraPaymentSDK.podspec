@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LyraPaymentSDK'
-  s.version          = '1.4.0'
+  s.version          = '2.0.0'
   s.summary          = 'LyraPaymentSDK allows you to make payments from your iOS mobile App :)'
 
   s.homepage         = 'https://github.com/lyra/ios-sdk'
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.dependency 'Material', '~> 3.1.8'
-  s.dependency 'SnapKit', '~> 4.2.0'
-  s.dependency 'Sentry', '~> 6.0.9'
-  s.dependency 'sentry_client_cocoa', '~> 1.0.0'
+  s.dependency 'SnapKit', '~> 5.0.1'
+  s.dependency 'Sentry', '~> 7.13.0'
+  s.dependency 'sentry_client_cocoa', '~> 2.0.0'
 
   s.subspec 'AdditionalSDK' do |subspec|
         subspec.dependency 'LyraCardsRecognizer'
