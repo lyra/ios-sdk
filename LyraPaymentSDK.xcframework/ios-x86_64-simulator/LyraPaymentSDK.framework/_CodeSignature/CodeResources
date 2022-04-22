@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		CsVZNfRrWmOnuU2JytLpJMDX8uE=
+		RvzBsfacuG1KancoHE9N1+3cFHU=
 		</data>
 		<key>BINOptionsFile.json</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>BrandView.nib</key>
 		<data>
-		ovG3uOOixTr2KWtMCiqU3iMH0NU=
+		2ivNZ1DC9zBBwm502HTgJKXrAx8=
 		</data>
 		<key>CVVHelpView.nib</key>
 		<data>
-		/MudeQozy7Vm8/SFKrpe5Cs38fU=
+		QJvyneHpIJoFiW9TZlreyXibU6I=
 		</data>
 		<key>CategoryContentView.nib</key>
 		<data>
-		Ev2BFDsgqb+BTHGfjXJ1EJkTolY=
+		NO0negvJltLs0Shje2MDYq6ANdM=
 		</data>
 		<key>DropDownCell.nib</key>
 		<data>
-		+W7jm3M1Q9FHbUABGNxwGcncS+k=
+		IYS1c9h/K/ITcyAtyEHgGuEpXp0=
 		</data>
 		<key>DropDownImageCell.nib</key>
 		<data>
-		dBMTUivRn7Sd468KUUK3czuFM8k=
+		cRTye3FSNN6vz4hoDgal5hCepE8=
 		</data>
 		<key>ExpiryDateKeyboard.nib</key>
 		<data>
-		odPQuqJ6B1y4YCU1RVnCY+i80nA=
+		QZ7KJ/I7seYb/Rd4slvcczop2ZU=
 		</data>
 		<key>Headers/CardScanInterop.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/LyraPaymentSDK-Swift.h</key>
 		<data>
-		CnCCEMm3R9PV1zIh/eQ+JcyE9h4=
+		tbSMs/012T/9A0L1ZFiuKh55WW0=
 		</data>
 		<key>Headers/LyraPaymentSDK.h</key>
 		<data>
@@ -58,43 +58,31 @@
 		</data>
 		<key>HelperView.nib</key>
 		<data>
-		tEUznjHcYgpUn4QwymuVsmNeoiU=
+		p4Nc1q+/dR3UURGQJNkF8GasCPg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kAf9jEQwoXHL+yBOEl4A1BNrTPw=
+		qVaimqYaDPdDSd0d9dDuA7VtDXc=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
-		keNf0133NgyGRJag0lSycbojzJs=
+		3UHQHblyBIV1q0MLwlohibfLERM=
 		</data>
 		<key>MessageView.nib</key>
 		<data>
-		qdycw1xPMoeqgXfl4LIdUUEdXcY=
+		vHSdGafgC/5FGSuJ3JZCW+OSIW4=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FUFt0ds1wun/yawmPrIOZA2YXXk=
+		WwH75BQXbFNJcPZSbWRIyOBT2R8=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KRIpLjE3OQJeZZdBCYOf3G2tl2M=
+		GmvD/g859opVwXh1Nx5BFG5J4Ko=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PaXtCpU0HYplIMWA1diUyzklcEc=
-		</data>
-		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		FUFt0ds1wun/yawmPrIOZA2YXXk=
-		</data>
-		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		KRIpLjE3OQJeZZdBCYOf3G2tl2M=
-		</data>
-		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		PaXtCpU0HYplIMWA1diUyzklcEc=
+		wXH8D85X+ZGmsDQzsTsvro5wt18=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +90,7 @@
 		</data>
 		<key>PaymentForm.nib</key>
 		<data>
-		Gq5L3p4purNTOrdoFDCrxeyAbQk=
+		SdYyEEoR3FcICEjJpa+u1cUH+fE=
 		</data>
 		<key>PaymentSdkTheme.plist</key>
 		<data>
@@ -110,11 +98,11 @@
 		</data>
 		<key>PaymentSelectorView.nib</key>
 		<data>
-		lc1Z7Rfqw2F5Y/JlzEOf5qSRt1s=
+		30DdBs97muwNiBFCy3TsIGeeMgk=
 		</data>
 		<key>TestCardForm.nib</key>
 		<data>
-		BrHl9FPtfrBuSYlgcrUzIoBhMrU=
+		oMP/LoayRJho++zZwNdmc/gk+zs=
 		</data>
 		<key>TestCardsFile.json</key>
 		<data>
@@ -122,7 +110,7 @@
 		</data>
 		<key>TokenContentView.nib</key>
 		<data>
-		tRdtcZbKJkqAwhN6BNFCsDrd2CQ=
+		M5z8bodz6iGAKu0KsPsHQYkhyeo=
 		</data>
 		<key>en_Localizable.strings</key>
 		<data>
@@ -166,7 +154,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4RD7vL3Og+q0Nms3yzOeD/ffPTTEl2jabVjWKuLgQnU=
+			tP7luFO6EuMZmrFMfUKdr97LKz4aPx/hM38UjJ6HTdc=
 			</data>
 		</dict>
 		<key>BINOptionsFile.json</key>
@@ -187,42 +175,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j8nVV7TYC4BBLEZIYNx44W/nocFLEfXsIUStqhHCGqY=
+			zbSNIXD50/2VTzjfEx+sS+Pe9+1g/Hfxv6FAVZOgIp0=
 			</data>
 		</dict>
 		<key>CVVHelpView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			botCSEv9qgEkqsTeRdKU1xlkSVLK/KQdkNa64oliJnI=
+			ctm1l8ra0PJc4KNtZ3+ty8fPdJEy926N8yFU3a36eVM=
 			</data>
 		</dict>
 		<key>CategoryContentView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aheieFzwbR7yHmG1bPYrV52BWV+aFxuRGWK8HksTWA0=
+			xFAYmjxNZ19uK6t8Toi7cvtMwcr51HPkAsfhFtwsSaI=
 			</data>
 		</dict>
 		<key>DropDownCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DuA7SBpO9qFpGbsNKYYqvjoGtj1/lts3oSR2QqlyR0U=
+			iAoYpckHxIIBcnuQKW52OKWwGcJwqczk+GKGPd011R8=
 			</data>
 		</dict>
 		<key>DropDownImageCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bEmf6T5ZIwyebssymo959H5vJadorHJAgl741M5iCcM=
+			3v10UvSciRqWOOUpW+ZiZmZV0r+Ckc8PLV4K3/wHRDo=
 			</data>
 		</dict>
 		<key>ExpiryDateKeyboard.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZuE8GZyy/GHUG6V+P1Ta1ar5RuE0myaF0kL6Mq1e9P0=
+			LNBDMEb6iwwMAebTTpeKTulMgkBjF4AXbPmhXfDS9cA=
 			</data>
 		</dict>
 		<key>Headers/CardScanInterop.h</key>
@@ -236,7 +224,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N8Taw6MS/I5A+nNYnHHKCUrZf45BpfDJDID/lRqGqQA=
+			0ow/Xll0BEhPAUhaUI6kSEot3t6nKoazk6iGrN8V0o4=
 			</data>
 		</dict>
 		<key>Headers/LyraPaymentSDK.h</key>
@@ -250,63 +238,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HbsyQvEylUDN8o2onp7OeFi2kNLFI1vakVEX50zgbzk=
+			J7z2afinykoAM+BbL4JmzwfmTC/3iXlj5i+cSMSPIaU=
 			</data>
 		</dict>
 		<key>LoadingView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UrJ7VqXZcer7eY2WkDXthocUAY5ruZ2idHgL+9OUrc0=
+			/TksqSapJcYOpGRwvwvQQJYfmho3qSqVNx9QKLY+2qY=
 			</data>
 		</dict>
 		<key>MessageView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y/U10CXUYsL6OayegEouqrOoAl9ghn6G4bV6247ExxA=
+			PlEL+2yDYHbigUwV9sx8T9rl0WtL4CZh5IUayINbZ0c=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			htyEMED8l7EYuHCkwTtLc3EdWKfzAoYByHIJGFfGB4c=
+			UjaUjiZZRvgofqVSGON+DBNhtOzw+osBG4/UIwYGTz8=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/o34lijw+C84iqi7LMKYSBtYc5pjfUo5EHqAitd0lcs=
+			qRiiW67sGqc47Oc8uiKJmyaKYQOHWtoMt5BO0KzTP4I=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eEHaxtPHcwDmYXvnr8E05jzwnqc2vsw6JVZEzqbyBXw=
-			</data>
-		</dict>
-		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			htyEMED8l7EYuHCkwTtLc3EdWKfzAoYByHIJGFfGB4c=
-			</data>
-		</dict>
-		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/o34lijw+C84iqi7LMKYSBtYc5pjfUo5EHqAitd0lcs=
-			</data>
-		</dict>
-		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eEHaxtPHcwDmYXvnr8E05jzwnqc2vsw6JVZEzqbyBXw=
+			Th7jmb+867cgKdnM1ZsNoG8UqPVpul/75rIIwmqQA2g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -320,7 +287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dU+81fXYm1OAxa/g0eWbe5gJK6jjFKI4aujHk/kWtws=
+			XqbHruS4ZbDQ3UdLXQFeFgUk7x5QaTxQpEYDWn+daIs=
 			</data>
 		</dict>
 		<key>PaymentSdkTheme.plist</key>
@@ -334,14 +301,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmZ9QHXzjoFfqIDRTJmjWuQSdmZcABuG3W0BfrQo4YA=
+			GyCJqZKSy7xEkiPvnutA1dVPIUW5hOq+8kKzxOWLbeQ=
 			</data>
 		</dict>
 		<key>TestCardForm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mEYj/XVD92QmK6l10/FnzJeZtUiVPv0qN9ga64zU+s0=
+			vS2NFHdI30zTxD818SyNlpGWhRXlLU1pPQ3vTXHi2S0=
 			</data>
 		</dict>
 		<key>TestCardsFile.json</key>
@@ -355,7 +322,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5MlffCtjLosPt0Bnpu4jaXMuju1K/wFIY76nlA78buA=
+			S+3uhUTIPhnVcF9sk4a29GgOqXWBVP6RcF7ViBwnDDM=
 			</data>
 		</dict>
 		<key>en_Localizable.strings</key>
