@@ -10,5 +10,6 @@
   "1.3.0": "https://raw.githubusercontent.com/lyra/ios-sdk/1.3.0/LyraPaymentSDK.xcframework.zip",
   "1.3.1": "https://raw.githubusercontent.com/lyra/ios-sdk/1.3.1/LyraPaymentSDK.xcframework.zip",
   "1.4.0": "https://raw.githubusercontent.com/lyra/ios-sdk/1.4.0/LyraPaymentSDK.xcframework.zip",
-  "2.0.0": "https://raw.githubusercontent.com/lyra/ios-sdk/2.0.0/LyraPaymentSDK.xcframework.zip"
+  "2.0.0": "https://raw.githubusercontent.com/lyra/ios-sdk/2.0.0/LyraPaymentSDK.xcframework.zip",
+  "2.0.1": "https://raw.githubusercontent.com/lyra/ios-sdk/2.0.1/LyraPaymentSDK.xcframework.zip"
 }
