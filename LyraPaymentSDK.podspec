@@ -13,14 +13,11 @@ Pod::Spec.new do |s|
   s.swift_version = '5.1'
 
   s.ios.vendored_frameworks = 'LyraPaymentSDK.xcframework'
-  
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.dependency 'Material', '~> 3.1.8'
   s.dependency 'SnapKit', '~> 5.0.1'
   s.dependency 'Sentry', '~> 7.13.0'
-  s.dependency 'sentry_client_cocoa', '~> 2.0.0'
+  s.dependency 'sentry_client_cocoa'
 
   s.subspec 'AdditionalSDK' do |subspec|
         subspec.dependency 'LyraCardsRecognizer'
