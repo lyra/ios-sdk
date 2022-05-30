@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JDFHWe9qYHrS6KK7zggrbP/uow0=
+		SuhcDrjg5joeOu1ARd5jG/OcQ3U=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pIHXbMjDabVQ4+1O+r7WcZLWLwk=
+		kCrcfJGn84KSHsdxnMDwR24DIPk=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		liA4yp9Bv0FN62IuEM2PY7JlooQ=
+		vFdR4V6WGi5UNSWa3JXdK3T+XbU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -285,7 +285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5OluCVgF7IrBwu6T2ORtLFLLeG2x6ZqSb7MGB9sT3jI=
+			rRQx7Gf0DiL0pfaaGeCyw8WElyT8jm4MLcYJNGTBWYY=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -306,7 +306,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			evaL6JU9rjS7mhp0KKIc7KunIe2YATO052Q5g9NN28M=
+			ZWTrmHTlpe99PnheK4h5pF34xG21Hl7bYs8ELj6dlZA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
