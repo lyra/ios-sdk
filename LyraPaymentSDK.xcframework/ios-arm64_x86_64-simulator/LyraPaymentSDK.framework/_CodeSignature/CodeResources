@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/LyraPaymentSDK-Swift.h</key>
 		<data>
-		js2TlcDlFqzfajjyHcpYcZDIkZE=
+		3y0Hx37WxiG+0eGw5K3eFKDYBcE=
 		</data>
 		<key>Headers/LyraPaymentSDK.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SuhcDrjg5joeOu1ARd5jG/OcQ3U=
+		XeIDrDpKMZc5q2pyLjWRXQdO/s4=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
@@ -74,27 +74,27 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YFWA4CYsQw0IznSkf4H5xrTQcB8=
+		kHgQ5F3akpIJpIz1dUY2xuy7vXk=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xP6Yyjz99F6BSsQWa0CWogYnqfU=
+		Os6r3PRxFySUJE0U9jBDjlVbgaU=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kCrcfJGn84KSHsdxnMDwR24DIPk=
+		W6RrmDt3fRkbfzr0YH2MIsKsqdY=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WwH75BQXbFNJcPZSbWRIyOBT2R8=
+		oQMzRvlrcCHQ46ZWytnoHEjZQ1I=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GmvD/g859opVwXh1Nx5BFG5J4Ko=
+		u4xnb/H/Pfvjpu9THAZG6QD7jOc=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vFdR4V6WGi5UNSWa3JXdK3T+XbU=
+		/fBijJz8vtRk74NNpYa+6s4rBZs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,15 +130,15 @@
 		</data>
 		<key>error_en_Localizable.strings</key>
 		<data>
-		vOR7CZXvvijsJN4PYwYa8X7Mox0=
+		9ypgQCIT6LR0bivO78gPHUctBu0=
 		</data>
 		<key>error_es_Localizable.strings</key>
 		<data>
-		QBokP2UXAXsVDVT0R4Ia4hKdqgw=
+		pjZ3OOheNBjGbXQiJTWXt1uSuFo=
 		</data>
 		<key>error_fr_Localizable.strings</key>
 		<data>
-		p8vvovVdULABZuYHO3Tbzga7Koo=
+		FKaWZ67dsyTFMcVVc+pvcIC4M5M=
 		</data>
 		<key>es_Localizable.strings</key>
 		<data>
@@ -236,7 +236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			keAlga0CtaLFEhrRxxCuLZxbtx1k4wkXLuE6V24IGB0=
+			OCGkfWpMn7yBM58lzPLlrssUbupnBgT0GVrmGbufPXY=
 			</data>
 		</dict>
 		<key>Headers/LyraPaymentSDK.h</key>
@@ -271,42 +271,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rOjvL458pyyRKl0hQcxmDDSODEZMCP8Ul54YQHD/apM=
+			3WEdmsJvHwPdDLTSO/LLUp2kLxUoGOJoW+Bv4XzHIoM=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X/S3tknjLWXGxg94SKoFbHjlZ8LZKWYgp4bXWYjEfCk=
+			WThQCnQS5JQwVy5bECgGzpIhDeenzgnBKdblUBicDD0=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rRQx7Gf0DiL0pfaaGeCyw8WElyT8jm4MLcYJNGTBWYY=
+			Vxm/NzkCRwVkkKonbjGEI4uOVmnUrVrnyZRsUyq8qM8=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UjaUjiZZRvgofqVSGON+DBNhtOzw+osBG4/UIwYGTz8=
+			RZm259R34xiafx22fW0e4atzPJEXLqDrxj9e0hZcAJ4=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qRiiW67sGqc47Oc8uiKJmyaKYQOHWtoMt5BO0KzTP4I=
+			mXWO2uOdSNRMxBZd11Xllp1F05nNVvK2jP8Y1rvqcBo=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZWTrmHTlpe99PnheK4h5pF34xG21Hl7bYs8ELj6dlZA=
+			OfrHEQcgDEvNaZ8kQWXMHuQjZYYXSt0qF2EsP3/CvCw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -369,21 +369,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HwNgQn6cjDb0dwzegqGwygqs8WNVs1fkHz5MVT2/CFM=
+			RlOLojJLzXf1bBZRTECUK4Coz4pIavZirsuFJDbcoVw=
 			</data>
 		</dict>
 		<key>error_es_Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m7tlKP7Y9wxyo3Nw6CbwQxDeVk8ILBdE0tidPav6BG8=
+			Jb+0nWKtYRevpZbsmq+7r1QE39l+DXI3jm1HIE+gbRY=
 			</data>
 		</dict>
 		<key>error_fr_Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0A0INaz72aWy2PdwcJZU9ts13OR/hUYOgKYTnnv1Ok=
+			MiCkAq7PjuUKfmjj0WFNKb0D82MRRAwUeviGnpxpLbo=
 			</data>
 		</dict>
 		<key>es_Localizable.strings</key>

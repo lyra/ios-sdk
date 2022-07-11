@@ -16,9 +16,10 @@ import sentry_client_cocoa
   @objc public static let themeFileName: Swift.String
   @objc public static let apiServerName: Swift.String
   @objc public static let cardScanningEnabled: Swift.String
+  @objc public static let customPayButtonLabel: Swift.String
   @objc public static func initialize(_ publicKey: Swift.String, _ options: [Swift.String : Any] = [:]) throws
   @objc public static func getSDKVersion() -> Swift.String
-  @objc public static func process(_ contextViewController: UIKit.UIViewController, _ formToken: Swift.String, onSuccess: @escaping ((_ lyraResponse: LyraPaymentSDK.LyraResponse) -> Swift.Void), onError: @escaping ((_ error: LyraPaymentSDK.LyraError, _ lyraResponse: LyraPaymentSDK.LyraResponse?) -> Swift.Void)) throws
+  @objc public static func process(_ contextViewController: UIKit.UIViewController, _ formToken: Swift.String, onSuccess: @escaping ((_ lyraResponse: LyraPaymentSDK.LyraResponse) -> Swift.Void), onError: @escaping ((_ error: LyraPaymentSDK.LyraError, _ lyraResponse: LyraPaymentSDK.LyraResponse?) -> Swift.Void), _ options: [Swift.String : Any] = [:]) throws
   @objc public static func getFormTokenVersion() -> Swift.Int
   @objc override dynamic public init()
   @objc deinit

@@ -362,6 +362,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
 + (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in PAY button.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPayButtonLabel;)
++ (NSString * _Nonnull)customPayButtonLabel SWIFT_WARN_UNUSED_RESULT;
 /// Initializes the SDK with the value of publicKey. This function must be invoked before trying to launch a payment/register-card process from the SDK.
 /// \param publicKey Key for VAD access (available in merchant BO: Settings->Shop->REST API Keys)
 ///
@@ -389,7 +392,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 ///
 /// throws:
 /// Throws an NSError using the LyraSdkError class if the SDK was not previously initialized.
-+ (BOOL)process:(UIViewController * _Nonnull)contextViewController :(NSString * _Nonnull)formToken error:(NSError * _Nullable * _Nullable)error onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError;
++ (BOOL)process:(UIViewController * _Nonnull)contextViewController :(NSString * _Nonnull)formToken onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError :(NSDictionary<NSString *, id> * _Nonnull)options error:(NSError * _Nullable * _Nullable)error;
 /// Uses this method for get the formToken version supported by Lyra SDK
 ///
 /// returns:
