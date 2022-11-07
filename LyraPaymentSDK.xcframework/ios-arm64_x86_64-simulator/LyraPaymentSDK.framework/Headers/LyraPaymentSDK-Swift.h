@@ -408,7 +408,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Throws an NSError using the LyraSdkError class if the SDK was not previously initialized.
 + (BOOL)process:(UIViewController * _Nonnull)contextViewController :(NSString * _Nonnull)formToken onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError :(NSDictionary<NSString *, id> * _Nonnull)options error:(NSError * _Nullable * _Nullable)error;
 /// Use this method for cancel Payment process
-+ (void)cancelPaymentProcess;
++ (void)cancelProcess;
 /// Uses this method for get the formToken version supported by Lyra SDK
 ///
 /// returns:
@@ -882,7 +882,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Throws an NSError using the LyraSdkError class if the SDK was not previously initialized.
 + (BOOL)process:(UIViewController * _Nonnull)contextViewController :(NSString * _Nonnull)formToken onSuccess:(void (^ _Nonnull)(LyraResponse * _Nonnull))onSuccess onError:(void (^ _Nonnull)(LyraError * _Nonnull, LyraResponse * _Nullable))onError :(NSDictionary<NSString *, id> * _Nonnull)options error:(NSError * _Nullable * _Nullable)error;
 /// Use this method for cancel Payment process
-+ (void)cancelPaymentProcess;
++ (void)cancelProcess;
 /// Uses this method for get the formToken version supported by Lyra SDK
 ///
 /// returns:
