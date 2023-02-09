@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0GwMqnv2rnro9jY5sSw6daLT6m8=
+		DPXWLTTLY8sS8ZWUL2nBgRfAA40=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZH0ETUbuYiu9Z6hPBQCHCKsO18o=
+		Zvfh9Rs151x5sPvh6clyEl2Um/Y=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		heQNx/Z+uGufowlkNoIAF2QEE2I=
+		FjK1CGBM6CFaFFtEyVu3itfAlbQ=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		j7KKmbxHXBr1FjKqxiSeq6HlNZY=
+		nV6IlOpCdFQfgX7tZ2LLuFmVPKA=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M2P5GZS3JkUu7ugPmzUkSZU8LrY=
+		dVKuElnomcPGTbFt3gvfrHOF2FA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -289,14 +289,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qbWZXDPOnlCIJyHRIQWNTej7/LhXvz++68XU8VCv4QA=
+			gHnugXTWWn5J4ryFXJn/81z38S+kwvdfNRe0GOeBuDQ=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GYCZ5DaeOiTPM/xMaI5fdBO+PVbbrOn8EN9k380W2/A=
+			5hIQVn2RNMgXBg1ndwijUzYlHRtuaRvVQK1fzlZSBRM=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -310,14 +310,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XH5DEe03uQFd9YFmz4Fm/kQgP7UfOL6UtYxcyWCd3p8=
+			c/xl3Gcv80VECfyOHsIWzbQrcrCVgOVcHX9lzFldmQ8=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Vvj3CFwXKSFKTYHSbYNbSNFjtQ5oUUjJ7GgzJeTyJk=
+			8hY16blYSNX7mnWWEckxzpJeNZ+oLYzN67irVr6Gy+g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -277,7 +277,7 @@ public class TLCustomMask {
   public func formatString(string: Swift.String) -> Swift.String
   @objc deinit
 }
-@objc @_hasMissingDesignatedInitializers public class LyraMobError : LyraPaymentSDK.LyraError {
+@_hasMissingDesignatedInitializers @objc public class LyraMobError : LyraPaymentSDK.LyraError {
   @objc deinit
 }
 extension LyraPaymentSDK.DropDownKH {
