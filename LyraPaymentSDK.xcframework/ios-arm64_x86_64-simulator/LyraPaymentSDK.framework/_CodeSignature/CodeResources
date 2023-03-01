@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eewpjtbQmp4/0OHL+TX9cK7D2vg=
+		bgweCIlM5hdQwA0EY6/wd0Dz6HM=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CsgP7n0cXjeaaIYatQD4fzsffNM=
+		APHLbcgBK8HTB0j+wzh2gMd1T0s=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FjK1CGBM6CFaFFtEyVu3itfAlbQ=
+		IhzCwlHTXUiGah7dtZKWY72vGdk=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kCm22WEAZNUY+Z9ZhaDFgfrzgyo=
+		iqumu+rx+O6VeSZP3KmqF0Hg0tU=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dVKuElnomcPGTbFt3gvfrHOF2FA=
+		KQLaKzk48xCGXpWugol2lhk/vvs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -282,7 +282,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GaxaOIEjXwQ8MJgiHyQqJeD3Fs2kn7VZc/tG6Q1g+Oc=
+			JPA6Q0lSzW3cjia3A98I6UPlM7R/jIoP3ruWN07/Zpc=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -296,14 +296,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hIQVn2RNMgXBg1ndwijUzYlHRtuaRvVQK1fzlZSBRM=
+			Q75LkhhSY7UVGSlUB1QH3dhhpVllCK0DHnP6UaS8Lkg=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cAdjEMCSBNNcLjHIQbwclz9te6DyxvI+ykzz2u5fw6M=
+			cnW75nfcWZoHlMhdyNQjrkBHlcizRjVbZtBwXsQ901I=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -317,7 +317,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8hY16blYSNX7mnWWEckxzpJeNZ+oLYzN67irVr6Gy+g=
+			pGom2YrG0eixnoLnQh1Wzr6RKDRJYhgi4sFd7LBSVx0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
