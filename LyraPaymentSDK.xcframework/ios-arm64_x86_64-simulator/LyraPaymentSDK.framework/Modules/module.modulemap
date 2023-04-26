@@ -6,6 +6,6 @@ framework module LyraPaymentSDK {
 }
 
 module LyraPaymentSDK.Swift {
-    header "LyraPaymentSDK-Swift.h"
-    requires objc
+  header "LyraPaymentSDK-Swift.h"
+  requires objc
 }

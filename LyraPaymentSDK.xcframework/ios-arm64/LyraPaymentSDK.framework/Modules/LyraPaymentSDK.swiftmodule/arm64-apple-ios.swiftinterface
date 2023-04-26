@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name LyraPaymentSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Foundation
 @_exported import LyraPaymentSDK
@@ -12,6 +13,7 @@ import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
+import _StringProcessing
 import sentry_client_cocoa
 @_inheritsConvenienceInitializers @objc final public class Lyra : ObjectiveC.NSObject {
   @objc public static let themeFileName: Swift.String
@@ -89,38 +91,38 @@ extension UIKit.UIBarButtonItem : LyraPaymentSDK.AnchorView {
   @_Concurrency.MainActor(unsafe) weak public static var VisibleDropDown: LyraPaymentSDK.DropDownKH?
   @_Concurrency.MainActor(unsafe) final public func setLabelText(_ text: Swift.String)
   @_Concurrency.MainActor(unsafe) final public func setColorForLabelText(_ color: UIKit.UIColor)
-  @_Concurrency.MainActor(unsafe) weak final public var anchorView: LyraPaymentSDK.AnchorView? {
+  @_Concurrency.MainActor(unsafe) weak final public var anchorView: (any LyraPaymentSDK.AnchorView)? {
     get
     set
   }
   @_Concurrency.MainActor(unsafe) final public var direction: LyraPaymentSDK.DropDownKH.Direction
-  @_Concurrency.MainActor(unsafe) final public var topOffset: CoreGraphics.CGPoint {
+  @_Concurrency.MainActor(unsafe) final public var topOffset: CoreFoundation.CGPoint {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var bottomOffset: CoreGraphics.CGPoint {
+  @_Concurrency.MainActor(unsafe) final public var bottomOffset: CoreFoundation.CGPoint {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var offsetFromWindowBottom: CoreGraphics.CGFloat {
+  @_Concurrency.MainActor(unsafe) final public var offsetFromWindowBottom: CoreFoundation.CGFloat {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var width: CoreGraphics.CGFloat? {
+  @_Concurrency.MainActor(unsafe) final public var width: CoreFoundation.CGFloat? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var arrowIndicationX: CoreGraphics.CGFloat? {
+  @_Concurrency.MainActor(unsafe) final public var arrowIndicationX: CoreFoundation.CGFloat? {
     get
     set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var cellHeight: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) dynamic final public var cellHeight: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override final public var backgroundColor: UIKit.UIColor? {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) final public var dimmedBackgroundColor: UIKit.UIColor {
     get
@@ -131,14 +133,14 @@ extension UIKit.UIBarButtonItem : LyraPaymentSDK.AnchorView {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var cornerRadius: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) dynamic final public var cornerRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public func setupCornerRadius(_ radius: CoreGraphics.CGFloat)
+  @objc @_Concurrency.MainActor(unsafe) dynamic final public func setupCornerRadius(_ radius: CoreFoundation.CGFloat)
   @available(iOS 11.0, *)
   @objc @_Concurrency.MainActor(unsafe) dynamic final public func setupMaskedCorners(_ cornerMask: QuartzCore.CACornerMask)
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var shadowOffset: CoreGraphics.CGSize {
+  @objc @_Concurrency.MainActor(unsafe) dynamic final public var shadowOffset: CoreFoundation.CGSize {
     @objc get
     @objc set
   }
@@ -146,7 +148,7 @@ extension UIKit.UIBarButtonItem : LyraPaymentSDK.AnchorView {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic final public var shadowRadius: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) dynamic final public var shadowRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -155,7 +157,7 @@ extension UIKit.UIBarButtonItem : LyraPaymentSDK.AnchorView {
   @_Concurrency.MainActor(unsafe) public static var animationExitOptions: UIKit.UIView.AnimationOptions
   @_Concurrency.MainActor(unsafe) final public var animationEntranceOptions: UIKit.UIView.AnimationOptions
   @_Concurrency.MainActor(unsafe) final public var animationExitOptions: UIKit.UIView.AnimationOptions
-  @_Concurrency.MainActor(unsafe) final public var downScaleTransform: CoreGraphics.CGAffineTransform {
+  @_Concurrency.MainActor(unsafe) final public var downScaleTransform: CoreFoundation.CGAffineTransform {
     get
     set
   }
@@ -200,9 +202,9 @@ extension UIKit.UIBarButtonItem : LyraPaymentSDK.AnchorView {
     set
   }
   @objc deinit
-  @objc convenience dynamic public init()
-  @_Concurrency.MainActor(unsafe) convenience public init(anchorView: LyraPaymentSDK.AnchorView, selectionAction: LyraPaymentSDK.SelectionClosure? = nil, dataSource: [Swift.String] = [], topOffset: CoreGraphics.CGPoint? = nil, bottomOffset: CoreGraphics.CGPoint? = nil, cellConfiguration: LyraPaymentSDK.ConfigurationClosure? = nil, cancelAction: LyraPaymentSDK.Closure? = nil)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) convenience public init(anchorView: any LyraPaymentSDK.AnchorView, selectionAction: LyraPaymentSDK.SelectionClosure? = nil, dataSource: [Swift.String] = [], topOffset: CoreFoundation.CGPoint? = nil, bottomOffset: CoreFoundation.CGPoint? = nil, cellConfiguration: LyraPaymentSDK.ConfigurationClosure? = nil, cancelAction: LyraPaymentSDK.Closure? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
 }
 extension LyraPaymentSDK.DropDownKH {
@@ -212,8 +214,8 @@ extension LyraPaymentSDK.DropDownKH {
 extension LyraPaymentSDK.DropDownKH {
   @objc(show) @_Concurrency.MainActor(unsafe) final public func objc_show() -> Foundation.NSDictionary
   @discardableResult
-  @_Concurrency.MainActor(unsafe) final public func show(onTopOf window: UIKit.UIWindow? = nil, beforeTransform transform: CoreGraphics.CGAffineTransform? = nil, anchorPoint: CoreGraphics.CGPoint? = nil) -> (canBeDisplayed: Swift.Bool, offscreenHeight: CoreGraphics.CGFloat?)
-  @objc override final public func accessibilityPerformEscape() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) final public func show(onTopOf window: UIKit.UIWindow? = nil, beforeTransform transform: CoreFoundation.CGAffineTransform? = nil, anchorPoint: CoreFoundation.CGPoint? = nil) -> (canBeDisplayed: Swift.Bool, offscreenHeight: CoreFoundation.CGFloat?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func accessibilityPerformEscape() -> Swift.Bool
   @_Concurrency.MainActor(unsafe) final public func hide()
 }
 extension LyraPaymentSDK.DropDownKH {
@@ -242,7 +244,7 @@ extension LyraPaymentSDK.DropDownKH : UIKit.UITableViewDataSource, UIKit.UITable
   @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 extension LyraPaymentSDK.DropDownKH {
-  @_Concurrency.MainActor(unsafe) @objc override final public func hitTest(_ point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc override final public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
 }
 extension LyraPaymentSDK.DropDownKH {
   @objc @_Concurrency.MainActor(unsafe) public static func startListeningToKeyboard()
@@ -255,14 +257,14 @@ extension LyraPaymentSDK.DropDownKH {
   @objc deinit
 }
 extension LyraPaymentSDK.DropDownCell {
-  @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func setHighlighted(_ highlighted: Swift.Bool, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
