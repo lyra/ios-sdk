@@ -6,7 +6,7 @@
         {
           "pan": "4970100000000055",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA",
             "CB"
@@ -291,7 +291,7 @@
     {
     "pan": "6362150000000001",
     "status": "accepted",
-    "detail": "payment_sdk_card_accepted",
+    "detail": "payment_sdk_card_accepted_no_guarantee",
     "brands": [
     "EDENRED_CO"
     ]
@@ -312,7 +312,7 @@
         {
           "pan": "4970100000000055",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "CB",
             "VISA"
@@ -470,7 +470,7 @@
         {
           "pan": "4917480000000057",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_ELECTRON",
             "CB"
@@ -605,7 +605,7 @@
         {
           "pan": "5970100300000067",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MASTERCARD",
             "CB"
@@ -899,7 +899,7 @@
         {
           "pan": "5000550000000052",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MAESTRO",
             "CB"
@@ -998,7 +998,7 @@
         {
           "pan": "378282000000008",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "AMEX"
           ]
@@ -1028,7 +1028,7 @@
         {
           "pan": "5970100300000018",
           "status": "acceptedWithStrongAuthentication",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "BANCONTACT",
             "MAESTRO"
@@ -1069,7 +1069,7 @@
         {
           "pan": "4150560000000011",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "E-CARTEBLEUE"
           ]
@@ -1090,7 +1090,7 @@
         {
           "pan": "6035227716427021",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "CABAL"
           ]
@@ -1103,7 +1103,7 @@
         {
           "pan": "3528000000000000007",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "JCB"
           ]
@@ -1124,7 +1124,7 @@
         {
           "pan": "4970100000000055",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "AURA"
           ]
@@ -1177,7 +1177,7 @@
         {
           "pan": "36000000000008",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "DINERS"
           ]
@@ -1198,7 +1198,7 @@
         {
           "pan": "4970100000000055",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "HIPER"
           ]
@@ -1251,7 +1251,7 @@
         {
           "pan": "4970100000000055",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "HIPERCARD"
           ]
@@ -1304,7 +1304,7 @@
         {
           "pan": "3777770000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "AMEX_BANSUD"
           ]
@@ -1325,7 +1325,7 @@
         {
           "pan": "3715930000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "AMEX_GALICIA"
           ]
@@ -1346,7 +1346,7 @@
         {
           "pan": "3778020000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "AMEX_HSBC"
           ]
@@ -1367,7 +1367,7 @@
         {
           "pan": "3777980000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "AMEX_NARANJA"
           ]
@@ -1388,7 +1388,7 @@
         {
           "pan": "3767130000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "AMEX_PATAGONIA"
           ]
@@ -1409,7 +1409,7 @@
         {
           "pan": "3715950000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "AMEX_SANTANDER"
           ]
@@ -1430,7 +1430,7 @@
         {
           "pan": "5165850000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_BBVA"
           ]
@@ -1451,7 +1451,7 @@
         {
           "pan": "5105410000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_CENCOSUD"
           ]
@@ -1472,7 +1472,7 @@
         {
           "pan": "5169810000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_CITYBANK"
           ]
@@ -1493,7 +1493,7 @@
         {
           "pan": "5158250000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_COLUMBIA"
           ]
@@ -1514,7 +1514,7 @@
         {
           "pan": "5258600000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_COMAFI"
           ]
@@ -1535,7 +1535,7 @@
         {
           "pan": "5570390000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_FALABELLA"
           ]
@@ -1556,7 +1556,7 @@
         {
           "pan": "5239370000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_GALICIA"
           ]
@@ -1577,7 +1577,7 @@
         {
           "pan": "5156950000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_HSBC"
           ]
@@ -1598,7 +1598,7 @@
         {
           "pan": "5579700000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_ICBC"
           ]
@@ -1619,7 +1619,7 @@
         {
           "pan": "5197100000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_ITAU"
           ]
@@ -1640,7 +1640,7 @@
         {
           "pan": "5117390000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_MACRO"
           ]
@@ -1661,7 +1661,7 @@
         {
           "pan": "5102110000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_NACION"
           ]
@@ -1682,7 +1682,7 @@
         {
           "pan": "5150730000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_PATAGONIA"
           ]
@@ -1703,7 +1703,7 @@
         {
           "pan": "5123700000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "MC_SANTANDER"
           ]
@@ -1724,7 +1724,7 @@
         {
           "pan": "4040220000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_BBVA"
           ]
@@ -1745,7 +1745,7 @@
         {
           "pan": "4722600000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_CHACO"
           ]
@@ -1766,7 +1766,7 @@
         {
           "pan": "4338100000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_CIUDAD"
           ]
@@ -1787,7 +1787,7 @@
         {
           "pan": "4056430000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_COLUMBIA"
           ]
@@ -1808,7 +1808,7 @@
         {
           "pan": "4027850000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_COMAFI"
           ]
@@ -1829,7 +1829,7 @@
         {
           "pan": "4765370000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_CORDOBESA"
           ]
@@ -1850,7 +1850,7 @@
         {
           "pan": "4769410000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_CORRIENTES"
           ]
@@ -1871,7 +1871,7 @@
         {
           "pan": "4100840000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_CREDICOOP"
           ]
@@ -1892,7 +1892,7 @@
         {
           "pan": "4338340000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_FORMOSA"
           ]
@@ -1913,7 +1913,7 @@
         {
           "pan": "4110320000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_GALICIA"
           ]
@@ -1934,7 +1934,7 @@
         {
           "pan": "4304950000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_HIPOTECARIO"
           ]
@@ -1955,7 +1955,7 @@
         {
           "pan": "4164980000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_HSBC"
           ]
@@ -1976,7 +1976,7 @@
         {
           "pan": "4101290000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_ICBC"
           ]
@@ -1997,7 +1997,7 @@
         {
           "pan": "4854820000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_INDUSTRIAL"
           ]
@@ -2018,7 +2018,7 @@
         {
           "pan": "4338170000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_ITAU"
           ]
@@ -2039,7 +2039,7 @@
         {
           "pan": "4110860000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_MACRO"
           ]
@@ -2060,7 +2060,7 @@
         {
           "pan": "4484790000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_NACION"
           ]
@@ -2081,7 +2081,7 @@
         {
           "pan": "4507510000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_NEUQUEN"
           ]
@@ -2102,7 +2102,7 @@
         {
           "pan": "4338980000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_PATAGONIA"
           ]
@@ -2123,7 +2123,7 @@
         {
           "pan": "4071190000000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_PROVINCIA"
           ]
@@ -2144,7 +2144,7 @@
         {
           "pan": "4509791100000001",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "VISA_SANTANDER"
           ]
@@ -2165,7 +2165,7 @@
         {
           "pan": "5907120000000000",
           "status": "accepted",
-          "detail": "payment_sdk_card_accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
           "brands": [
             "CARNET"
           ]
@@ -2176,6 +2176,881 @@
           "detail": "payment_sdk_card_refused",
           "brands": [
             "CARNET"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "PRV_BDP",
+      "cards": [
+        {
+          "pan": "9250002820000001",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "2250002820000001",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_range",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000011",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_authentication",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000021",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_parameters_authentication",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000031",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_authentication",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000041",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_authentication",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000051",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_authentication",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000061",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_authentication",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000071",
+          "status": "refused",
+          "detail": "payment_sdk_unknown_cardholder_authentication",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000111",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_notification",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000121",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_of_parameters_notification",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000131",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_notification",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000141",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_notification",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000151",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_notification",
+          "brands": [
+            "PRV_BDP"
+          ]
+        },
+        {
+          "pan": "9250002820000161",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_notification",
+          "brands": [
+            "PRV_BDP"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "PRV_SOC",
+      "cards": [
+        {
+          "pan": "9250002840000000001",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "2250002840000000001",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_range",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000011",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_authentication",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000021",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_parameters_authentication",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000031",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_authentication",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000041",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_authentication",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000051",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_authentication",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000061",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_authentication",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000071",
+          "status": "refused",
+          "detail": "payment_sdk_unknown_cardholder_authentication",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000111",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_notification",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000121",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_of_parameters_notification",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000131",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_notification",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000141",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_notification",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000151",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_notification",
+          "brands": [
+            "PRV_SOC"
+          ]
+        },
+        {
+          "pan": "9250002840000000161",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_notification",
+          "brands": [
+            "PRV_SOC"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "PRV_SOC_GOLD",
+      "cards": [
+        {
+          "pan": "9250002840000000001",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "2250002840000000001",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_range",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000011",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_authentication",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000021",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_parameters_authentication",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000031",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_authentication",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000041",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_authentication",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000051",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_authentication",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000061",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_authentication",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000071",
+          "status": "refused",
+          "detail": "payment_sdk_unknown_cardholder_authentication",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000111",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_notification",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000121",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_of_parameters_notification",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000131",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_notification",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000141",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_notification",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000151",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_notification",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        },
+        {
+          "pan": "9250002840000000161",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_notification",
+          "brands": [
+            "PRV_SOC_GOLD"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "PRV_SOC_VERTE",
+      "cards": [
+        {
+          "pan": "9250002840000000001",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "2250002840000000001",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_range",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000011",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_authentication",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000021",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_parameters_authentication",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000031",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_authentication",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000041",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_authentication",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000051",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_authentication",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000061",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_authentication",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000071",
+          "status": "refused",
+          "detail": "payment_sdk_unknown_cardholder_authentication",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000111",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_notification",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000121",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_of_parameters_notification",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000131",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_notification",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000141",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_notification",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000151",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_notification",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        },
+        {
+          "pan": "9250002840000000161",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_notification",
+          "brands": [
+            "PRV_SOC_VERTE"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "PRV_OPT",
+      "cards": [
+        {
+          "pan": "9250003140000000001",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "2250003140000000001",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_range",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000011",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_authentication",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000021",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_parameters_authentication",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000031",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_authentication",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000041",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_authentication",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000051",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_authentication",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000061",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_authentication",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000071",
+          "status": "refused",
+          "detail": "payment_sdk_unknown_cardholder_authentication",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000111",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_notification",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000121",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_of_parameters_notification",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000131",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_notification",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000141",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_notification",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000151",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_notification",
+          "brands": [
+            "PRV_OPT"
+          ]
+        },
+        {
+          "pan": "9250003140000000161",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_notification",
+          "brands": [
+            "PRV_OPT"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "PRV_BDT",
+      "cards": [
+        {
+          "pan": "9250002770000001",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "2250002770000001",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_range",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000011",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_authentication",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000021",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_parameters_authentication",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000031",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_authentication",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000041",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_authentication",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000051",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_authentication",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000061",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_authentication",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000071",
+          "status": "refused",
+          "detail": "payment_sdk_unknown_cardholder_authentication",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000111",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_notification",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000121",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_of_parameters_notification",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000131",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_notification",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000141",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_notification",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000151",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_notification",
+          "brands": [
+            "PRV_BDT"
+          ]
+        },
+        {
+          "pan": "9250002770000161",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_notification",
+          "brands": [
+            "PRV_BDT"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "PRV_SMART_CARD",
+      "cards": [
+        {
+          "pan": "6063370000000001",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "2250000000000001",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_range",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000011",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_authentication",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000021",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_parameters_authentication",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000031",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_authentication",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000041",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_authentication",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000051",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_authentication",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000061",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_authentication",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000071",
+          "status": "refused",
+          "detail": "payment_sdk_unknown_cardholder_authentication",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000111",
+          "status": "refused",
+          "detail": "payment_sdk_missing_parameters_notification",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000121",
+          "status": "refused",
+          "detail": "payment_sdk_wrong_format_of_parameters_notification",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000131",
+          "status": "refused",
+          "detail": "payment_sdk_missing_signature_notification",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000141",
+          "status": "refused",
+          "detail": "payment_sdk_incorrect_signature_notification",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000151",
+          "status": "refused",
+          "detail": "payment_sdk_technical_error_notification",
+          "brands": [
+            "PRV_SMART_CARD"
+          ]
+        },
+        {
+          "pan": "6063370000000161",
+          "status": "refused",
+          "detail": "payment_sdk_blocked_cardholder_notification",
+          "brands": [
+            "PRV_SMART_CARD"
           ]
         }
       ]

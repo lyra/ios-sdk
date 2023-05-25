@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LyraPaymentSDK'
-  s.version          = '2.4.0'
+  s.version          = '2.5.0'
   s.summary          = 'LyraPaymentSDK allows you to make payments from your iOS mobile App :)'
 
   s.homepage         = 'https://github.com/lyra/ios-sdk'
