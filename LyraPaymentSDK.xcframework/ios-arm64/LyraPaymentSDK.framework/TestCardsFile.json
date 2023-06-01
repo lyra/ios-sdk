@@ -286,6 +286,27 @@
       ]
     },
     {
+      "brand": "VISA_DEBIT",
+      "cards": [
+        {
+          "pan": "4978260000000000",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
+          "brands": [
+            "VISA_DEBIT",
+          ]
+        },
+        {
+          "pan": "4978260000000018",
+          "status": "refused",
+          "detail": "payment_sdk_card_refused",
+          "brands": [
+            "VISA_DEBIT",
+          ]
+        }
+      ]
+    },
+    {
     "brand": "EDENRED_CO",
     "cards": [
     {
@@ -891,6 +912,28 @@
             "MASTERCARD"
           ]
         }
+      ]
+    },
+    {
+      "brand": "MASTERCARD_DEBIT",
+      "cards": [
+        {
+          "pan": "5100120000000004",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
+          "brands": [
+            "MASTERCARD_DEBIT"
+          ]
+        },
+        {
+          "pan": "5100120000000012",
+          "status": "refused",
+          "detail": "payment_sdk_card_refused",
+          "brands": [
+            "MASTERCARD_DEBIT"
+          ]
+        }
+
       ]
     },
     {
@@ -3057,3 +3100,4 @@
     }
   ]
 }
+
