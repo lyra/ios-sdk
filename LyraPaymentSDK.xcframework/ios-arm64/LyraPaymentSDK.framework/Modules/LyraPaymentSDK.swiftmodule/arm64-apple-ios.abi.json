@@ -92689,7 +92689,7 @@
       "kind": "IntegerLiteral",
       "offset": 3067,
       "length": 3,
-      "value": "-10"
+      "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/DropDown\/src\/DropDownKH.swift",
@@ -92766,7 +92766,7 @@
       "kind": "IntegerLiteral",
       "offset": 488,
       "length": 2,
-      "value": "-1"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Detector\/BinRangeFileBrandDetector.swift",
@@ -93270,7 +93270,7 @@
       "kind": "IntegerLiteral",
       "offset": 1011,
       "length": 2,
-      "value": "-1"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
@@ -93312,7 +93312,7 @@
       "kind": "IntegerLiteral",
       "offset": 1248,
       "length": 2,
-      "value": "-1"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/ExpiryDateKeyboard.swift",
@@ -93424,14 +93424,14 @@
       "kind": "IntegerLiteral",
       "offset": 1598,
       "length": 2,
-      "value": "-1"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1643,
       "length": 2,
-      "value": "-1"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
