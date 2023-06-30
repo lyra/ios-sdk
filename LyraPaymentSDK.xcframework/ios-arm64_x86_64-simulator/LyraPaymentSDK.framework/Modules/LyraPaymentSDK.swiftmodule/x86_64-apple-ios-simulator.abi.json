@@ -4742,6 +4742,43 @@
           },
           {
             "kind": "Function",
+            "name": "onSuccessApplePayloadInfo",
+            "printedName": "onSuccessApplePayloadInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK0B13FormGeneratorC25onSuccessApplePayloadInfoyySaySSGF",
+            "mangledName": "$s14LyraPaymentSDK0B13FormGeneratorC25onSuccessApplePayloadInfoyySaySSGF",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onSuccessProcessPayment",
             "printedName": "onSuccessProcessPayment(_:)",
             "children": [
@@ -19245,6 +19282,55 @@
           },
           {
             "kind": "Var",
+            "name": "payloadInfoServerUrl",
+            "printedName": "payloadInfoServerUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSURL",
+                "printedName": "Foundation.NSURL",
+                "usr": "c:objc(cs)NSURL"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK9VADConfigC20payloadInfoServerUrlSo5NSURLCvp",
+            "mangledName": "$s14LyraPaymentSDK9VADConfigC20payloadInfoServerUrlSo5NSURLCvp",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK9VADConfigC20payloadInfoServerUrlSo5NSURLCvg",
+                "mangledName": "$s14LyraPaymentSDK9VADConfigC20payloadInfoServerUrlSo5NSURLCvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "domain",
             "printedName": "domain",
             "children": [
@@ -19262,9 +19348,10 @@
             "isOpen": true,
             "declAttributes": [
               "HasStorage",
-              "SetterAccess"
+              "SetterAccess",
+              "RawDocComment"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true,
             "accessors": [
               {
@@ -19335,7 +19422,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true,
             "accessors": [
               {
@@ -19498,7 +19585,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "hasStorage": true,
             "accessors": [
               {
@@ -19648,7 +19735,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "hasStorage": true,
             "accessors": [
               {
@@ -19785,7 +19872,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "hasStorage": true,
             "accessors": [
               {
@@ -19925,7 +20012,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true,
             "accessors": [
               {
@@ -20708,17 +20795,131 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandler33_B42C2B4DD7A744C4AE8F7176E985A7B5LLySo28PKPaymentAuthorizationResultCcSgvp",
-            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandler33_B42C2B4DD7A744C4AE8F7176E985A7B5LLySo28PKPaymentAuthorizationResultCcSgvp",
+            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandlerySo28PKPaymentAuthorizationResultCcSgvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandlerySo28PKPaymentAuthorizationResultCcSgvp",
             "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
             "fixedbinaryorder": 2,
-            "hasStorage": true
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((PassKit.PKPaymentAuthorizationResult) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PassKit.PKPaymentAuthorizationResult) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PKPaymentAuthorizationResult",
+                            "printedName": "PassKit.PKPaymentAuthorizationResult",
+                            "usr": "c:objc(cs)PKPaymentAuthorizationResult"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandlerySo28PKPaymentAuthorizationResultCcSgvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandlerySo28PKPaymentAuthorizationResultCcSgvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((PassKit.PKPaymentAuthorizationResult) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PassKit.PKPaymentAuthorizationResult) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PKPaymentAuthorizationResult",
+                            "printedName": "PassKit.PKPaymentAuthorizationResult",
+                            "usr": "c:objc(cs)PKPaymentAuthorizationResult"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandlerySo28PKPaymentAuthorizationResultCcSgvs",
+                "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandlerySo28PKPaymentAuthorizationResultCcSgvs",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandlerySo28PKPaymentAuthorizationResultCcSgvM",
+                "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC22appleCompletionHandlerySo28PKPaymentAuthorizationResultCcSgvM",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -20741,17 +20942,107 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewController33_B42C2B4DD7A744C4AE8F7176E985A7B5LLSo06UIViewI0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewController33_B42C2B4DD7A744C4AE8F7176E985A7B5LLSo06UIViewI0CSgvp",
+            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewControllerSo06UIViewI0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewControllerSo06UIViewI0CSgvp",
             "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
             "fixedbinaryorder": 3,
-            "hasStorage": true
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewControllerSo06UIViewI0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewControllerSo06UIViewI0CSgvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewControllerSo06UIViewI0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewControllerSo06UIViewI0CSgvs",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewControllerSo06UIViewI0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC19appleViewControllerSo06UIViewI0CSgvM",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -20920,30 +21211,6 @@
           },
           {
             "kind": "Function",
-            "name": "setAppleTokenInformation",
-            "printedName": "setAppleTokenInformation(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PKPayment",
-                "printedName": "PassKit.PKPayment",
-                "usr": "c:objc(cs)PKPayment"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC03setE16TokenInformationyySo9PKPaymentCF",
-            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC03setE16TokenInformationyySo9PKPaymentCF",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "generate",
             "printedName": "generate()",
             "children": [
@@ -20996,7 +21263,28 @@
           {
             "kind": "Function",
             "name": "executeProcessPaymentRequest",
-            "printedName": "executeProcessPaymentRequest(completion:_:)",
+            "printedName": "executeProcessPaymentRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC014executeProcessB7RequestyyF",
+            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC014executeProcessB7RequestyyF",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPayloadInfo",
+            "printedName": "getPayloadInfo(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -21004,36 +21292,55 @@
                 "printedName": "()"
               },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PassKit.PKPaymentAuthorizationResult) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PKPaymentAuthorizationResult",
-                    "printedName": "PassKit.PKPaymentAuthorizationResult",
-                    "usr": "c:objc(cs)PKPaymentAuthorizationResult"
-                  }
-                ]
-              },
-              {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
+                "name": "PKPayment",
+                "printedName": "PassKit.PKPayment",
+                "usr": "c:objc(cs)PKPayment"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC014executeProcessB7Request10completion_yySo28PKPaymentAuthorizationResultCc_So16UIViewControllerCtF",
-            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC014executeProcessB7Request10completion_yySo28PKPaymentAuthorizationResultCc_So16UIViewControllerCtF",
+            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC14getPayloadInfoyySo9PKPaymentCF",
+            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC14getPayloadInfoyySo9PKPaymentCF",
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSuccessApplePayloadInfo",
+            "printedName": "onSuccessApplePayloadInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC09onSuccessE11PayloadInfoyySaySSGF",
+            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC09onSuccessE11PayloadInfoyySaySSGF",
+            "moduleName": "LyraPaymentSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "onSuccessApplePayloadInfo:",
             "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -21064,8 +21371,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override",
-              "RawDocComment"
+              "Override"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -36308,6 +36614,44 @@
             "declKind": "Func",
             "usr": "s:14LyraPaymentSDK17VADClientCallbackP20onShowTicketRequiredyySo12NSDictionaryC_yptF",
             "mangledName": "$s14LyraPaymentSDK17VADClientCallbackP20onShowTicketRequiredyySo12NSDictionaryC_yptF",
+            "moduleName": "LyraPaymentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.VADClientCallback>",
+            "sugared_genericSig": "<Self where Self : LyraPaymentSDK.VADClientCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSuccessApplePayloadInfo",
+            "printedName": "onSuccessApplePayloadInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK17VADClientCallbackP25onSuccessApplePayloadInfoyySaySSGF",
+            "mangledName": "$s14LyraPaymentSDK17VADClientCallbackP25onSuccessApplePayloadInfoyySaySSGF",
             "moduleName": "LyraPaymentSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.VADClientCallback>",
             "sugared_genericSig": "<Self where Self : LyraPaymentSDK.VADClientCallback>",
@@ -58590,13 +58934,21 @@
           {
             "kind": "Function",
             "name": "getDNAAssociatedCard",
-            "printedName": "getDNAAssociatedCard(_:applePaymentToken:)",
+            "printedName": "getDNAAssociatedCard(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Card",
-                "printedName": "LyraPaymentSDK.Card",
-                "usr": "s:14LyraPaymentSDK4CardC"
+                "name": "Optional",
+                "printedName": "LyraPaymentSDK.Card?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Card",
+                    "printedName": "LyraPaymentSDK.Card",
+                    "usr": "s:14LyraPaymentSDK4CardC"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -58606,14 +58958,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PKPaymentToken",
-                "printedName": "PassKit.PKPaymentToken",
-                "usr": "c:objc(cs)PKPaymentToken"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK15ApplePayHandlerC20getDNAAssociatedCard_05appleB5TokenAA0I0CAA3DNAC_So09PKPaymentK0CtFZ",
-            "mangledName": "$s14LyraPaymentSDK15ApplePayHandlerC20getDNAAssociatedCard_05appleB5TokenAA0I0CAA3DNAC_So09PKPaymentK0CtFZ",
+            "usr": "s:14LyraPaymentSDK15ApplePayHandlerC20getDNAAssociatedCardyAA0I0CSgAA3DNAC_SaySSGtFZ",
+            "mangledName": "$s14LyraPaymentSDK15ApplePayHandlerC20getDNAAssociatedCardyAA0I0CSgAA3DNAC_SaySSGtFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -60768,6 +61128,33 @@
           },
           {
             "kind": "Var",
+            "name": "kApplePayToken",
+            "printedName": "kApplePayToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK9VADClientC14kApplePayToken33_8F212620F07286D4F3C47A29A88DFF4CLLSSvp",
+            "mangledName": "$s14LyraPaymentSDK9VADClientC14kApplePayToken33_8F212620F07286D4F3C47A29A88DFF4CLLSSvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 10,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "kResponseAnswerTypeRedirectRequest",
             "printedName": "kResponseAnswerTypeRedirectRequest",
             "children": [
@@ -60789,7 +61176,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "isLet": true,
             "hasStorage": true
           },
@@ -60816,7 +61203,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "isLet": true,
             "hasStorage": true
           },
@@ -60843,7 +61230,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "isLet": true,
             "hasStorage": true
           },
@@ -60870,7 +61257,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 14,
             "isLet": true,
             "hasStorage": true
           },
@@ -60897,7 +61284,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 15,
             "isLet": true,
             "hasStorage": true
           },
@@ -60924,7 +61311,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 16,
             "isLet": true,
             "hasStorage": true
           },
@@ -60951,7 +61338,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 17,
             "isLet": true,
             "hasStorage": true
           },
@@ -60978,7 +61365,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 18,
             "isLet": true,
             "hasStorage": true
           },
@@ -61005,7 +61392,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 18,
+            "fixedbinaryorder": 19,
             "isLet": true,
             "hasStorage": true
           },
@@ -61032,7 +61419,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 20,
             "isLet": true,
             "hasStorage": true
           },
@@ -61059,7 +61446,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 20,
+            "fixedbinaryorder": 21,
             "isLet": true,
             "hasStorage": true
           },
@@ -61086,7 +61473,34 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 21,
+            "fixedbinaryorder": 22,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "kResponseBrandsAnswerKey",
+            "printedName": "kResponseBrandsAnswerKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK9VADClientC24kResponseBrandsAnswerKey33_8F212620F07286D4F3C47A29A88DFF4CLLSSvp",
+            "mangledName": "$s14LyraPaymentSDK9VADClientC24kResponseBrandsAnswerKey33_8F212620F07286D4F3C47A29A88DFF4CLLSSvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 23,
             "isLet": true,
             "hasStorage": true
           },
@@ -61113,7 +61527,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 22,
+            "fixedbinaryorder": 24,
             "isLet": true,
             "hasStorage": true
           },
@@ -61140,7 +61554,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 23,
+            "fixedbinaryorder": 25,
             "isLet": true,
             "hasStorage": true
           },
@@ -61167,7 +61581,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 24,
+            "fixedbinaryorder": 26,
             "isLet": true,
             "hasStorage": true
           },
@@ -61194,7 +61608,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 25,
+            "fixedbinaryorder": 27,
             "isLet": true,
             "hasStorage": true
           },
@@ -61221,7 +61635,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 26,
+            "fixedbinaryorder": 28,
             "isLet": true,
             "hasStorage": true
           },
@@ -61248,7 +61662,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 27,
+            "fixedbinaryorder": 29,
             "isLet": true,
             "hasStorage": true
           },
@@ -61275,7 +61689,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 28,
+            "fixedbinaryorder": 30,
             "isLet": true,
             "hasStorage": true
           },
@@ -61310,7 +61724,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 29,
+            "fixedbinaryorder": 31,
             "isLet": true,
             "hasStorage": true
           },
@@ -61337,7 +61751,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 30,
+            "fixedbinaryorder": 32,
             "isLet": true,
             "hasStorage": true
           },
@@ -61517,7 +61931,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 31,
+            "fixedbinaryorder": 33,
             "isLet": true,
             "hasStorage": true
           },
@@ -61545,7 +61959,7 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 32,
+            "fixedbinaryorder": 34,
             "isLet": true,
             "hasStorage": true
           },
@@ -61571,7 +61985,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 33,
+            "fixedbinaryorder": 35,
             "hasStorage": true,
             "accessors": [
               {
@@ -61670,7 +62084,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 34,
+            "fixedbinaryorder": 36,
             "hasStorage": true,
             "accessors": [
               {
@@ -61912,6 +62326,48 @@
           },
           {
             "kind": "Function",
+            "name": "getApplePayloadInfos",
+            "printedName": "getApplePayloadInfos(applePaymentToken:vadConfig:agreementUuid:vadClientCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPayment",
+                "printedName": "PassKit.PKPayment",
+                "usr": "c:objc(cs)PKPayment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VADConfig",
+                "printedName": "LyraPaymentSDK.VADConfig",
+                "usr": "s:14LyraPaymentSDK9VADConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VADClientCallback",
+                "printedName": "LyraPaymentSDK.VADClientCallback",
+                "usr": "s:14LyraPaymentSDK17VADClientCallbackP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK9VADClientC20getApplePayloadInfos05appleB5Token9vadConfig13agreementUuid0K14ClientCallbackySo9PKPaymentC_AA9VADConfigCSSAA0dP0_ptF",
+            "mangledName": "$s14LyraPaymentSDK9VADClientC20getApplePayloadInfos05appleB5Token9vadConfig13agreementUuid0K14ClientCallbackySo9PKPaymentC_AA9VADConfigCSSAA0dP0_ptF",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "constructUserAgent",
             "printedName": "constructUserAgent()",
             "children": [
@@ -61958,6 +62414,51 @@
             "declAttributes": [
               "RawDocComment"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "constructGetPayloadInfosParams",
+            "printedName": "constructGetPayloadInfosParams(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPayment",
+                "printedName": "PassKit.PKPayment",
+                "usr": "c:objc(cs)PKPayment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK9VADClientC30constructGetPayloadInfosParamsy10Foundation4DataVSgSo9PKPaymentC_S2StF",
+            "mangledName": "$s14LyraPaymentSDK9VADClientC30constructGetPayloadInfosParamsy10Foundation4DataVSgSo9PKPaymentC_S2StF",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -64184,6 +64685,97 @@
                 "declKind": "Accessor",
                 "usr": "s:14LyraPaymentSDK11DNAProtocolP15applePayEnabledSbvM",
                 "mangledName": "$s14LyraPaymentSDK11DNAProtocolP15applePayEnabledSbvM",
+                "moduleName": "LyraPaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.DNAProtocol>",
+                "sugared_genericSig": "<Self where Self : LyraPaymentSDK.DNAProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "agreementUuid",
+            "printedName": "agreementUuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK11DNAProtocolP13agreementUuidSSvp",
+            "mangledName": "$s14LyraPaymentSDK11DNAProtocolP13agreementUuidSSvp",
+            "moduleName": "LyraPaymentSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11DNAProtocolP13agreementUuidSSvg",
+                "mangledName": "$s14LyraPaymentSDK11DNAProtocolP13agreementUuidSSvg",
+                "moduleName": "LyraPaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.DNAProtocol>",
+                "sugared_genericSig": "<Self where Self : LyraPaymentSDK.DNAProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11DNAProtocolP13agreementUuidSSvs",
+                "mangledName": "$s14LyraPaymentSDK11DNAProtocolP13agreementUuidSSvs",
+                "moduleName": "LyraPaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.DNAProtocol>",
+                "sugared_genericSig": "<Self where Self : LyraPaymentSDK.DNAProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11DNAProtocolP13agreementUuidSSvM",
+                "mangledName": "$s14LyraPaymentSDK11DNAProtocolP13agreementUuidSSvM",
                 "moduleName": "LyraPaymentSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.DNAProtocol>",
                 "sugared_genericSig": "<Self where Self : LyraPaymentSDK.DNAProtocol>",
@@ -73993,6 +74585,105 @@
                 "declKind": "Accessor",
                 "usr": "s:14LyraPaymentSDK3DNAC15applePayEnabledSbvM",
                 "mangledName": "$s14LyraPaymentSDK3DNAC15applePayEnabledSbvM",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "agreementUuid",
+            "printedName": "agreementUuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK3DNAC13agreementUuidSSvp",
+            "mangledName": "$s14LyraPaymentSDK3DNAC13agreementUuidSSvp",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 17,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK3DNAC13agreementUuidSSvg",
+                "mangledName": "$s14LyraPaymentSDK3DNAC13agreementUuidSSvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK3DNAC13agreementUuidSSvs",
+                "mangledName": "$s14LyraPaymentSDK3DNAC13agreementUuidSSvs",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK3DNAC13agreementUuidSSvM",
+                "mangledName": "$s14LyraPaymentSDK3DNAC13agreementUuidSSvM",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -92904,51 +93595,65 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 349,
+      "offset": 417,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 441,
+      "offset": 509,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 593,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 675,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 748,
       "length": 19,
       "value": "\"###API_VERSION###\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 802,
       "length": 69,
       "value": "\"api-payment\/\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 771,
+      "offset": 839,
       "length": 1,
       "value": "\"\/Charge\/Public\/ProcessPayment\/2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 68,
+      "value": "\"api-payment\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 1,
+      "value": "\"\/Charge\/Public\/GetPayloadInfos\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/BinFileScheduler.swift",
@@ -93016,7 +93721,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Generator\/PaymentFormAppleGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 715,
+      "offset": 699,
       "length": 5,
       "value": "false"
     },
@@ -93639,231 +94344,231 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4271,
+      "offset": 4272,
       "length": 9,
       "value": "\"MC_ITAU\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4340,
+      "offset": 4341,
       "length": 10,
       "value": "\"MC_MACRO\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4411,
+      "offset": 4412,
       "length": 11,
       "value": "\"MC_NACION\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4486,
+      "offset": 4487,
       "length": 14,
       "value": "\"MC_PATAGONIA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4564,
+      "offset": 4565,
       "length": 14,
       "value": "\"MC_SANTANDER\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4639,
+      "offset": 4640,
       "length": 11,
       "value": "\"VISA_BBVA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4706,
+      "offset": 4707,
       "length": 12,
       "value": "\"VISA_CHACO\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4775,
+      "offset": 4776,
       "length": 13,
       "value": "\"VISA_CIUDAD\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4847,
+      "offset": 4848,
       "length": 15,
       "value": "\"VISA_COLUMBIA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4919,
+      "offset": 4920,
       "length": 13,
       "value": "\"VISA_COMAFI\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 4992,
+      "offset": 4993,
       "length": 16,
       "value": "\"VISA_CORDOBESA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5069,
+      "offset": 5070,
       "length": 17,
       "value": "\"VISA_CORRIENTES\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5146,
+      "offset": 5147,
       "length": 16,
       "value": "\"VISA_CREDICOOP\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5220,
+      "offset": 5221,
       "length": 14,
       "value": "\"VISA_FORMOSA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5292,
+      "offset": 5293,
       "length": 14,
       "value": "\"VISA_GALICIA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5368,
+      "offset": 5369,
       "length": 18,
       "value": "\"VISA_HIPOTECARIO\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5441,
+      "offset": 5442,
       "length": 11,
       "value": "\"VISA_HSBC\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5507,
+      "offset": 5508,
       "length": 11,
       "value": "\"VISA_ICBC\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5579,
+      "offset": 5580,
       "length": 17,
       "value": "\"VISA_INDUSTRIAL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5651,
+      "offset": 5652,
       "length": 11,
       "value": "\"VISA_ITAU\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5718,
+      "offset": 5719,
       "length": 12,
       "value": "\"VISA_MACRO\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5787,
+      "offset": 5788,
       "length": 13,
       "value": "\"VISA_NACION\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5858,
+      "offset": 5859,
       "length": 14,
       "value": "\"VISA_NEUQUEN\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 5932,
+      "offset": 5933,
       "length": 16,
       "value": "\"VISA_PATAGONIA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 6008,
+      "offset": 6009,
       "length": 16,
       "value": "\"VISA_PROVINCIA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 6085,
+      "offset": 6086,
       "length": 16,
       "value": "\"VISA_SANTANDER\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 6157,
+      "offset": 6158,
       "length": 12,
       "value": "\"EDENRED_CO\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 6233,
+      "offset": 6234,
       "length": 15,
       "value": "\"EDENRED_CO_TR\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 6314,
+      "offset": 6315,
       "length": 17,
       "value": "\"EDENRED_CO_GIFT\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 6396,
+      "offset": 6397,
       "length": 16,
       "value": "\"EDENRED_CO_GAS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 6477,
+      "offset": 6478,
       "length": 16,
       "value": "\"EDENRED_CO_DON\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 11474,
+      "offset": 11475,
       "length": 35,
       "value": "\"XXXX XXXX XXXX XXXXXXXXXXXXXXXXXX\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "Array",
-      "offset": 11543,
+      "offset": 11544,
       "length": 11,
       "value": "[6, 11, 16]"
     },
@@ -94269,196 +94974,210 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 817,
+      "offset": 797,
+      "length": 18,
+      "value": "\"GetApplePayToken\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
       "length": 17,
       "value": "\"RedirectRequest\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 926,
       "length": 11,
       "value": "\"_reserved\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 976,
       "length": 9,
       "value": "\"receipt\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 1024,
       "length": 9,
       "value": "\"display\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1068,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1063,
+      "offset": 1115,
       "length": 6,
       "value": "\"hash\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1107,
+      "offset": 1159,
       "length": 9,
       "value": "\"kr-hash\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1215,
       "length": 15,
       "value": "\"hashAlgorithm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1273,
       "length": 19,
       "value": "\"kr-hash-algorithm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1284,
+      "offset": 1336,
       "length": 16,
       "value": "\"kr-answer-type\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1392,
       "length": 11,
       "value": "\"kr-answer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1447,
       "length": 14,
       "value": "\"clientAnswer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1458,
+      "offset": 1505,
+      "length": 8,
+      "value": "\"brands\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1562,
       "length": 14,
       "value": "\"transactions\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1513,
+      "offset": 1617,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1564,
+      "offset": 1668,
       "length": 14,
       "value": "\"errorMessage\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1625,
+      "offset": 1729,
       "length": 19,
       "value": "\"detailedErrorCode\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1690,
+      "offset": 1794,
       "length": 22,
       "value": "\"detailedErrorMessage\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1747,
+      "offset": 1851,
       "length": 13,
       "value": "\"orderStatus\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1798,
+      "offset": 1902,
       "length": 8,
       "value": "\"UNPAID\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "Array",
-      "offset": 1848,
+      "offset": 1952,
       "length": 37,
       "value": "[\"PAID\", \"RUNNING\", \"PARTIALLY_PAID\"]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1927,
+      "offset": 2031,
       "length": 14,
       "value": "\"ecsPaymentId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1976,
+      "offset": 2080,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 2016,
+      "offset": 2120,
       "length": 13,
       "value": "\"paymentForm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 2062,
+      "offset": 2166,
       "length": 15,
       "value": "\"walletPayload\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 2105,
+      "offset": 2209,
       "length": 11,
       "value": "\"APPLE_PAY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2156,
+      "offset": 2260,
       "length": 3,
       "value": "504"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "FloatLiteral",
-      "offset": 2234,
+      "offset": 2338,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 2373,
+      "offset": 2477,
       "length": 2,
       "value": "\"\""
     },
@@ -96166,14 +96885,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/DNA\/DNA.swift",
       "kind": "StringLiteral",
-      "offset": 1237,
+      "offset": 1086,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/DNA\/DNA.swift",
+      "kind": "StringLiteral",
+      "offset": 1264,
       "length": 4,
       "value": "\"V4\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/DNA\/DNA.swift",
       "kind": "BooleanLiteral",
-      "offset": 1423,
+      "offset": 1450,
       "length": 5,
       "value": "false"
     },
