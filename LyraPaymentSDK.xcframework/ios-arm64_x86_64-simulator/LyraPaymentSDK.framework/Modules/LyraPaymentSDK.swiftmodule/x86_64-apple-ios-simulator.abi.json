@@ -29939,6 +29939,27 @@
           },
           {
             "kind": "Function",
+            "name": "didCancelApplePaymentInBackground",
+            "printedName": "didCancelApplePaymentInBackground()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LyraPaymentSDK@objc(cs)EngineHandler(im)didCancelApplePaymentInBackground",
+            "mangledName": "$s14LyraPaymentSDK13EngineHandlerC014didCancelAppleB12InBackgroundyyF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didBecomeActiveAction",
             "printedName": "didBecomeActiveAction()",
             "children": [
@@ -64787,6 +64808,100 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "shouldVerifyApplePayloadInfo",
+            "printedName": "shouldVerifyApplePayloadInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK11DNAProtocolP28shouldVerifyApplePayloadInfoSbvp",
+            "mangledName": "$s14LyraPaymentSDK11DNAProtocolP28shouldVerifyApplePayloadInfoSbvp",
+            "moduleName": "LyraPaymentSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11DNAProtocolP28shouldVerifyApplePayloadInfoSbvg",
+                "mangledName": "$s14LyraPaymentSDK11DNAProtocolP28shouldVerifyApplePayloadInfoSbvg",
+                "moduleName": "LyraPaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.DNAProtocol>",
+                "sugared_genericSig": "<Self where Self : LyraPaymentSDK.DNAProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11DNAProtocolP28shouldVerifyApplePayloadInfoSbvs",
+                "mangledName": "$s14LyraPaymentSDK11DNAProtocolP28shouldVerifyApplePayloadInfoSbvs",
+                "moduleName": "LyraPaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.DNAProtocol>",
+                "sugared_genericSig": "<Self where Self : LyraPaymentSDK.DNAProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11DNAProtocolP28shouldVerifyApplePayloadInfoSbvM",
+                "mangledName": "$s14LyraPaymentSDK11DNAProtocolP28shouldVerifyApplePayloadInfoSbvM",
+                "moduleName": "LyraPaymentSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : LyraPaymentSDK.DNAProtocol>",
+                "sugared_genericSig": "<Self where Self : LyraPaymentSDK.DNAProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "addCard",
             "printedName": "addCard(card:)",
@@ -74684,6 +74799,105 @@
                 "declKind": "Accessor",
                 "usr": "s:14LyraPaymentSDK3DNAC13agreementUuidSSvM",
                 "mangledName": "$s14LyraPaymentSDK3DNAC13agreementUuidSSvM",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldVerifyApplePayloadInfo",
+            "printedName": "shouldVerifyApplePayloadInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK3DNAC28shouldVerifyApplePayloadInfoSbvp",
+            "mangledName": "$s14LyraPaymentSDK3DNAC28shouldVerifyApplePayloadInfoSbvp",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 18,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK3DNAC28shouldVerifyApplePayloadInfoSbvg",
+                "mangledName": "$s14LyraPaymentSDK3DNAC28shouldVerifyApplePayloadInfoSbvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK3DNAC28shouldVerifyApplePayloadInfoSbvs",
+                "mangledName": "$s14LyraPaymentSDK3DNAC28shouldVerifyApplePayloadInfoSbvs",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK3DNAC28shouldVerifyApplePayloadInfoSbvM",
+                "mangledName": "$s14LyraPaymentSDK3DNAC28shouldVerifyApplePayloadInfoSbvM",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -90439,6 +90653,28 @@
           },
           {
             "kind": "Function",
+            "name": "shouldRequiredAdditionalField",
+            "printedName": "shouldRequiredAdditionalField()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK4CardC29shouldRequiredAdditionalFieldSbyF",
+            "mangledName": "$s14LyraPaymentSDK4CardC29shouldRequiredAdditionalFieldSbyF",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "copy",
             "printedName": "copy(with:)",
             "children": [
@@ -93896,7 +94132,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 5230,
+      "offset": 5404,
       "length": 3,
       "value": "[]"
     },
@@ -96891,15 +97127,22 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/DNA\/DNA.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1128,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/DNA\/DNA.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1309,
       "length": 4,
       "value": "\"V4\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/DNA\/DNA.swift",
       "kind": "BooleanLiteral",
-      "offset": 1450,
+      "offset": 1495,
       "length": 5,
       "value": "false"
     },
