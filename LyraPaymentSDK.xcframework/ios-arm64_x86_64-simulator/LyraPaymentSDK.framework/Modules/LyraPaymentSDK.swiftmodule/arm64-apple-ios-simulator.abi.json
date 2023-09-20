@@ -94797,14 +94797,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "StringLiteral",
-      "offset": 11475,
+      "offset": 11336,
       "length": 35,
       "value": "\"XXXX XXXX XXXX XXXXXXXXXXXXXXXXXX\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Model\/Brand.swift",
       "kind": "Array",
-      "offset": 11544,
+      "offset": 11405,
       "length": 11,
       "value": "[6, 11, 16]"
     },
@@ -95800,7 +95800,7 @@
       "kind": "StringLiteral",
       "offset": 557,
       "length": 73,
-      "value": "\"https:\/\/secure.payzen.eu\/static\/commons\/brandchoice\/typeCarte-tree.json\""
+      "value": "\"https:\/\/static.payzen.eu\/static\/commons\/brandchoice\/typeCarte-tree.json\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
