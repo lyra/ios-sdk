@@ -7,6 +7,7 @@ import Foundation
 @_exported import LyraPaymentSDK
 import Material
 import PassKit
+import Sentry
 import SnapKit
 import Swift
 import SystemConfiguration

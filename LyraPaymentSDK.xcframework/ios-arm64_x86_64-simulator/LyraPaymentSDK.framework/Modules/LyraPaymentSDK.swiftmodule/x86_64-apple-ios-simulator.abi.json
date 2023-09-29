@@ -21957,6 +21957,13 @@
       },
       {
         "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "LyraPaymentSDK"
+      },
+      {
+        "kind": "Import",
         "name": "sentry_client_cocoa",
         "printedName": "sentry_client_cocoa",
         "declKind": "Import",
@@ -93964,21 +93971,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/ErrorTracker.swift",
       "kind": "Dictionary",
-      "offset": 1322,
+      "offset": 1336,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/ErrorTracker.swift",
       "kind": "StringLiteral",
-      "offset": 3020,
+      "offset": 3034,
       "length": 39,
       "value": "\"\\b([0-9]{4})[0-9]{4,11}([0-9]{4})\\b\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/ErrorTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 3148,
+      "offset": 3162,
       "length": 5,
       "value": "false"
     },
