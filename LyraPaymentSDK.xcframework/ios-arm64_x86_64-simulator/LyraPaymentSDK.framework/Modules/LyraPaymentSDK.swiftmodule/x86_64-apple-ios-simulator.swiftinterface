@@ -4,8 +4,8 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Foundation
+import LyraMaterial
 @_exported import LyraPaymentSDK
-import Material
 import PassKit
 import Sentry
 import SnapKit
@@ -285,9 +285,6 @@ public class TLCustomMask {
 }
 extension LyraPaymentSDK.DropDownKH {
   @_Concurrency.MainActor(unsafe) final public class func setupDefaultAppearance()
-}
-@_hasMissingDesignatedInitializers public class Validator {
-  @objc deinit
 }
 extension LyraPaymentSDK.DropDownKH.DismissMode : Swift.Equatable {}
 extension LyraPaymentSDK.DropDownKH.DismissMode : Swift.Hashable {}
