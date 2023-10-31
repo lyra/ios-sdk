@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = 'LyraPaymentSDK.xcframework'
 
-  s.dependency 'Material', '~> 3.1.8'
+  s.dependency 'LyraMaterial', '~> 1.0.4'
   s.dependency 'SnapKit', '~> 5.6.0'
   s.dependency 'Sentry', '~> 8.13.0'
   s.dependency 'sentry_client_cocoa', '~> 4.0.0'
