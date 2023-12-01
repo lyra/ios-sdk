@@ -412,9 +412,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display in loading popup  while payment is in process .
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPopupLabel;)
 + (NSString * _Nonnull)customPopupLabel SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display for payment item description in apple pay authorization view
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePaymentSummaryDescription;)
-+ (NSString * _Nonnull)applePaymentSummaryDescription SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents  the person or company receiving payment.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantName;)
++ (NSString * _Nonnull)applePayMerchantName SWIFT_WARN_UNUSED_RESULT;
 /// Initializes the SDK with the value of publicKey. This function must be invoked before trying to launch a payment/register-card process from the SDK.
 /// \param publicKey Key for VAD access (available in merchant BO: Settings->Shop->REST API Keys)
 ///

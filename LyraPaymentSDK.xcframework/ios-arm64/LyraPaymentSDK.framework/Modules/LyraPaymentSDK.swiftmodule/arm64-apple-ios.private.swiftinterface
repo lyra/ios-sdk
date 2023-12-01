@@ -24,7 +24,7 @@ import sentry_client_cocoa
   @objc public static let customPayButtonLabel: Swift.String
   @objc public static let customHeaderLabel: Swift.String
   @objc public static let customPopupLabel: Swift.String
-  @objc public static let applePaymentSummaryDescription: Swift.String
+  @objc public static let applePayMerchantName: Swift.String
   @objc public static func initialize(_ publicKey: Swift.String, _ options: [Swift.String : Any] = [:]) throws
   @objc public static func getSDKVersion() -> Swift.String
   @objc public static func process(_ contextViewController: UIKit.UIViewController, _ formToken: Swift.String, onSuccess: @escaping ((_ lyraResponse: LyraPaymentSDK.LyraResponse) -> Swift.Void), onError: @escaping ((_ error: LyraPaymentSDK.LyraError, _ lyraResponse: LyraPaymentSDK.LyraResponse?) -> Swift.Void), _ options: [Swift.String : Any] = [:]) throws

@@ -2281,8 +2281,8 @@
           },
           {
             "kind": "Var",
-            "name": "applePaymentSummaryDescription",
-            "printedName": "applePaymentSummaryDescription",
+            "name": "applePayMerchantName",
+            "printedName": "applePayMerchantName",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2292,8 +2292,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@LyraPaymentSDK@objc(cs)Lyra(cpy)applePaymentSummaryDescription",
-            "mangledName": "$s14LyraPaymentSDK0A0C05appleB18SummaryDescriptionSSvpZ",
+            "usr": "c:@M@LyraPaymentSDK@objc(cs)Lyra(cpy)applePayMerchantName",
+            "mangledName": "$s14LyraPaymentSDK0A0C20applePayMerchantNameSSvpZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -2320,8 +2320,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@LyraPaymentSDK@objc(cs)Lyra(cm)applePaymentSummaryDescription",
-                "mangledName": "$s14LyraPaymentSDK0A0C05appleB18SummaryDescriptionSSvgZ",
+                "usr": "c:@M@LyraPaymentSDK@objc(cs)Lyra(cm)applePayMerchantName",
+                "mangledName": "$s14LyraPaymentSDK0A0C20applePayMerchantNameSSvgZ",
                 "moduleName": "LyraPaymentSDK",
                 "static": true,
                 "implicit": true,
@@ -29273,8 +29273,8 @@
           },
           {
             "kind": "Var",
-            "name": "applePaymentDescription",
-            "printedName": "applePaymentDescription",
+            "name": "applePayMerchantName",
+            "printedName": "applePayMerchantName",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29284,8 +29284,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK13EngineHandlerC05appleB11DescriptionSSvp",
-            "mangledName": "$s14LyraPaymentSDK13EngineHandlerC05appleB11DescriptionSSvp",
+            "usr": "s:14LyraPaymentSDK13EngineHandlerC20applePayMerchantNameSSvp",
+            "mangledName": "$s14LyraPaymentSDK13EngineHandlerC20applePayMerchantNameSSvp",
             "moduleName": "LyraPaymentSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -29309,8 +29309,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK13EngineHandlerC05appleB11DescriptionSSvg",
-                "mangledName": "$s14LyraPaymentSDK13EngineHandlerC05appleB11DescriptionSSvg",
+                "usr": "s:14LyraPaymentSDK13EngineHandlerC20applePayMerchantNameSSvg",
+                "mangledName": "$s14LyraPaymentSDK13EngineHandlerC20applePayMerchantNameSSvg",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -93356,84 +93356,91 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 456,
+      "offset": 443,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
       "length": 22,
       "value": "\"com.lyra-network.sdk\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 959,
       "length": 15,
       "value": "\"themeFileName\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 1187,
+      "offset": 1229,
       "length": 15,
       "value": "\"apiServerName\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1475,
       "length": 21,
       "value": "\"cardScanningEnabled\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 1710,
+      "offset": 1752,
       "length": 20,
       "value": "\"applePayMerchantId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 2112,
+      "offset": 2154,
       "length": 6,
       "value": "\"mode\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 2436,
+      "offset": 2478,
       "length": 22,
       "value": "\"customPayButtonLabel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 2707,
+      "offset": 2749,
       "length": 19,
       "value": "\"customHeaderLabel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 3031,
       "length": 18,
       "value": "\"customPopupLabel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
-      "length": 32,
-      "value": "\"applePaymentSummaryDescription\""
+      "offset": 3289,
+      "length": 22,
+      "value": "\"applePayMerchantName\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "Dictionary",
-      "offset": 3907,
+      "offset": 3889,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "Dictionary",
-      "offset": 6762,
+      "offset": 6840,
       "length": 3,
       "value": "[]"
     },
@@ -94196,42 +94203,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1165,
+      "offset": 1162,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1210,
+      "offset": 1207,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1254,
+      "offset": 1251,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1292,
+      "offset": 1289,
       "length": 3,
       "value": "777"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 1532,
+      "offset": 1529,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 5404,
+      "offset": 5388,
       "length": 3,
       "value": "[]"
     },
