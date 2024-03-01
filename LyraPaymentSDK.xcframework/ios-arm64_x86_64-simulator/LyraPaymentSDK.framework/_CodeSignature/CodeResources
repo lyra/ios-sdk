@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/LyraPaymentSDK-Swift.h</key>
 		<data>
-		e1E8MYO1pjbGO9GNmz3J/W85214=
+		bNCsuDzYm4o+nMAO/hfUDsPId/U=
 		</data>
 		<key>Headers/LyraPaymentSDK.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HcYq1Zdd57rwRti+sbrnIOz1UZU=
+		fZffeiDBxWzDqboaw6+JB2d8g3U=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
@@ -78,43 +78,43 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NCsepzYDGIrZEeezgoWWjHtyw7w=
+		63lACpXnedC7OHtzcpsE6ljygDk=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		A/oKWZ7hcfS/nzsY6A0kl+l3y2M=
+		Ovm6k1npISBNH/KqkPnDsdG2TzA=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MU8mpc3R585wpxfAU02vL05Bsyg=
+		UJHyevnE60DcQV+K8NvorOBc6ho=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		A/oKWZ7hcfS/nzsY6A0kl+l3y2M=
+		Ovm6k1npISBNH/KqkPnDsdG2TzA=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ooWFb2E0W9QjYvjkX61As6OSkdU=
+		mw+nqYVHZyAIALldwbkoC5rbBS0=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NCsepzYDGIrZEeezgoWWjHtyw7w=
+		63lACpXnedC7OHtzcpsE6ljygDk=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		98ccRSubgn6bYlaLbWDWHfkgoLo=
+		VxZHZH+VImO+kUpHdeLyjOLtUzw=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UDpmySSxPImMhXQmkLgofdy1cgE=
+		WQ59nKbPeu61GhuEuPel1xJy+YA=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		98ccRSubgn6bYlaLbWDWHfkgoLo=
+		VxZHZH+VImO+kUpHdeLyjOLtUzw=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yDfkmSyD9+/VcGaST0SZp3+jRUg=
+		5dn+t5aseHmnP1vEkTMVsjBopKY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -263,7 +263,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VzJF5/Ay2THFvhZSIYDZGTlNDxFHzlgIctGeMTKekrE=
+			cUK+DtBYTC7oK6D5gK5KPb4mBW0x2CPTZILE3BbG6Bg=
 			</data>
 		</dict>
 		<key>Headers/LyraPaymentSDK.h</key>
@@ -298,70 +298,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wDC17PlQSZo9zD8kif8t04QED7BITZGvDB/9dwF0tn4=
+			7+NilIQF12doZADbn78Dw0qZuo3yJCXzOKkj4ghPwNs=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsGsVA0Cpb6OUMnl/74c32xadLeeVKfYEsfV1HxBcRQ=
+			BYFYo9ELQkCJWkLbYWczSYiwYzAbSW8KtdYX2I+CWNA=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAh1fiymbkiQLvO2+O7BXaab3Zcy+0tq5Rc01Fc9Wno=
+			KFjcBSK0HD3KbfaIXC22iHkfLeBdmovO624lPTWbCmk=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsGsVA0Cpb6OUMnl/74c32xadLeeVKfYEsfV1HxBcRQ=
+			BYFYo9ELQkCJWkLbYWczSYiwYzAbSW8KtdYX2I+CWNA=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CjEc9UUtkCD8V88dNu5Pp9SbVywfmiJ6HgXXQ7UfqJQ=
+			mAvQFheuQurxCjElaZVtpVe+f3jGj/Br3yjozKXo/vU=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wDC17PlQSZo9zD8kif8t04QED7BITZGvDB/9dwF0tn4=
+			7+NilIQF12doZADbn78Dw0qZuo3yJCXzOKkj4ghPwNs=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vs1KIuYrNFxuaF+E1++rVu8X0ozvi3A5C321PYKNZ58=
+			sJIIRbYaw9hebWhSXA+wg3Z4botXzVXRwsbufen4LNA=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ju3JxjAEEy7cBPP2repdTNiZ6NRYs04JigMQ4g4G3WA=
+			HiMBToIl1FAQsrOmMqE5OuopqxKVfhh17vXN7TTD6cU=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vs1KIuYrNFxuaF+E1++rVu8X0ozvi3A5C321PYKNZ58=
+			sJIIRbYaw9hebWhSXA+wg3Z4botXzVXRwsbufen4LNA=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pl+6yExVkF/G9xVh18qoAcYNRUdxWaH1UT3+cteA0D0=
+			IpuNfUAUIsiHZdHH/wVguKO7mraKOm9L9ngaGng5poE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

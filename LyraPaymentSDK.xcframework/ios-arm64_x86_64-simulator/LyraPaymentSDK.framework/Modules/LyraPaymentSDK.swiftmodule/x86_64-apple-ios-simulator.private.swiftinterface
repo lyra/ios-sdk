@@ -17,14 +17,6 @@ import _Concurrency
 import _StringProcessing
 import sentry_client_cocoa
 @_inheritsConvenienceInitializers @objc final public class Lyra : ObjectiveC.NSObject {
-  @objc public static let themeFileName: Swift.String
-  @objc public static let apiServerName: Swift.String
-  @objc public static let cardScanningEnabled: Swift.String
-  @objc public static let applePayMerchantId: Swift.String
-  @objc public static let customPayButtonLabel: Swift.String
-  @objc public static let customHeaderLabel: Swift.String
-  @objc public static let customPopupLabel: Swift.String
-  @objc public static let applePayMerchantName: Swift.String
   @objc public static func initialize(_ publicKey: Swift.String, _ options: [Swift.String : Any] = [:]) throws
   @objc public static func getSDKVersion() -> Swift.String
   @objc public static func process(_ contextViewController: UIKit.UIViewController, _ formToken: Swift.String, onSuccess: @escaping ((_ lyraResponse: LyraPaymentSDK.LyraResponse) -> Swift.Void), onError: @escaping ((_ error: LyraPaymentSDK.LyraError, _ lyraResponse: LyraPaymentSDK.LyraResponse?) -> Swift.Void), _ options: [Swift.String : Any] = [:]) throws
@@ -283,10 +275,38 @@ public class TLCustomMask {
 @_hasMissingDesignatedInitializers @objc public class LyraMobError : LyraPaymentSDK.LyraError {
   @objc deinit
 }
+@objc public enum LyraPaymentMethods : Swift.Int {
+  case cardPayment
+  case applePay
+  case all
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 extension LyraPaymentSDK.DropDownKH {
   @_Concurrency.MainActor(unsafe) final public class func setupDefaultAppearance()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class LyraInitOptions : ObjectiveC.NSObject {
+  @objc public static let themeFileName: Swift.String
+  @objc public static let apiServerName: Swift.String
+  @objc public static let cardScanningEnabled: Swift.String
+  @objc public static let applePayMerchantId: Swift.String
+  @objc public static let applePayMerchantName: Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class LyraPaymentOptions : ObjectiveC.NSObject {
+  @objc public static let customPayButtonLabel: Swift.String
+  @objc public static let customHeaderLabel: Swift.String
+  @objc public static let customPopupLabel: Swift.String
+  @objc public static let paymentMethodType: Swift.String
+  @objc deinit
 }
 extension LyraPaymentSDK.DropDownKH.DismissMode : Swift.Equatable {}
 extension LyraPaymentSDK.DropDownKH.DismissMode : Swift.Hashable {}
 extension LyraPaymentSDK.DropDownKH.Direction : Swift.Equatable {}
 extension LyraPaymentSDK.DropDownKH.Direction : Swift.Hashable {}
+extension LyraPaymentSDK.LyraPaymentMethods : Swift.Equatable {}
+extension LyraPaymentSDK.LyraPaymentMethods : Swift.Hashable {}
+extension LyraPaymentSDK.LyraPaymentMethods : Swift.RawRepresentable {}

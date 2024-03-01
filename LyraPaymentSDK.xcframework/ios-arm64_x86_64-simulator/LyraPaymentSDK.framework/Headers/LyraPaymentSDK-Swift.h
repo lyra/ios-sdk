@@ -336,12 +336,12 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 @end
 
 
-
 @class UIEvent;
 
 @interface DropDownKH (SWIFT_EXTENSION(LyraPaymentSDK))
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @interface DropDownKH (SWIFT_EXTENSION(LyraPaymentSDK))
@@ -391,30 +391,6 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 
 SWIFT_CLASS("_TtC14LyraPaymentSDK4Lyra")
 @interface Lyra : NSObject
-/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull themeFileName;)
-+ (NSString * _Nonnull)themeFileName SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull apiServerName;)
-+ (NSString * _Nonnull)apiServerName SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
-+ (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a String thats represents the apple merchant identifier. Necessary for support Apple Pay functionality
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantId;)
-+ (NSString * _Nonnull)applePayMerchantId SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in PAY button.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPayButtonLabel;)
-+ (NSString * _Nonnull)customPayButtonLabel SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in the header of Payment Form .
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customHeaderLabel;)
-+ (NSString * _Nonnull)customHeaderLabel SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display in loading popup  while payment is in process .
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPopupLabel;)
-+ (NSString * _Nonnull)customPopupLabel SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents  the person or company receiving payment.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantName;)
-+ (NSString * _Nonnull)applePayMerchantName SWIFT_WARN_UNUSED_RESULT;
 /// Initializes the SDK with the value of publicKey. This function must be invoked before trying to launch a payment/register-card process from the SDK.
 /// \param publicKey Key for VAD access (available in merchant BO: Settings->Shop->REST API Keys)
 ///
@@ -467,9 +443,56 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK9LyraError")
 @end
 
 
+SWIFT_CLASS("_TtC14LyraPaymentSDK15LyraInitOptions")
+@interface LyraInitOptions : NSObject
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull themeFileName;)
++ (NSString * _Nonnull)themeFileName SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull apiServerName;)
++ (NSString * _Nonnull)apiServerName SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
++ (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a String thats represents the apple merchant identifier. Necessary for support Apple Pay functionality
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantId;)
++ (NSString * _Nonnull)applePayMerchantId SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary.; The expected value for this key in the options dictionary is a String thats represents  the person or company receiving payment.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantName;)
++ (NSString * _Nonnull)applePayMerchantName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 /// Define a local SDK error from an ErrorType
 SWIFT_CLASS("_TtC14LyraPaymentSDK12LyraMobError")
 @interface LyraMobError : LyraError
+@end
+
+typedef SWIFT_ENUM(NSInteger, LyraPaymentMethods, open) {
+  LyraPaymentMethodsCardPayment = 0,
+  LyraPaymentMethodsApplePay = 1,
+  LyraPaymentMethodsAll = 2,
+};
+
+
+SWIFT_CLASS("_TtC14LyraPaymentSDK18LyraPaymentOptions")
+@interface LyraPaymentOptions : NSObject
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in PAY button.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPayButtonLabel;)
++ (NSString * _Nonnull)customPayButtonLabel SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in the header of Payment Form .
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customHeaderLabel;)
++ (NSString * _Nonnull)customHeaderLabel SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display in loading popup  while payment is in process .
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPopupLabel;)
++ (NSString * _Nonnull)customPopupLabel SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull paymentMethodType;)
++ (NSString * _Nonnull)paymentMethodType SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class NSData;
@@ -849,12 +872,12 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 @end
 
 
-
 @class UIEvent;
 
 @interface DropDownKH (SWIFT_EXTENSION(LyraPaymentSDK))
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @interface DropDownKH (SWIFT_EXTENSION(LyraPaymentSDK))
@@ -904,30 +927,6 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 
 SWIFT_CLASS("_TtC14LyraPaymentSDK4Lyra")
 @interface Lyra : NSObject
-/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull themeFileName;)
-+ (NSString * _Nonnull)themeFileName SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull apiServerName;)
-+ (NSString * _Nonnull)apiServerName SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
-+ (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a String thats represents the apple merchant identifier. Necessary for support Apple Pay functionality
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantId;)
-+ (NSString * _Nonnull)applePayMerchantId SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in PAY button.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPayButtonLabel;)
-+ (NSString * _Nonnull)customPayButtonLabel SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in the header of Payment Form .
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customHeaderLabel;)
-+ (NSString * _Nonnull)customHeaderLabel SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display in loading popup  while payment is in process .
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPopupLabel;)
-+ (NSString * _Nonnull)customPopupLabel SWIFT_WARN_UNUSED_RESULT;
-/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents  the person or company receiving payment.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantName;)
-+ (NSString * _Nonnull)applePayMerchantName SWIFT_WARN_UNUSED_RESULT;
 /// Initializes the SDK with the value of publicKey. This function must be invoked before trying to launch a payment/register-card process from the SDK.
 /// \param publicKey Key for VAD access (available in merchant BO: Settings->Shop->REST API Keys)
 ///
@@ -980,9 +979,56 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK9LyraError")
 @end
 
 
+SWIFT_CLASS("_TtC14LyraPaymentSDK15LyraInitOptions")
+@interface LyraInitOptions : NSObject
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull themeFileName;)
++ (NSString * _Nonnull)themeFileName SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the REST API Server Name (available in merchant BO: Settings->Shop->REST API Keys)
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull apiServerName;)
++ (NSString * _Nonnull)apiServerName SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a Boolean thats represents if the card scan functionality is enabled or not.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull cardScanningEnabled;)
++ (NSString * _Nonnull)cardScanningEnabled SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary. The expected value for this key in the  options dictionary is a String thats represents the apple merchant identifier. Necessary for support Apple Pay functionality
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantId;)
++ (NSString * _Nonnull)applePayMerchantId SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary.; The expected value for this key in the options dictionary is a String thats represents  the person or company receiving payment.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull applePayMerchantName;)
++ (NSString * _Nonnull)applePayMerchantName SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 /// Define a local SDK error from an ErrorType
 SWIFT_CLASS("_TtC14LyraPaymentSDK12LyraMobError")
 @interface LyraMobError : LyraError
+@end
+
+typedef SWIFT_ENUM(NSInteger, LyraPaymentMethods, open) {
+  LyraPaymentMethodsCardPayment = 0,
+  LyraPaymentMethodsApplePay = 1,
+  LyraPaymentMethodsAll = 2,
+};
+
+
+SWIFT_CLASS("_TtC14LyraPaymentSDK18LyraPaymentOptions")
+@interface LyraPaymentOptions : NSObject
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in PAY button.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPayButtonLabel;)
++ (NSString * _Nonnull)customPayButtonLabel SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in the header of Payment Form .
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customHeaderLabel;)
++ (NSString * _Nonnull)customHeaderLabel SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display in loading popup  while payment is in process .
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull customPopupLabel;)
++ (NSString * _Nonnull)customPopupLabel SWIFT_WARN_UNUSED_RESULT;
+/// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull paymentMethodType;)
++ (NSString * _Nonnull)paymentMethodType SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class NSData;
