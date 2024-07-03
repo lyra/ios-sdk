@@ -37,5 +37,6 @@
   "2.6.7": "https://raw.githubusercontent.com/lyra/ios-sdk/2.6.7/LyraPaymentSDK.xcframework.zip",
   "2.6.8": "https://raw.githubusercontent.com/lyra/ios-sdk/2.6.8/LyraPaymentSDK.xcframework.zip",
   "2.7.0": "https://raw.githubusercontent.com/lyra/ios-sdk/2.7.0/LyraPaymentSDK.xcframework.zip",
-  "2.7.1": "https://raw.githubusercontent.com/lyra/ios-sdk/2.7.1/LyraPaymentSDK.xcframework.zip"
+  "2.7.1": "https://raw.githubusercontent.com/lyra/ios-sdk/2.7.1/LyraPaymentSDK.xcframework.zip",
+  "2.7.2": "https://raw.githubusercontent.com/lyra/ios-sdk/2.7.2/LyraPaymentSDK.xcframework.zip"
 }
