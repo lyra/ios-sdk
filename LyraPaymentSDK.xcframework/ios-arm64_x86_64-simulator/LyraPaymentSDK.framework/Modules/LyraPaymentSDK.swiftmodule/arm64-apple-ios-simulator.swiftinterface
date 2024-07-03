@@ -1,8 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name LyraPaymentSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name LyraPaymentSDK
 import AVFoundation
+import DeveloperToolsSupport
 import Foundation
 import LyraMaterial
 @_exported import LyraPaymentSDK
@@ -10,11 +10,13 @@ import PassKit
 import Sentry
 import SnapKit
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import sentry_client_cocoa
 @_inheritsConvenienceInitializers @objc final public class Lyra : ObjectiveC.NSObject {
   @objc public static func initialize(_ publicKey: Swift.String, _ options: [Swift.String : Any] = [:]) throws
@@ -84,7 +86,7 @@ extension UIKit.UIBarButtonItem : LyraPaymentSDK.AnchorView {
   @_Concurrency.MainActor(unsafe) weak public static var VisibleDropDown: LyraPaymentSDK.DropDownKH?
   @_Concurrency.MainActor(unsafe) final public func setLabelText(_ text: Swift.String)
   @_Concurrency.MainActor(unsafe) final public func setColorForLabelText(_ color: UIKit.UIColor)
-  @_Concurrency.MainActor(unsafe) weak final public var anchorView: LyraPaymentSDK.AnchorView? {
+  @_Concurrency.MainActor(unsafe) weak final public var anchorView: (any LyraPaymentSDK.AnchorView)? {
     get
     set
   }
@@ -196,7 +198,7 @@ extension UIKit.UIBarButtonItem : LyraPaymentSDK.AnchorView {
   }
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc convenience dynamic public init()
-  @_Concurrency.MainActor(unsafe) convenience public init(anchorView: LyraPaymentSDK.AnchorView, selectionAction: LyraPaymentSDK.SelectionClosure? = nil, dataSource: [Swift.String] = [], topOffset: CoreFoundation.CGPoint? = nil, bottomOffset: CoreFoundation.CGPoint? = nil, cellConfiguration: LyraPaymentSDK.ConfigurationClosure? = nil, cancelAction: LyraPaymentSDK.Closure? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(anchorView: any LyraPaymentSDK.AnchorView, selectionAction: LyraPaymentSDK.SelectionClosure? = nil, dataSource: [Swift.String] = [], topOffset: CoreFoundation.CGPoint? = nil, bottomOffset: CoreFoundation.CGPoint? = nil, cellConfiguration: LyraPaymentSDK.ConfigurationClosure? = nil, cancelAction: LyraPaymentSDK.Closure? = nil)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
 }

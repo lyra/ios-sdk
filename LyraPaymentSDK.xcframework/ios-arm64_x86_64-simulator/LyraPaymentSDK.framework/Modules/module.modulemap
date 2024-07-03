@@ -1,7 +1,7 @@
 framework module LyraPaymentSDK {
   umbrella header "LyraPaymentSDK.h"
-
   export *
+
   module * { export * }
 }
 
