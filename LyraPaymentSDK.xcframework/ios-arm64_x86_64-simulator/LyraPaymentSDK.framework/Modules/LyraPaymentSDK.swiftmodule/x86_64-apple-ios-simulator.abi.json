@@ -36420,31 +36420,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "viewWillLayoutSubviews",
-            "printedName": "viewWillLayoutSubviews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LyraPaymentSDK@objc(cs)TestCardFormViewController(im)viewWillLayoutSubviews",
-            "mangledName": "$s14LyraPaymentSDK26TestCardFormViewControllerC22viewWillLayoutSubviewsyyF",
-            "moduleName": "LyraPaymentSDK",
-            "overriding": true,
-            "objc_name": "viewWillLayoutSubviews",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Custom",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "prefersStatusBarHidden",
             "printedName": "prefersStatusBarHidden",
@@ -97963,7 +97938,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/TextFieldRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 7154,
+      "offset": 7138,
       "length": 3,
       "value": "1.0"
     },
@@ -98509,14 +98484,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Rule\/LyraMaxLengthRule.swift",
       "kind": "IntegerLiteral",
-      "offset": 256,
+      "offset": 255,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Rule\/LyraMaxLengthRule.swift",
       "kind": "BooleanLiteral",
-      "offset": 286,
+      "offset": 285,
       "length": 5,
       "value": "false"
     },
@@ -98649,7 +98624,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Generator\/PaymentFormAppleGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 699,
+      "offset": 697,
       "length": 5,
       "value": "false"
     },
@@ -98803,56 +98778,56 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1055,
+      "offset": 1054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
+      "offset": 1104,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1151,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1199,
+      "offset": 1195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1243,
+      "offset": 1238,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1342,
+      "offset": 1336,
       "length": 3,
       "value": "777"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 1582,
+      "offset": 1576,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 5640,
+      "offset": 5634,
       "length": 3,
       "value": "[]"
     },
@@ -98873,42 +98848,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/ConfigurationOptions\/LyraInitOptions.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 625,
       "length": 15,
       "value": "\"themeFileName\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/ConfigurationOptions\/LyraInitOptions.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 895,
       "length": 15,
       "value": "\"apiServerName\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/ConfigurationOptions\/LyraInitOptions.swift",
       "kind": "StringLiteral",
-      "offset": 1142,
+      "offset": 1141,
       "length": 21,
       "value": "\"cardScanningEnabled\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/ConfigurationOptions\/LyraInitOptions.swift",
       "kind": "StringLiteral",
-      "offset": 1419,
+      "offset": 1418,
       "length": 20,
       "value": "\"applePayMerchantId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/ConfigurationOptions\/LyraInitOptions.swift",
       "kind": "StringLiteral",
-      "offset": 1663,
+      "offset": 1662,
       "length": 22,
       "value": "\"applePayMerchantName\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/ConfigurationOptions\/LyraInitOptions.swift",
       "kind": "StringLiteral",
-      "offset": 2067,
+      "offset": 2066,
       "length": 6,
       "value": "\"mode\""
     },
@@ -101862,14 +101837,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Rule\/LyraMinLengthRule.swift",
       "kind": "IntegerLiteral",
-      "offset": 256,
+      "offset": 255,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Rule\/LyraMinLengthRule.swift",
       "kind": "BooleanLiteral",
-      "offset": 286,
+      "offset": 285,
       "length": 5,
       "value": "false"
     },
@@ -102072,7 +102047,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 35238,
+      "offset": 35086,
       "length": 5,
       "value": "false"
     },
@@ -102317,7 +102292,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24366,
+      "offset": 24266,
       "length": 5,
       "value": "false"
     },
