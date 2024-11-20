@@ -30058,6 +30058,48 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getPaymentMethodType",
+            "printedName": "getPaymentMethodType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LyraPaymentMethods",
+                "printedName": "LyraPaymentSDK.LyraPaymentMethods",
+                "usr": "c:@M@LyraPaymentSDK@E@LyraPaymentMethods"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK13EngineHandlerC03getB10MethodTypeyAA0aB7MethodsOSDySSypGFZ",
+            "mangledName": "$s14LyraPaymentSDK13EngineHandlerC03getB10MethodTypeyAA0aB7MethodsOSDySSypGFZ",
+            "moduleName": "LyraPaymentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -98771,63 +98813,63 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 974,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1054,
+      "offset": 1053,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1103,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1151,
+      "offset": 1150,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1195,
+      "offset": 1194,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1238,
+      "offset": 1237,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1336,
+      "offset": 1335,
       "length": 3,
       "value": "777"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 1576,
+      "offset": 1575,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 5634,
+      "offset": 5544,
       "length": 3,
       "value": "[]"
     },
