@@ -25930,12 +25930,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12LanguageUtilC03getD0SSyFZ",
-            "mangledName": "$s14LyraPaymentSDK12LanguageUtilC03getD0SSyFZ",
+            "usr": "s:14LyraPaymentSDK12LanguageUtilO03getD0SSyFZ",
+            "mangledName": "$s14LyraPaymentSDK12LanguageUtilO03getD0SSyFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
-              "Final",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -25959,13 +25958,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12LanguageUtilC24getLocalizedStringForKeyyS2SFZ",
-            "mangledName": "$s14LyraPaymentSDK12LanguageUtilC24getLocalizedStringForKeyyS2SFZ",
+            "usr": "s:14LyraPaymentSDK12LanguageUtilO24getLocalizedStringForKeyyS2SFZ",
+            "mangledName": "$s14LyraPaymentSDK12LanguageUtilO24getLocalizedStringForKeyyS2SFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
-            "declAttributes": [
-              "Final"
-            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -25999,26 +25995,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12LanguageUtilC32getLocalizedStringForInstallmentyS2S_SiS2SSgtFZ",
-            "mangledName": "$s14LyraPaymentSDK12LanguageUtilC32getLocalizedStringForInstallmentyS2S_SiS2SSgtFZ",
+            "usr": "s:14LyraPaymentSDK12LanguageUtilO32getLocalizedStringForInstallmentyS2S_SiS2StFZ",
+            "mangledName": "$s14LyraPaymentSDK12LanguageUtilO32getLocalizedStringForInstallmentyS2S_SiS2StFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
-              "Final",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -26048,42 +26035,29 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12LanguageUtilC37getLocalizedStringForInstallmentDelayyS2S_SStFZ",
-            "mangledName": "$s14LyraPaymentSDK12LanguageUtilC37getLocalizedStringForInstallmentDelayyS2S_SStFZ",
+            "usr": "s:14LyraPaymentSDK12LanguageUtilO37getLocalizedStringForInstallmentDelayyS2S_SStFZ",
+            "mangledName": "$s14LyraPaymentSDK12LanguageUtilO37getLocalizedStringForInstallmentDelayyS2S_SStFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
-              "Final",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LanguageUtil",
-                "printedName": "LyraPaymentSDK.LanguageUtil",
-                "usr": "s:14LyraPaymentSDK12LanguageUtilC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14LyraPaymentSDK12LanguageUtilCACycfc",
-            "mangledName": "$s14LyraPaymentSDK12LanguageUtilCACycfc",
-            "moduleName": "LyraPaymentSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:14LyraPaymentSDK12LanguageUtilC",
-        "mangledName": "$s14LyraPaymentSDK12LanguageUtilC",
+        "declKind": "Enum",
+        "usr": "s:14LyraPaymentSDK12LanguageUtilO",
+        "mangledName": "$s14LyraPaymentSDK12LanguageUtilO",
         "moduleName": "LyraPaymentSDK",
-        "declAttributes": [
-          "Final"
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -77264,6 +77238,26 @@
             "children": [
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
@@ -77281,39 +77275,11 @@
                   }
                 ],
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK20InstallmentsRendererC17constructKLangKeyySSSiSg_SSSgAEtF",
-            "mangledName": "$s14LyraPaymentSDK20InstallmentsRendererC17constructKLangKeyySSSiSg_SSSgAEtF",
+            "usr": "s:14LyraPaymentSDK20InstallmentsRendererC17constructKLangKeyySSSgSi_SSSiSgtF",
+            "mangledName": "$s14LyraPaymentSDK20InstallmentsRendererC17constructKLangKeyySSSgSi_SSSiSgtF",
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
@@ -98757,14 +98723,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/LanguageUtil.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 224,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/LanguageUtil.swift",
       "kind": "Array",
-      "offset": 281,
+      "offset": 273,
       "length": 18,
       "value": "[\"en\", \"es\", \"fr\"]"
     },
@@ -101970,21 +101936,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/InstallmentsRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 331,
+      "offset": 330,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/InstallmentsRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 756,
+      "offset": 755,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/InstallmentsRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 983,
+      "offset": 982,
       "length": 2,
       "value": "\"\""
     },
