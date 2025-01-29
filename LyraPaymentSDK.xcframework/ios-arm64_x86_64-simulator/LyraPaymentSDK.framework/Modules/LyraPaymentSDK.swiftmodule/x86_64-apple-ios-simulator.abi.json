@@ -20681,8 +20681,8 @@
           },
           {
             "kind": "Var",
-            "name": "errorInProcessPayment",
-            "printedName": "errorInProcessPayment",
+            "name": "errorMessage",
+            "printedName": "errorMessage",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20700,8 +20700,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC014errorInProcessB0SSSgvp",
-            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC014errorInProcessB0SSSgvp",
+            "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC12errorMessageSSSgvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC12errorMessageSSSgvp",
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
@@ -20733,8 +20733,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC014errorInProcessB0SSSgvg",
-                "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC014errorInProcessB0SSSgvg",
+                "usr": "s:14LyraPaymentSDK0B18FormAppleGeneratorC12errorMessageSSSgvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormAppleGeneratorC12errorMessageSSSgvg",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -97925,14 +97925,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Generator\/PaymentFormCardGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 354,
+      "offset": 353,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Generator\/PaymentFormCardGenerator.swift",
       "kind": "StringLiteral",
-      "offset": 400,
+      "offset": 399,
       "length": 14,
       "value": "\"TestCardForm\""
     },
@@ -98632,7 +98632,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Generator\/PaymentFormAppleGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 697,
+      "offset": 688,
       "length": 5,
       "value": "false"
     },
