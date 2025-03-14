@@ -6087,8 +6087,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerV17isFileNeedUpdatesySb10Foundation3URLV_SitFZ",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV17isFileNeedUpdatesySb10Foundation3URLV_SitFZ",
+            "usr": "s:14LyraPaymentSDK14SDKFileManagerO17isFileNeedUpdatesySb10Foundation3URLV_SitFZ",
+            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO17isFileNeedUpdatesySb10Foundation3URLV_SitFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -6121,8 +6121,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerV25saveFileContentFromServerySbSS_10Foundation3URLVtFZ",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV25saveFileContentFromServerySbSS_10Foundation3URLVtFZ",
+            "usr": "s:14LyraPaymentSDK14SDKFileManagerO25saveFileContentFromServerySbSS_10Foundation3URLVtFZ",
+            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO25saveFileContentFromServerySbSS_10Foundation3URLVtFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -6155,8 +6155,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerV15saveDefaultFileySbSS_SStFZ",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV15saveDefaultFileySbSS_SStFZ",
+            "usr": "s:14LyraPaymentSDK14SDKFileManagerO15saveDefaultFileySbSS_SStFZ",
+            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO15saveDefaultFileySbSS_SStFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -6183,8 +6183,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerV16getLocalFilePathy10Foundation3URLVSSFZ",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV16getLocalFilePathy10Foundation3URLVSSFZ",
+            "usr": "s:14LyraPaymentSDK14SDKFileManagerO16getLocalFilePathy10Foundation3URLVSSFZ",
+            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO16getLocalFilePathy10Foundation3URLVSSFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -6211,8 +6211,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerV11isFileExistySb10Foundation3URLVFZ",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV11isFileExistySb10Foundation3URLVFZ",
+            "usr": "s:14LyraPaymentSDK14SDKFileManagerO11isFileExistySb10Foundation3URLVFZ",
+            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO11isFileExistySb10Foundation3URLVFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -6245,8 +6245,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerV17getDefaultFileURLy10Foundation0I0VSS_SStFZ",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV17getDefaultFileURLy10Foundation0I0VSS_SStFZ",
+            "usr": "s:14LyraPaymentSDK14SDKFileManagerO17getDefaultFileURLy10Foundation0I0VSS_SStFZ",
+            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO17getDefaultFileURLy10Foundation0I0VSS_SStFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -6279,8 +6279,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerV11isValidJSONySbSS_SStFZ",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV11isValidJSONySbSS_SStFZ",
+            "usr": "s:14LyraPaymentSDK14SDKFileManagerO11isValidJSONySbSS_SStFZ",
+            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO11isValidJSONySbSS_SStFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -6313,39 +6313,21 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerV17createAndSaveFileySbSS_10Foundation3URLVtFZ",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV17createAndSaveFileySbSS_10Foundation3URLVtFZ",
+            "usr": "s:14LyraPaymentSDK14SDKFileManagerO17createAndSaveFileySbSS_10Foundation3URLVtFZ",
+            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO17createAndSaveFileySbSS_10Foundation3URLVtFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SDKFileManager",
-                "printedName": "LyraPaymentSDK.SDKFileManager",
-                "usr": "s:14LyraPaymentSDK14SDKFileManagerV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14LyraPaymentSDK14SDKFileManagerVACycfc",
-            "mangledName": "$s14LyraPaymentSDK14SDKFileManagerVACycfc",
-            "moduleName": "LyraPaymentSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:14LyraPaymentSDK14SDKFileManagerV",
-        "mangledName": "$s14LyraPaymentSDK14SDKFileManagerV",
+        "declKind": "Enum",
+        "usr": "s:14LyraPaymentSDK14SDKFileManagerO",
+        "mangledName": "$s14LyraPaymentSDK14SDKFileManagerO",
         "moduleName": "LyraPaymentSDK",
+        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -21592,332 +21574,6 @@
       },
       {
         "kind": "Import",
-        "name": "Sentry",
-        "printedName": "Sentry",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "sentry_client_cocoa",
-        "printedName": "sentry_client_cocoa",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ErrorTracker",
-        "printedName": "ErrorTracker",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "initErrorTracker",
-            "printedName": "initErrorTracker(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12ErrorTrackerC04initdE0yySS_SStFZ",
-            "mangledName": "$s14LyraPaymentSDK12ErrorTrackerC04initdE0yySS_SStFZ",
-            "moduleName": "LyraPaymentSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "send",
-            "printedName": "send(logger:message:eventLevel:extras:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SentryLevel",
-                "printedName": "Sentry.SentryLevel",
-                "hasDefaultArg": true,
-                "usr": "c:@M@Sentry@E@SentryLevel"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "LyraPaymentSDK.LyraError?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LyraError",
-                    "printedName": "LyraPaymentSDK.LyraError",
-                    "usr": "c:@M@LyraPaymentSDK@objc(cs)LyraError"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12ErrorTrackerC4send6logger7message10eventLevel6extras5errorySS_SS6Sentry0mJ0OSDyS2SGAA0aD0CSgtFZ",
-            "mangledName": "$s14LyraPaymentSDK12ErrorTrackerC4send6logger7message10eventLevel6extras5errorySS_SS6Sentry0mJ0OSDyS2SGAA0aD0CSgtFZ",
-            "moduleName": "LyraPaymentSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addExtra",
-            "printedName": "addExtra(name:value:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12ErrorTrackerC8addExtra4name5valueySS_SSSgtFZ",
-            "mangledName": "$s14LyraPaymentSDK12ErrorTrackerC8addExtra4name5valueySS_SSSgtFZ",
-            "moduleName": "LyraPaymentSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "publicKey",
-            "printedName": "publicKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK12ErrorTrackerC9publicKey33_68C3A8E927942FE7B9F53FA1C0C093D7LLSSSgvp",
-            "mangledName": "$s14LyraPaymentSDK12ErrorTrackerC9publicKey33_68C3A8E927942FE7B9F53FA1C0C093D7LLSSSgvp",
-            "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 0,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "sentryHub",
-            "printedName": "sentryHub",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Sentry.SentryHub?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SentryHub",
-                    "printedName": "Sentry.SentryHub",
-                    "usr": "c:objc(cs)SentryHub"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK12ErrorTrackerC9sentryHub33_68C3A8E927942FE7B9F53FA1C0C093D7LLSo06SentryG0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK12ErrorTrackerC9sentryHub33_68C3A8E927942FE7B9F53FA1C0C093D7LLSo06SentryG0CSgvp",
-            "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 1,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "communExtra",
-            "printedName": "communExtra",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK12ErrorTrackerC11communExtra33_68C3A8E927942FE7B9F53FA1C0C093D7LLSDySSypGSgvp",
-            "mangledName": "$s14LyraPaymentSDK12ErrorTrackerC11communExtra33_68C3A8E927942FE7B9F53FA1C0C093D7LLSDySSypGSgvp",
-            "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 2,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "isSentryClasicIntegration",
-            "printedName": "isSentryClasicIntegration",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK12ErrorTrackerC25isSentryClasicIntegration33_68C3A8E927942FE7B9F53FA1C0C093D7LLSbvp",
-            "mangledName": "$s14LyraPaymentSDK12ErrorTrackerC25isSentryClasicIntegration33_68C3A8E927942FE7B9F53FA1C0C093D7LLSbvp",
-            "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 3,
-            "hasStorage": true
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:14LyraPaymentSDK12ErrorTrackerC",
-        "mangledName": "$s14LyraPaymentSDK12ErrorTrackerC",
-        "moduleName": "LyraPaymentSDK",
-        "isOpen": true
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SnapKit",
         "printedName": "SnapKit",
         "declKind": "Import",
@@ -22006,8 +21662,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -22019,13 +21684,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -22035,8 +21698,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -22048,13 +21720,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -22090,8 +21760,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -22103,13 +21782,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 5,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -22119,8 +21796,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -22132,13 +21818,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 6,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -22148,8 +21832,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIActivityIndicatorView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIActivityIndicatorView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIActivityIndicatorView",
+                    "printedName": "UIKit.UIActivityIndicatorView",
+                    "usr": "c:objc(cs)UIActivityIndicatorView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -22161,13 +21854,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 7,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -22318,8 +22009,7 @@
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
-              "RawDocComment"
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -24835,8 +24525,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIImageView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -24848,13 +24547,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 0,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -24864,8 +24561,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -24877,13 +24583,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 1,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -24893,8 +24597,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -24906,13 +24619,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -24922,8 +24633,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -24935,13 +24655,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -24951,8 +24669,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIButton?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -24964,12 +24691,10 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 4,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -25435,8 +25160,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -25448,13 +25182,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -25464,8 +25196,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -25477,13 +25218,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -25493,8 +25232,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -25506,13 +25254,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 4,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -25522,8 +25268,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -25535,13 +25290,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 5,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -25660,8 +25413,7 @@
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
-              "RawDocComment"
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -25754,8 +25506,7 @@
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
-              "RawDocComment"
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -30412,8 +30163,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -30425,13 +30185,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 0,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -35785,8 +35543,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -35800,12 +35567,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 0,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -35815,8 +35580,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIButton?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -35830,12 +35604,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 1,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -35845,8 +35617,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -35860,12 +35641,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -35875,8 +35654,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIStackView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -35890,12 +35678,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -35905,8 +35691,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UITableView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UITableView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITableView",
+                    "printedName": "UIKit.UITableView",
+                    "usr": "c:objc(cs)UITableView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -35920,12 +35715,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 4,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -35935,8 +35728,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -35950,12 +35752,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 5,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -37541,8 +37341,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UITableView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UITableView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITableView",
+                    "printedName": "UIKit.UITableView",
+                    "usr": "c:objc(cs)UITableView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -37554,13 +37363,10 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
-              "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -37658,8 +37464,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -37671,13 +37486,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -37687,8 +37500,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -37700,13 +37522,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 4,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -37716,8 +37536,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIStackView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -37729,13 +37558,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 5,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -38127,8 +37954,7 @@
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
-              "RawDocComment"
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -38156,7 +37982,6 @@
             "isOpen": true,
             "declAttributes": [
               "Custom",
-              "AccessControl",
               "IBAction",
               "RawDocComment",
               "ObjC"
@@ -43477,8 +43302,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIImageView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -43490,13 +43324,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 0,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -43506,8 +43338,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -43519,13 +43360,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 1,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -43535,8 +43374,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -43548,13 +43396,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -43564,8 +43410,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -43577,13 +43432,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -44535,8 +44388,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -44550,13 +44412,11 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 15,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -44566,8 +44426,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIButton?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -44581,12 +44450,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 16,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -44596,8 +44463,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -44611,13 +44487,11 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 17,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -44627,8 +44501,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -44642,12 +44525,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 18,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -44657,8 +44538,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -44670,12 +44560,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 19,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -44775,8 +44663,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -44788,12 +44685,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 20,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -44893,8 +44788,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIStackView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -44906,12 +44810,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 21,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -45011,8 +44913,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45024,12 +44935,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 22,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -45129,8 +45038,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45142,12 +45060,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 23,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -45247,8 +45163,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45262,13 +45187,11 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 24,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -45278,8 +45201,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45293,12 +45225,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 25,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -45308,8 +45238,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45321,12 +45260,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 26,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -45426,8 +45363,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45439,12 +45385,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 27,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -45544,8 +45488,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIStackView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45559,12 +45512,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 28,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -45574,8 +45525,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45587,12 +45547,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 29,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -45692,8 +45650,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -45705,12 +45672,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 30,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -46509,8 +46474,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -46522,12 +46496,10 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -46625,8 +46597,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIButton?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -46638,13 +46619,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -46654,8 +46633,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -46667,13 +46655,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 4,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -46683,8 +46669,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -46696,12 +46691,10 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 5,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -60327,8 +60320,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIImageView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -60340,13 +60342,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 0,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -60356,8 +60356,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -60369,13 +60378,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 1,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -60385,8 +60392,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -60398,13 +60414,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -60414,8 +60428,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -60427,13 +60450,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -69457,8 +69478,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK6DomainV18kPlatformFranceUrlSSvpZ",
-            "mangledName": "$s14LyraPaymentSDK6DomainV18kPlatformFranceUrlSSvpZ",
+            "usr": "s:14LyraPaymentSDK6DomainO18kPlatformFranceUrlSSvpZ",
+            "mangledName": "$s14LyraPaymentSDK6DomainO18kPlatformFranceUrlSSvpZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -69482,8 +69503,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK6DomainV18kPlatformFranceUrlSSvgZ",
-                "mangledName": "$s14LyraPaymentSDK6DomainV18kPlatformFranceUrlSSvgZ",
+                "usr": "s:14LyraPaymentSDK6DomainO18kPlatformFranceUrlSSvgZ",
+                "mangledName": "$s14LyraPaymentSDK6DomainO18kPlatformFranceUrlSSvgZ",
                 "moduleName": "LyraPaymentSDK",
                 "static": true,
                 "implicit": true,
@@ -69507,8 +69528,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK6DomainV17kPlatformWorldUrlSSvpZ",
-            "mangledName": "$s14LyraPaymentSDK6DomainV17kPlatformWorldUrlSSvpZ",
+            "usr": "s:14LyraPaymentSDK6DomainO17kPlatformWorldUrlSSvpZ",
+            "mangledName": "$s14LyraPaymentSDK6DomainO17kPlatformWorldUrlSSvpZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -69532,8 +69553,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK6DomainV17kPlatformWorldUrlSSvgZ",
-                "mangledName": "$s14LyraPaymentSDK6DomainV17kPlatformWorldUrlSSvgZ",
+                "usr": "s:14LyraPaymentSDK6DomainO17kPlatformWorldUrlSSvgZ",
+                "mangledName": "$s14LyraPaymentSDK6DomainO17kPlatformWorldUrlSSvgZ",
                 "moduleName": "LyraPaymentSDK",
                 "static": true,
                 "implicit": true,
@@ -69571,8 +69592,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK6DomainV10domainDictSDyS2SGvpZ",
-            "mangledName": "$s14LyraPaymentSDK6DomainV10domainDictSDyS2SGvpZ",
+            "usr": "s:14LyraPaymentSDK6DomainO10domainDictSDyS2SGvpZ",
+            "mangledName": "$s14LyraPaymentSDK6DomainO10domainDictSDyS2SGvpZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -69610,8 +69631,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK6DomainV10domainDictSDyS2SGvgZ",
-                "mangledName": "$s14LyraPaymentSDK6DomainV10domainDictSDyS2SGvgZ",
+                "usr": "s:14LyraPaymentSDK6DomainO10domainDictSDyS2SGvgZ",
+                "mangledName": "$s14LyraPaymentSDK6DomainO10domainDictSDyS2SGvgZ",
                 "moduleName": "LyraPaymentSDK",
                 "static": true,
                 "implicit": true,
@@ -69649,8 +69670,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK6DomainV29getPlatformUrlByAPIServerNameyS2SSgKFZ",
-            "mangledName": "$s14LyraPaymentSDK6DomainV29getPlatformUrlByAPIServerNameyS2SSgKFZ",
+            "usr": "s:14LyraPaymentSDK6DomainO29getPlatformUrlByAPIServerNameyS2SSgKFZ",
+            "mangledName": "$s14LyraPaymentSDK6DomainO29getPlatformUrlByAPIServerNameyS2SSgKFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
@@ -69658,34 +69679,16 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Domain",
-                "printedName": "LyraPaymentSDK.Domain",
-                "usr": "s:14LyraPaymentSDK6DomainV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14LyraPaymentSDK6DomainVACycfc",
-            "mangledName": "$s14LyraPaymentSDK6DomainVACycfc",
-            "moduleName": "LyraPaymentSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:14LyraPaymentSDK6DomainV",
-        "mangledName": "$s14LyraPaymentSDK6DomainV",
+        "declKind": "Enum",
+        "usr": "s:14LyraPaymentSDK6DomainO",
+        "mangledName": "$s14LyraPaymentSDK6DomainO",
         "moduleName": "LyraPaymentSDK",
         "declAttributes": [
           "RawDocComment"
         ],
+        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -71053,8 +71056,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -71066,13 +71078,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 2,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -71082,8 +71092,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -71095,13 +71114,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 3,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -71111,8 +71128,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIImageView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -71124,13 +71150,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 4,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -71140,8 +71164,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -71153,13 +71186,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 5,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -71169,8 +71200,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -71182,13 +71222,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 6,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -71198,8 +71236,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -71211,13 +71258,11 @@
               "HasInitialValue",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 7,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -71411,8 +71456,7 @@
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
-              "AccessControl"
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -86370,8 +86414,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -86383,13 +86436,11 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 24,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -86489,8 +86540,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIButton?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -86502,12 +86562,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 25,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -86607,8 +86665,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -86620,12 +86687,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 26,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -86725,8 +86790,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -86738,12 +86812,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 27,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -86843,8 +86915,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -86856,12 +86937,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 28,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -86961,8 +87040,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -86976,13 +87064,11 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 29,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -86992,8 +87078,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87007,12 +87102,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 30,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -87022,8 +87115,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87037,12 +87139,10 @@
               "HasStorage",
               "Custom",
               "AccessControl",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 31,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -87052,8 +87152,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87065,12 +87174,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 32,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -87170,8 +87277,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIButton?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87183,13 +87299,11 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 33,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -87289,8 +87403,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIScrollView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIScrollView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIScrollView",
+                    "printedName": "UIKit.UIScrollView",
+                    "usr": "c:objc(cs)UIScrollView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87302,13 +87425,11 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 34,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -87408,8 +87529,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87421,13 +87551,11 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 35,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -87527,8 +87655,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UILabel?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87540,12 +87677,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 36,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -87645,8 +87780,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.NSLayoutConstraint?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87658,12 +87802,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 37,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -87763,8 +87905,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIButton?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -87776,12 +87927,10 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "ObjC"
             ],
             "fixedbinaryorder": 38,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -88160,8 +88309,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIView?"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -88173,13 +88331,11 @@
               "Final",
               "HasStorage",
               "Custom",
-              "ReferenceOwnership",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 42,
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -90659,13 +90815,12 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK12CurrencyUtilC22kDefaultFractionDigitsSivpZ",
-            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilC22kDefaultFractionDigitsSivpZ",
+            "usr": "s:14LyraPaymentSDK12CurrencyUtilO22kDefaultFractionDigitsSivpZ",
+            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilO22kDefaultFractionDigitsSivpZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
               "HasInitialValue",
-              "Final",
               "HasStorage"
             ],
             "isLet": true,
@@ -90684,14 +90839,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK12CurrencyUtilC22kDefaultFractionDigitsSivgZ",
-                "mangledName": "$s14LyraPaymentSDK12CurrencyUtilC22kDefaultFractionDigitsSivgZ",
+                "usr": "s:14LyraPaymentSDK12CurrencyUtilO22kDefaultFractionDigitsSivgZ",
+                "mangledName": "$s14LyraPaymentSDK12CurrencyUtilO22kDefaultFractionDigitsSivgZ",
                 "moduleName": "LyraPaymentSDK",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Transparent",
-                  "Final"
+                  "Transparent"
                 ],
                 "accessorKind": "get"
               }
@@ -90722,13 +90876,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12CurrencyUtilC12formatAmount6amount12currencyCodeSo15NSDecimalNumberCs6UInt64V_SStFZ",
-            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilC12formatAmount6amount12currencyCodeSo15NSDecimalNumberCs6UInt64V_SStFZ",
+            "usr": "s:14LyraPaymentSDK12CurrencyUtilO12formatAmount6amount12currencyCodeSo15NSDecimalNumberCs6UInt64V_SStFZ",
+            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilO12formatAmount6amount12currencyCodeSo15NSDecimalNumberCs6UInt64V_SStFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
-            "declAttributes": [
-              "Final"
-            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -90763,12 +90914,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK12CurrencyUtilC014formatAmountByD06amount12currencyCode04showD0SSs6UInt64V_SSSbtFZ",
-            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilC014formatAmountByD06amount12currencyCode04showD0SSs6UInt64V_SSSbtFZ",
+            "usr": "s:14LyraPaymentSDK12CurrencyUtilO014formatAmountByD06amount12currencyCode04showD0SSs6UInt64V_SSSbtFZ",
+            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilO014formatAmountByD06amount12currencyCode04showD0SSs6UInt64V_SSSbtFZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
-              "Final",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -90807,13 +90957,12 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK12CurrencyUtilC12currencyListSaySS0F4Code_Si13decimalDigitstGvpZ",
-            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilC12currencyListSaySS0F4Code_Si13decimalDigitstGvpZ",
+            "usr": "s:14LyraPaymentSDK12CurrencyUtilO12currencyListSaySS0F4Code_Si13decimalDigitstGvpZ",
+            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilO12currencyListSaySS0F4Code_Si13decimalDigitstGvpZ",
             "moduleName": "LyraPaymentSDK",
             "static": true,
             "declAttributes": [
               "HasInitialValue",
-              "Final",
               "HasStorage",
               "RawDocComment"
             ],
@@ -90854,46 +91003,35 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK12CurrencyUtilC12currencyListSaySS0F4Code_Si13decimalDigitstGvgZ",
-                "mangledName": "$s14LyraPaymentSDK12CurrencyUtilC12currencyListSaySS0F4Code_Si13decimalDigitstGvgZ",
+                "usr": "s:14LyraPaymentSDK12CurrencyUtilO12currencyListSaySS0F4Code_Si13decimalDigitstGvgZ",
+                "mangledName": "$s14LyraPaymentSDK12CurrencyUtilO12currencyListSaySS0F4Code_Si13decimalDigitstGvgZ",
                 "moduleName": "LyraPaymentSDK",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Transparent",
-                  "Final"
+                  "Transparent"
                 ],
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CurrencyUtil",
-                "printedName": "LyraPaymentSDK.CurrencyUtil",
-                "usr": "s:14LyraPaymentSDK12CurrencyUtilC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14LyraPaymentSDK12CurrencyUtilCACycfc",
-            "mangledName": "$s14LyraPaymentSDK12CurrencyUtilCACycfc",
-            "moduleName": "LyraPaymentSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:14LyraPaymentSDK12CurrencyUtilC",
-        "mangledName": "$s14LyraPaymentSDK12CurrencyUtilC",
+        "declKind": "Enum",
+        "usr": "s:14LyraPaymentSDK12CurrencyUtilO",
+        "mangledName": "$s14LyraPaymentSDK12CurrencyUtilO",
         "moduleName": "LyraPaymentSDK",
         "declAttributes": [
-          "Final",
           "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -97974,42 +98112,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "BooleanLiteral",
-      "offset": 353,
+      "offset": 352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 401,
+      "offset": 400,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 442,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "StringLiteral",
-      "offset": 498,
+      "offset": 497,
       "length": 22,
       "value": "\"com.lyra-network.sdk\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "Dictionary",
-      "offset": 1124,
+      "offset": 1123,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Lyra.swift",
       "kind": "Dictionary",
-      "offset": 4203,
+      "offset": 3997,
       "length": 3,
       "value": "[]"
     },
@@ -98345,35 +98483,35 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Detector\/BinRangeFileBrandDetector.swift",
       "kind": "StringLiteral",
-      "offset": 361,
+      "offset": 360,
       "length": 8,
       "value": "\"values\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Detector\/BinRangeFileBrandDetector.swift",
       "kind": "StringLiteral",
-      "offset": 399,
+      "offset": 398,
       "length": 8,
       "value": "\"ranges\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Detector\/BinRangeFileBrandDetector.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 442,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Detector\/BinRangeFileBrandDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 488,
+      "offset": 487,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Detector\/BinRangeFileBrandDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2361,
+      "offset": 2311,
       "length": 1,
       "value": "0"
     },
@@ -98506,63 +98644,63 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 417,
+      "offset": 416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 509,
+      "offset": 508,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 592,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 675,
+      "offset": 674,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 745,
       "length": 19,
       "value": "\"###API_VERSION###\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 799,
       "length": 69,
       "value": "\"api-payment\/\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 836,
       "length": 1,
       "value": "\"\/Charge\/Public\/ProcessPayment\/2\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 914,
       "length": 68,
       "value": "\"api-payment\/\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/Core\/VADConfig.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 951,
       "length": 1,
       "value": "\"\/Charge\/Public\/GetPayloadInfos\""
     },
@@ -98637,27 +98775,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/ErrorTracker.swift",
-      "kind": "Dictionary",
-      "offset": 1336,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/ErrorTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 3034,
-      "length": 39,
-      "value": "\"\\b([0-9]{4})[0-9]{4,11}([0-9]{4})\\b\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/ErrorTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3162,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 323,
@@ -98667,14 +98784,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/LoadingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 514,
+      "offset": 504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/LoadingView.swift",
       "kind": "StringLiteral",
-      "offset": 767,
+      "offset": 742,
       "length": 2,
       "value": "\"\""
     },
@@ -98709,7 +98826,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/BrandView.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 440,
       "length": 11,
       "value": "\"BrandView\""
     },
@@ -98849,7 +98966,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/ApplePayView.swift",
       "kind": "StringLiteral",
-      "offset": 283,
+      "offset": 277,
       "length": 14,
       "value": "\"ApplePayView\""
     },
@@ -98905,112 +99022,112 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Manager\/TestCards\/TestCardsFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 245,
+      "offset": 244,
       "length": 15,
       "value": "\"TestCardsFile\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Manager\/TestCards\/TestCardsFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 301,
       "length": 6,
       "value": "\"json\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Manager\/TestCards\/TestCardsFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 422,
       "length": 7,
       "value": "\"cards\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Manager\/TestCards\/TestCardsFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 458,
       "length": 7,
       "value": "\"brand\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Manager\/TestCards\/TestCardsFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 495,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 927,
+      "offset": 895,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 964,
+      "offset": 932,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1011,
+      "offset": 979,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1092,
+      "offset": 1060,
       "length": 20,
       "value": "\"TestCardIdentifier\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Manager\/BINOptions\/BINOptionsManager.swift",
       "kind": "StringLiteral",
-      "offset": 337,
+      "offset": 336,
       "length": 5,
       "value": "\"bin\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Manager\/BINOptions\/BINOptionsManager.swift",
       "kind": "StringLiteral",
-      "offset": 379,
+      "offset": 378,
       "length": 8,
       "value": "\"cuotas\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Manager\/BINOptions\/BINOptionsManager.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 422,
       "length": 7,
       "value": "\"delay\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/ExpiryDateKeyboard.swift",
       "kind": "StringLiteral",
-      "offset": 928,
+      "offset": 927,
       "length": 20,
       "value": "\"ExpiryDateKeyboard\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/ExpiryDateKeyboard.swift",
       "kind": "IntegerLiteral",
-      "offset": 1248,
+      "offset": 1218,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/ExpiryDateKeyboard.swift",
       "kind": "StringLiteral",
-      "offset": 1278,
+      "offset": 1248,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/ExpiryDateKeyboard.swift",
       "kind": "IntegerLiteral",
-      "offset": 1364,
+      "offset": 1334,
       "length": 2,
       "value": "30"
     },
@@ -99038,91 +99155,91 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/CategoryContentView.swift",
       "kind": "StringLiteral",
-      "offset": 453,
+      "offset": 432,
       "length": 21,
       "value": "\"CategoryContentView\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 934,
+      "offset": 933,
       "length": 21,
       "value": "\"PaymentSelectorView\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1011,
+      "offset": 1010,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1060,
+      "offset": 1059,
       "length": 3,
       "value": "170"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1114,
+      "offset": 1113,
       "length": 3,
       "value": "112"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1169,
+      "offset": 1168,
       "length": 4,
       "value": "52.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1215,
+      "offset": 1214,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1271,
+      "offset": 1270,
       "length": 4,
       "value": "90.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1313,
+      "offset": 1312,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1351,
+      "offset": 1350,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1598,
+      "offset": 1597,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1643,
+      "offset": 1642,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentSelector\/PaymentSelectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 838,
       "length": 29,
       "value": "\"LyraPaymentSDK.PaymentSelectorViewController\""
     },
@@ -99136,21 +99253,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/FirstInstallmentDelayRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 350,
+      "offset": 349,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/FirstInstallmentDelayRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 422,
+      "offset": 421,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/FirstInstallmentDelayRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 448,
+      "offset": 447,
       "length": 5,
       "value": "false"
     },
@@ -99773,7 +99890,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/TokenContentView.swift",
       "kind": "StringLiteral",
-      "offset": 438,
+      "offset": 417,
       "length": 18,
       "value": "\"TokenContentView\""
     },
@@ -100585,175 +100702,175 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 554,
       "length": 73,
       "value": "\"https:\/\/static.payzen.eu\/static\/commons\/brandchoice\/typeCarte-tree.json\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 709,
       "length": 77,
       "value": "\"https:\/\/static.payzen.lat\/static\/commons-br\/brandchoice\/typeCarte-tree.json\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 914,
       "length": 36,
       "value": "\"https:\/\/payzen-inte01.lyra-labs.fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1001,
       "length": 36,
       "value": "\"https:\/\/payzen-inte02.lyra-labs.fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1088,
       "length": 36,
       "value": "\"https:\/\/payzen-inte03.lyra-labs.fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1178,
+      "offset": 1175,
       "length": 45,
       "value": "\"https:\/\/payzen-q05.lyra-labs.fr\/api-payment\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1274,
+      "offset": 1271,
       "length": 45,
       "value": "\"https:\/\/payzen-q09.lyra-labs.fr\/api-payment\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1370,
+      "offset": 1367,
       "length": 45,
       "value": "\"https:\/\/payzen-q11.lyra-labs.fr\/api-payment\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 1463,
       "length": 37,
       "value": "\"https:\/\/payzen.pvf.lyra-network.com\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1554,
+      "offset": 1551,
       "length": 23,
       "value": "\"https:\/\/api.payzen.eu\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1628,
+      "offset": 1625,
       "length": 24,
       "value": "\"https:\/\/api.payzen.lat\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1699,
       "length": 27,
       "value": "\"https:\/\/api.payzen.com.br\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1779,
+      "offset": 1776,
       "length": 45,
       "value": "\"https:\/\/api-sogecommerce.societegenerale.eu\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1875,
+      "offset": 1872,
       "length": 22,
       "value": "\"https:\/\/api.lyra.com\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 1948,
+      "offset": 1945,
       "length": 36,
       "value": "\"https:\/\/ecomm.firstdatacorp.com.br\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2034,
+      "offset": 2031,
       "length": 37,
       "value": "\"https:\/\/api-clicandpay.groupecdn.fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2122,
+      "offset": 2119,
       "length": 38,
       "value": "\"https:\/\/e-paiement-securite-bici.com\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2211,
+      "offset": 2208,
       "length": 36,
       "value": "\"https:\/\/secure.cobroinmediato.tech\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2297,
+      "offset": 2294,
       "length": 26,
       "value": "\"https:\/\/api.systempay.fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2374,
+      "offset": 2371,
       "length": 28,
       "value": "\"https:\/\/api.micuentaweb.pe\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2449,
       "length": 29,
       "value": "\"https:\/\/secure.payzen.co.in\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2531,
+      "offset": 2528,
       "length": 25,
       "value": "\"https:\/\/api.in.lyra.com\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2606,
+      "offset": 2603,
       "length": 19,
       "value": "\"https:\/\/epaync.nc\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2676,
+      "offset": 2673,
       "length": 49,
       "value": "\"https:\/\/api.scelliuspaiement.labanquepostale.fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
       "kind": "StringLiteral",
-      "offset": 2776,
+      "offset": 2773,
       "length": 27,
       "value": "\"https:\/\/api.secure.osb.pf\""
     },
@@ -102048,14 +102165,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 525,
       "length": 11,
       "value": "\"LyraPaymentSDK.PANRenderer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 35086,
+      "offset": 34613,
       "length": 5,
       "value": "false"
     },
@@ -102174,7 +102291,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1809,
+      "offset": 1779,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1810,
       "length": 2,
       "value": "\"\""
     },
@@ -102187,141 +102311,134 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1870,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2186,
+      "offset": 2156,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2359,
+      "offset": 2329,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2397,
+      "offset": 2367,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2474,
+      "offset": 2444,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2514,
+      "offset": 2484,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4239,
+      "offset": 4129,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4346,
+      "offset": 4236,
       "length": 3,
       "value": "888"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4483,
+      "offset": 4373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4526,
+      "offset": 4416,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4568,
+      "offset": 4458,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4784,
+      "offset": 4674,
       "length": 21,
       "value": "\"authenticationError\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4978,
+      "offset": 4868,
       "length": 23,
       "value": "\"authenticationSuccess\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5102,
+      "offset": 4992,
       "length": 14,
       "value": "\"dccSelection\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5226,
+      "offset": 5116,
       "length": 11,
       "value": "\"dccCancel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5261,
+      "offset": 5151,
       "length": 13,
       "value": "\"closeTicket\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24266,
+      "offset": 24053,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/CurrencyUtil.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
+      "offset": 443,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/CurrencyUtil.swift",
       "kind": "BooleanLiteral",
-      "offset": 1693,
+      "offset": 1682,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/CurrencyUtil.swift",
       "kind": "Array",
-      "offset": 3119,
+      "offset": 3104,
       "length": 3670,
       "value": "[(\"AED\", 2), (\"ARS\", 2), (\"AUD\", 2), (\"AZN\", 2), (\"BGN\", 2), (\"BHD\", 3), (\"BRL\", 2), (\"BTN\", 2), (\"CAD\", 2), (\"CHF\", 2), (\"CLP\", 0), (\"CNY\", 2), (\"COP\", 2), (\"CZK\", 2), (\"DKK\", 2), (\"EGP\", 2), (\"EKK\", 2), (\"EUR\", 2), (\"FRF\", 2), (\"GBP\", 2), (\"GNF\", 0), (\"HKD\", 2), (\"HRK\", 2), (\"HUF\", 2), (\"IDR\", 2), (\"ILS\", 2), (\"INR\", 2), (\"JOD\", 3), (\"JPY\", 0), (\"KHR\", 2), (\"KRW\", 0), (\"KWD\", 3), (\"LKR\", 2), (\"LTL\", 2), (\"LVL\", 2), (\"MAD\", 2), (\"MXN\", 2), (\"MYR\", 2), (\"NOK\", 2), (\"NPR\", 2), (\"NZD\", 2), (\"OMR\", 3), (\"PEN\", 2), (\"PHP\", 2), (\"PLN\", 2), (\"QAR\", 2), (\"RON\", 2), (\"RUB\", 2), (\"SAR\", 2), (\"SEK\", 2), (\"SGD\", 2), (\"SYP\", 2), (\"THB\", 2), (\"TND\", 3), (\"TRY\", 2), (\"TWD\", 2), (\"USD\", 2), (\"UYI\", 0), (\"UYU\", 2), (\"VUV\", 0), (\"XOF\", 0), (\"XPF\", 0), (\"ZAR\", 2)]"
     },
