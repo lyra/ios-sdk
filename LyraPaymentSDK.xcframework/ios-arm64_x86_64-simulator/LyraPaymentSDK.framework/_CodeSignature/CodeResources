@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		j5R9XAuX/E8SOHKqZAZ8mQNE6aI=
+		QkD6ZyXOlM3hruwZ1SxUoAL/S6w=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		36BaKmHOqK/TaGMzkwGY+/Aq4wg=
+		Odha7EH8AyzA1ll9pHBQvIUnh80=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EnlnCMFlgKo6TZhMJlGI+Azhy2I=
+		+d3x+af+xznVo4Z1+RHOzJ8SWG4=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JfoPZTfqrNyw8X+GjgrwYIa0WqA=
+		v4Mkuqca6c74LWbMrPsxP+emAeI=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		36BaKmHOqK/TaGMzkwGY+/Aq4wg=
+		Odha7EH8AyzA1ll9pHBQvIUnh80=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Sfu2B+WPDh46QMjRbVCBqEyFJPY=
+		OV503vVIEmK082fIigBBsCV3CmY=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jPMFr2/0CIlkQVlCE9jwOaRZKZY=
+		D4ldn/ZGwyg/GTFcAATJnwfw9rY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>en_Localizable.strings</key>
 		<data>
-		t1cgVZAwyPgexs1j5qTjX0H1loU=
+		9l8ymk2I2W3ebMsMY/DhD/fnteo=
 		</data>
 		<key>error_en_Localizable.strings</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>es_Localizable.strings</key>
 		<data>
-		h8Z33vCnVMIC0h13RMek6eUt79A=
+		YeYmSX0pGKQ33E8m7c8fJI+k+sU=
 		</data>
 		<key>fr_Localizable.strings</key>
 		<data>
-		XW/DtX+TlmkkD2sR1xGz66aOfIg=
+		u5SfgVSdCRsHRLsdkNoN5nRBHeQ=
 		</data>
 		<key>lyra-authentication-client-lib.umd.js</key>
 		<data>
@@ -298,7 +298,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Io7lr5aTPgIsIz9FltQS70KMUW0QuKbe3KzvwTX+4zM=
+			ErwYyAId4txyevs35HQzub5b5Zbz/xxpFZDAIHGwc4c=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -312,7 +312,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			39h8lDSI4U+O+EaSvasZ6c/d8BEeh0qVBhKLb510M9k=
+			iV0CJhFeW1v4Cvc1X2yPEW45CNrY40Q0lflSxerL9Xk=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -326,14 +326,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rGBd24t53Ga9ZBj+nUK+Jjrprl0S2OeGUUTb3FtQUag=
+			aqbNyOAJ1qYWzgQVoxLFrOiOa4JFGYnN8ufMy5Gk4xI=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Io7lr5aTPgIsIz9FltQS70KMUW0QuKbe3KzvwTX+4zM=
+			ErwYyAId4txyevs35HQzub5b5Zbz/xxpFZDAIHGwc4c=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -347,7 +347,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VjYuMurK/oG3RjwUsfaEsR0vuZoyBTjrR8oRSMlhabc=
+			xiczM+3nHmdAf4drzZNQTBDp7SnRdeP5TLHbci4IbUA=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -361,7 +361,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oR5Uv06xbtmpODi4f2g99aNmeYyRyxFxhgYWaEiWq5s=
+			QfUNNw84Ttjvih32gfX7GF7GC0cC6m8Can3W830gyUk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -417,7 +417,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hqhP7d44br7rzAlUd62XmO14y13g9vhb1+300+USRxE=
+			+iUs7LXFqNtZlhax2f6JqUqnjX4oMTRmqcTvlYqk0tg=
 			</data>
 		</dict>
 		<key>error_en_Localizable.strings</key>
@@ -445,14 +445,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DcxItuIdZET/NhcOhSLkDce0q+Oc1N/MIf4OmNn7aDQ=
+			o5F3ap/zoh49InndGXXAUOVJvb7bbgcfHPWW9phWVfc=
 			</data>
 		</dict>
 		<key>fr_Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F5Hp7XHRPiS8HE4l04Y2xo6Eb/03E4POMRUev6ynU3s=
+			iUdVW+jVEs5fU1zu4zFArDVJAS9NzCpFomT7rCD6NdE=
 			</data>
 		</dict>
 		<key>lyra-authentication-client-lib.umd.js</key>
