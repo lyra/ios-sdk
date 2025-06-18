@@ -401,9 +401,9 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK10DropDownKH")
 @class NSIndexPath;
 
 @interface DropDownKH (SWIFT_EXTENSION(LyraPaymentSDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)_ numberOfRowsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)_ willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
@@ -490,6 +490,7 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK9LyraError")
 @end
 
 
+/// Keys for sdk options configurations dictionary in initialize method
 SWIFT_CLASS("_TtC14LyraPaymentSDK15LyraInitOptions")
 @interface LyraInitOptions : NSObject
 /// Key for sdk options dictionary. The expected value for this key in the  options dictionary is a String that represents the name of the theme file to be used for the customization of the SDK views. If not set, the default name PaymentSdkTheme is used to find the theme file.
@@ -524,6 +525,7 @@ typedef SWIFT_ENUM(NSInteger, LyraPaymentMethods, open) {
 };
 
 
+/// Keys for sdk options configurations dictionary in  process method
 SWIFT_CLASS("_TtC14LyraPaymentSDK18LyraPaymentOptions")
 @interface LyraPaymentOptions : NSObject
 /// Key for sdk options  dictionary in process method. The expected value for this key in the options dictionary is a String thats represents the text for display  in PAY button.
@@ -564,7 +566,7 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK12LyraResponse")
 
 
 @interface UITextField (SWIFT_EXTENSION(LyraPaymentSDK))
-- (BOOL)canPerformAction:(SEL _Nonnull)action withSender:(id _Nullable)sender SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)canPerformAction:(SEL _Nonnull)action withSender:(id _Nullable)_ SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
