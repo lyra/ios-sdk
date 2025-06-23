@@ -98789,28 +98789,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 1967,
       "length": 18,
       "value": "\"Unexpected error\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 1923,
+      "offset": 1987,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 3031,
+      "offset": 3095,
       "length": 9,
       "value": "\"MOB_999\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2963,
+      "offset": 3027,
       "length": 12,
       "value": "\"LyraPaymentSDK.LyraMobError\""
     },
