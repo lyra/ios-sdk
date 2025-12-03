@@ -25,9 +25,6 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-extension UIKit.UITextField {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func canPerformAction(_ action: ObjectiveC.Selector, withSender _: Any?) -> Swift.Bool
-}
 @_hasMissingDesignatedInitializers @objc public class LyraError : ObjectiveC.NSObject, Swift.Error {
   @objc public var errorCode: Swift.String
   @objc public var errorMessage: Swift.String

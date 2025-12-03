@@ -3097,6 +3097,27 @@
           ]
         }
       ]
+    },
+    {
+      "brand": "SOL",
+      "cards": [
+        {
+          "pan": "5046390000000001",
+          "status": "accepted",
+          "detail": "payment_sdk_card_accepted_no_guarantee",
+          "brands": [
+            "SOL"
+          ]
+        },
+        {
+          "pan": "5046390000000002",
+          "status": "refused",
+          "detail": "payment_sdk_card_refused",
+          "brands": [
+            "SOL"
+          ]
+        }
+      ]
     }
   ]
 }

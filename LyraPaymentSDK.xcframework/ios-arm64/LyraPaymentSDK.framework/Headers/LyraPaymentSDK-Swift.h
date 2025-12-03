@@ -555,7 +555,6 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK12LyraResponse")
 @end
 
 
-
 @interface UIBarButtonItem (SWIFT_EXTENSION(LyraPaymentSDK)) <AnchorView>
 @property (nonatomic, readonly, strong) UIView * _Nonnull plainView;
 @end
@@ -564,10 +563,6 @@ SWIFT_CLASS("_TtC14LyraPaymentSDK12LyraResponse")
 
 
 
-
-@interface UITextField (SWIFT_EXTENSION(LyraPaymentSDK))
-- (BOOL)canPerformAction:(SEL _Nonnull)action withSender:(id _Nullable)_ SWIFT_WARN_UNUSED_RESULT;
-@end
 
 
 
