@@ -25,8 +25,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LyraPaymentSDKBinary",
-            url: "https://raw.githubusercontent.com/lyra/ios-sdk/2.8.9/LyraPaymentSDK.xcframework.zip",
-            checksum: "b05ea94b21671e7156cefa0702a3e332050fcacb54fe45bbb633bf7aeb74483e"
+            url: "https://raw.githubusercontent.com/lyra/ios-sdk/2.8.10/LyraPaymentSDK.xcframework.zip",
+            checksum: "8734ad8e42abba2641a20d9fa6822ce80749a9bf56eeab7aaae059a7e9303919"
         ),
         .target(
             name: "LyraPaymentSDKTarget",

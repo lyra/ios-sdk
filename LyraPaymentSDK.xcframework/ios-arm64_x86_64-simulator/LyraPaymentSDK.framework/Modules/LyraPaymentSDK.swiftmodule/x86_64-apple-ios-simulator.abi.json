@@ -28889,6 +28889,32 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "isProcessing",
+            "printedName": "isProcessing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK13EngineHandlerC12isProcessing33_7F6D2135E6626E7E032CD24E6EB39869LLSbvp",
+            "mangledName": "$s14LyraPaymentSDK13EngineHandlerC12isProcessing33_7F6D2135E6626E7E032CD24E6EB39869LLSbvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 21,
+            "hasStorage": true
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(_:_:_:_:_:_:)",
@@ -98607,15 +98633,22 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1370,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 1600,
+      "offset": 1628,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/EngineHandler.swift",
       "kind": "Dictionary",
-      "offset": 5631,
+      "offset": 5959,
       "length": 3,
       "value": "[]"
     },
