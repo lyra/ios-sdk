@@ -100578,6 +100578,20 @@
       "value": "\"https:\/\/api.secure.osb.pf\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
+      "kind": "StringLiteral",
+      "offset": 2269,
+      "length": 41,
+      "value": "\"https:\/\/api.gateway.monetico-retail.com\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Scheduler\/Domain.swift",
+      "kind": "StringLiteral",
+      "offset": 2336,
+      "length": 34,
+      "value": "\"https:\/\/api.globalpayredeban.com\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Resources\/Internationalization\/Languages.swift",
       "kind": "StringLiteral",
       "offset": 205,
