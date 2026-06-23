@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CardScanInterop.h"
 
 //! Project version number for LyraPaymentSDK.
 FOUNDATION_EXPORT double LyraPaymentSDKVersionNumber;
