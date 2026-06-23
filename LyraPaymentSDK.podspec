@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Lyra Dev Mobile' => 'dev-mobile@lyra-network.com' }
   s.source           = { :git => 'https://github.com/lyra/ios-sdk.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '15.1'
+  s.ios.deployment_target = '26.2'
 
   s.swift_version = '5.1'
 
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.dependency 'SnapKit', '~> 5.7.1'
   
   s.subspec 'AdditionalSDK' do |subspec|
-        subspec.dependency 'LyraCardsRecognizer'
+        subspec.dependency 'LyraCardScan'
   end
 end
