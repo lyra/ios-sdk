@@ -9,7 +9,6 @@ import LyraCardScan
 import LyraMaterial
 @_exported import LyraPaymentSDK
 import PassKit
-import SnapKit
 import Swift
 import SystemConfiguration
 import UIKit

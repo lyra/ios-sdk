@@ -8061,13 +8061,6 @@
       },
       {
         "kind": "Import",
-        "name": "SnapKit",
-        "printedName": "SnapKit",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -14774,20 +14767,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -16113,20 +16092,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -22559,13 +22524,6 @@
       },
       {
         "kind": "Import",
-        "name": "SnapKit",
-        "printedName": "SnapKit",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -23157,20 +23115,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -25703,20 +25647,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -25740,13 +25670,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SnapKit",
-        "printedName": "SnapKit",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK"
       },
       {
         "kind": "Import",
@@ -25972,6 +25895,41 @@
               "ObjC"
             ],
             "fixedbinaryorder": 5,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "viewLayoutConstraints",
+            "printedName": "viewLayoutConstraints",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK11MessageViewC21viewLayoutConstraints33_D939FB356255FD5A78D518EE30C8C78BLLSaySo18NSLayoutConstraintCGvp",
+            "mangledName": "$s14LyraPaymentSDK11MessageViewC21viewLayoutConstraints33_D939FB356255FD5A78D518EE30C8C78BLLSaySo18NSLayoutConstraintCGvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 6,
             "hasStorage": true
           },
           {
@@ -26311,20 +26269,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -32642,20 +32586,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -37020,20 +36950,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -37720,13 +37636,6 @@
       },
       {
         "kind": "Import",
-        "name": "SnapKit",
-        "printedName": "SnapKit",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -38026,42 +37935,6 @@
           },
           {
             "kind": "Var",
-            "name": "cardLogoViewBottomConstraint",
-            "printedName": "cardLogoViewBottomConstraint",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SnapKit.Constraint?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Constraint",
-                    "printedName": "SnapKit.Constraint",
-                    "usr": "s:7SnapKit10ConstraintC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK26TestCardFormViewControllerC08cardLogoG16BottomConstraint33_0A7EDD60536426ED83B570AA1D9832CFLL7SnapKit0L0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK26TestCardFormViewControllerC08cardLogoG16BottomConstraint33_0A7EDD60536426ED83B570AA1D9832CFLL7SnapKit0L0CSgvp",
-            "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 6,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
             "name": "kCardLogoSize",
             "printedName": "kCardLogoSize",
             "children": [
@@ -38085,7 +37958,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 6,
             "isLet": true,
             "hasStorage": true
           },
@@ -38114,7 +37987,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 7,
             "isLet": true,
             "hasStorage": true
           },
@@ -38143,7 +38016,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 8,
             "hasStorage": true
           },
           {
@@ -38179,7 +38052,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 9,
             "hasStorage": true
           },
           {
@@ -38207,7 +38080,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 10,
             "isLet": true,
             "hasStorage": true
           },
@@ -38244,7 +38117,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 11,
             "hasStorage": true
           },
           {
@@ -38278,7 +38151,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 12,
             "hasStorage": true,
             "accessors": [
               {
@@ -38392,7 +38265,7 @@
               "HasStorage",
               "ReferenceOwnership"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 13,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -40656,20 +40529,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -46187,20 +46046,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -49822,20 +49667,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -60980,57 +60811,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "kInvalidSentryKey",
-            "printedName": "kInvalidSentryKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK13ConfigurationC17kInvalidSentryKeySSvpZ",
-            "mangledName": "$s14LyraPaymentSDK13ConfigurationC17kInvalidSentryKeySSvpZ",
-            "moduleName": "LyraPaymentSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK13ConfigurationC17kInvalidSentryKeySSvgZ",
-                "mangledName": "$s14LyraPaymentSDK13ConfigurationC17kInvalidSentryKeySSvgZ",
-                "moduleName": "LyraPaymentSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "kInvalidPlatformMapping",
             "printedName": "kInvalidPlatformMapping",
             "children": [
@@ -61077,108 +60857,6 @@
                   "Final"
                 ],
                 "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "kSentryKey",
-            "printedName": "kSentryKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK13ConfigurationC10kSentryKeySSvpZ",
-            "mangledName": "$s14LyraPaymentSDK13ConfigurationC10kSentryKeySSvpZ",
-            "moduleName": "LyraPaymentSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK13ConfigurationC10kSentryKeySSvgZ",
-                "mangledName": "$s14LyraPaymentSDK13ConfigurationC10kSentryKeySSvgZ",
-                "moduleName": "LyraPaymentSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK13ConfigurationC10kSentryKeySSvsZ",
-                "mangledName": "$s14LyraPaymentSDK13ConfigurationC10kSentryKeySSvsZ",
-                "moduleName": "LyraPaymentSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK13ConfigurationC10kSentryKeySSvMZ",
-                "mangledName": "$s14LyraPaymentSDK13ConfigurationC10kSentryKeySSvMZ",
-                "moduleName": "LyraPaymentSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -63735,20 +63413,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -74980,20 +74644,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -81715,13 +81365,6 @@
       },
       {
         "kind": "Import",
-        "name": "SnapKit",
-        "printedName": "SnapKit",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -83721,21 +83364,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SnapKit.Constraint?",
+                "printedName": "UIKit.NSLayoutConstraint?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Constraint",
-                    "printedName": "SnapKit.Constraint",
-                    "usr": "s:7SnapKit10ConstraintC"
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC22renderBottomConstraint7SnapKit0G0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC22renderBottomConstraint7SnapKit0G0CSgvp",
+            "usr": "s:14LyraPaymentSDK11PANRendererC22renderBottomConstraintSo08NSLayoutG0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK11PANRendererC22renderBottomConstraintSo08NSLayoutG0CSgvp",
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
@@ -83755,21 +83398,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC22renderBottomConstraint7SnapKit0G0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC22renderBottomConstraint7SnapKit0G0CSgvg",
+                "usr": "s:14LyraPaymentSDK11PANRendererC22renderBottomConstraintSo08NSLayoutG0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC22renderBottomConstraintSo08NSLayoutG0CSgvg",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -83788,21 +83431,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC22renderBottomConstraint7SnapKit0G0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC22renderBottomConstraint7SnapKit0G0CSgvs",
+                "usr": "s:14LyraPaymentSDK11PANRendererC22renderBottomConstraintSo08NSLayoutG0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC22renderBottomConstraintSo08NSLayoutG0CSgvs",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -83820,8 +83463,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC22renderBottomConstraint7SnapKit0G0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC22renderBottomConstraint7SnapKit0G0CSgvM",
+                "usr": "s:14LyraPaymentSDK11PANRendererC22renderBottomConstraintSo08NSLayoutG0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC22renderBottomConstraintSo08NSLayoutG0CSgvM",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -83831,27 +83474,27 @@
           },
           {
             "kind": "Var",
-            "name": "cardLogoViewBottomConstraint",
-            "printedName": "cardLogoViewBottomConstraint",
+            "name": "cardLogoViewTopConstraint",
+            "printedName": "cardLogoViewTopConstraint",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SnapKit.Constraint?",
+                "printedName": "UIKit.NSLayoutConstraint?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Constraint",
-                    "printedName": "SnapKit.Constraint",
-                    "usr": "s:7SnapKit10ConstraintC"
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC28cardLogoViewBottomConstraint7SnapKit0I0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC28cardLogoViewBottomConstraint7SnapKit0I0CSgvp",
+            "usr": "s:14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraintSo08NSLayoutI0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraintSo08NSLayoutI0CSgvp",
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
@@ -83871,21 +83514,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC28cardLogoViewBottomConstraint7SnapKit0I0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC28cardLogoViewBottomConstraint7SnapKit0I0CSgvg",
+                "usr": "s:14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraintSo08NSLayoutI0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraintSo08NSLayoutI0CSgvg",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -83904,21 +83547,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC28cardLogoViewBottomConstraint7SnapKit0I0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC28cardLogoViewBottomConstraint7SnapKit0I0CSgvs",
+                "usr": "s:14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraintSo08NSLayoutI0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraintSo08NSLayoutI0CSgvs",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -83936,124 +83579,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC28cardLogoViewBottomConstraint7SnapKit0I0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC28cardLogoViewBottomConstraint7SnapKit0I0CSgvM",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "cardLogoViewTopConstraint",
-            "printedName": "cardLogoViewTopConstraint",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SnapKit.Constraint?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Constraint",
-                    "printedName": "SnapKit.Constraint",
-                    "usr": "s:7SnapKit10ConstraintC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraint7SnapKit0I0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraint7SnapKit0I0CSgvp",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 18,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraint7SnapKit0I0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraint7SnapKit0I0CSgvg",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraint7SnapKit0I0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraint7SnapKit0I0CSgvs",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraint7SnapKit0I0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraint7SnapKit0I0CSgvM",
+                "usr": "s:14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraintSo08NSLayoutI0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC25cardLogoViewTopConstraintSo08NSLayoutI0CSgvM",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -84084,7 +83611,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 18,
             "hasStorage": true,
             "accessors": [
               {
@@ -84175,7 +83702,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 20,
+            "fixedbinaryorder": 19,
             "hasStorage": true,
             "accessors": [
               {
@@ -84275,7 +83802,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 21,
+            "fixedbinaryorder": 20,
             "hasStorage": true,
             "accessors": [
               {
@@ -84391,7 +83918,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 22,
+            "fixedbinaryorder": 21,
             "hasStorage": true,
             "accessors": [
               {
@@ -84499,7 +84026,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 23,
+            "fixedbinaryorder": 22,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -84584,7 +84111,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 24,
+            "fixedbinaryorder": 23,
             "hasStorage": true,
             "accessors": [
               {
@@ -84729,21 +84256,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SnapKit.Constraint?",
+                "printedName": "UIKit.NSLayoutConstraint?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Constraint",
-                    "printedName": "SnapKit.Constraint",
-                    "usr": "s:7SnapKit10ConstraintC"
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraint7SnapKit0H0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraint7SnapKit0H0CSgvp",
+            "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvp",
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
@@ -84752,7 +84279,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 25,
+            "fixedbinaryorder": 24,
             "hasStorage": true,
             "accessors": [
               {
@@ -84763,21 +84290,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraint7SnapKit0H0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraint7SnapKit0H0CSgvg",
+                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvg",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -84796,21 +84323,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraint7SnapKit0H0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraint7SnapKit0H0CSgvs",
+                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvs",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -84828,8 +84355,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraint7SnapKit0H0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraint7SnapKit0H0CSgvM",
+                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvM",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -84868,7 +84395,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 26,
+            "fixedbinaryorder": 25,
             "hasStorage": true,
             "accessors": [
               {
@@ -84976,7 +84503,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 27,
+            "fixedbinaryorder": 26,
             "hasStorage": true,
             "accessors": [
               {
@@ -85076,7 +84603,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 28,
+            "fixedbinaryorder": 27,
             "hasStorage": true,
             "accessors": [
               {
@@ -85185,7 +84712,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 29,
+            "fixedbinaryorder": 28,
             "hasStorage": true,
             "accessors": [
               {
@@ -87726,13 +87253,6 @@
         "kind": "Import",
         "name": "LyraMaterial",
         "printedName": "LyraMaterial",
-        "declKind": "Import",
-        "moduleName": "LyraPaymentSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SnapKit",
-        "printedName": "SnapKit",
         "declKind": "Import",
         "moduleName": "LyraPaymentSDK"
       },
@@ -92469,21 +91989,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SnapKit.Constraint?",
+                "printedName": "UIKit.NSLayoutConstraint?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Constraint",
-                    "printedName": "SnapKit.Constraint",
-                    "usr": "s:7SnapKit10ConstraintC"
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraint7SnapKit0I0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraint7SnapKit0I0CSgvp",
+            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraintSo08NSLayoutI0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraintSo08NSLayoutI0CSgvp",
             "moduleName": "LyraPaymentSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -92503,21 +92023,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraint7SnapKit0I0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraint7SnapKit0I0CSgvg",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraintSo08NSLayoutI0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraintSo08NSLayoutI0CSgvg",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -92538,21 +92058,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraint7SnapKit0I0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraint7SnapKit0I0CSgvs",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraintSo08NSLayoutI0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraintSo08NSLayoutI0CSgvs",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -92572,8 +92092,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraint7SnapKit0I0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraint7SnapKit0I0CSgvM",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraintSo08NSLayoutI0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC07contentE16BottomConstraintSo08NSLayoutI0CSgvM",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -93237,21 +92757,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SnapKit.Constraint?",
+                "printedName": "UIKit.NSLayoutConstraint?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Constraint",
-                    "printedName": "SnapKit.Constraint",
-                    "usr": "s:7SnapKit10ConstraintC"
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraint7SnapKit0I0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraint7SnapKit0I0CSgvp",
+            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraintSo08NSLayoutI0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraintSo08NSLayoutI0CSgvp",
             "moduleName": "LyraPaymentSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -93271,21 +92791,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraint7SnapKit0I0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraint7SnapKit0I0CSgvg",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraintSo08NSLayoutI0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraintSo08NSLayoutI0CSgvg",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -93306,21 +92826,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraint7SnapKit0I0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraint7SnapKit0I0CSgvs",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraintSo08NSLayoutI0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraintSo08NSLayoutI0CSgvs",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -93340,8 +92860,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraint7SnapKit0I0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraint7SnapKit0I0CSgvM",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraintSo08NSLayoutI0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE15WidthConstraintSo08NSLayoutI0CSgvM",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -93359,21 +92879,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SnapKit.Constraint?",
+                "printedName": "UIKit.NSLayoutConstraint?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Constraint",
-                    "printedName": "SnapKit.Constraint",
-                    "usr": "s:7SnapKit10ConstraintC"
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraint7SnapKit0I0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraint7SnapKit0I0CSgvp",
+            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraintSo08NSLayoutI0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraintSo08NSLayoutI0CSgvp",
             "moduleName": "LyraPaymentSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -93393,21 +92913,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraint7SnapKit0I0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraint7SnapKit0I0CSgvg",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraintSo08NSLayoutI0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraintSo08NSLayoutI0CSgvg",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -93428,21 +92948,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SnapKit.Constraint?",
+                    "printedName": "UIKit.NSLayoutConstraint?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Constraint",
-                        "printedName": "SnapKit.Constraint",
-                        "usr": "s:7SnapKit10ConstraintC"
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraint7SnapKit0I0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraint7SnapKit0I0CSgvs",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraintSo08NSLayoutI0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraintSo08NSLayoutI0CSgvs",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -93462,8 +92982,374 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraint7SnapKit0I0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraint7SnapKit0I0CSgvM",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraintSo08NSLayoutI0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE16HeightConstraintSo08NSLayoutI0CSgvM",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "webViewLayoutConstraints",
+            "printedName": "webViewLayoutConstraints",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE17LayoutConstraintsSaySo18NSLayoutConstraintCGvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE17LayoutConstraintsSaySo18NSLayoutConstraintCGvp",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 49,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE17LayoutConstraintsSaySo18NSLayoutConstraintCGvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE17LayoutConstraintsSaySo18NSLayoutConstraintCGvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE17LayoutConstraintsSaySo18NSLayoutConstraintCGvs",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE17LayoutConstraintsSaySo18NSLayoutConstraintCGvs",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC03webE17LayoutConstraintsSaySo18NSLayoutConstraintCGvM",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC03webE17LayoutConstraintsSaySo18NSLayoutConstraintCGvM",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardContainerViewBottomConstraint",
+            "printedName": "cardContainerViewBottomConstraint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC013cardContainerE16BottomConstraintSo08NSLayoutJ0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC013cardContainerE16BottomConstraintSo08NSLayoutJ0CSgvp",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 50,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.NSLayoutConstraint?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC013cardContainerE16BottomConstraintSo08NSLayoutJ0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC013cardContainerE16BottomConstraintSo08NSLayoutJ0CSgvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.NSLayoutConstraint?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC013cardContainerE16BottomConstraintSo08NSLayoutJ0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC013cardContainerE16BottomConstraintSo08NSLayoutJ0CSgvs",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC013cardContainerE16BottomConstraintSo08NSLayoutJ0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC013cardContainerE16BottomConstraintSo08NSLayoutJ0CSgvM",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "doRegisterContainerViewBottomConstraint",
+            "printedName": "doRegisterContainerViewBottomConstraint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK0B18FormViewControllerC019doRegisterContainerE16BottomConstraintSo08NSLayoutK0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC019doRegisterContainerE16BottomConstraintSo08NSLayoutK0CSgvp",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 51,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.NSLayoutConstraint?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC019doRegisterContainerE16BottomConstraintSo08NSLayoutK0CSgvg",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC019doRegisterContainerE16BottomConstraintSo08NSLayoutK0CSgvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.NSLayoutConstraint?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC019doRegisterContainerE16BottomConstraintSo08NSLayoutK0CSgvs",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC019doRegisterContainerE16BottomConstraintSo08NSLayoutK0CSgvs",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK0B18FormViewControllerC019doRegisterContainerE16BottomConstraintSo08NSLayoutK0CSgvM",
+                "mangledName": "$s14LyraPaymentSDK0B18FormViewControllerC019doRegisterContainerE16BottomConstraintSo08NSLayoutK0CSgvM",
                 "moduleName": "LyraPaymentSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -93496,7 +93382,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 49,
+            "fixedbinaryorder": 52,
             "hasStorage": true,
             "accessors": [
               {
@@ -93594,7 +93480,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 50,
+            "fixedbinaryorder": 53,
             "hasStorage": true,
             "accessors": [
               {
@@ -93692,7 +93578,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 51,
+            "fixedbinaryorder": 54,
             "hasStorage": true,
             "accessors": [
               {
@@ -93797,7 +93683,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 52,
+            "fixedbinaryorder": 55,
             "hasStorage": true,
             "accessors": [
               {
@@ -93910,7 +93796,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 53,
+            "fixedbinaryorder": 56,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -93962,7 +93848,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 54,
+            "fixedbinaryorder": 57,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -94014,7 +93900,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 55,
+            "fixedbinaryorder": 58,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -94066,7 +93952,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 56,
+            "fixedbinaryorder": 59,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -94117,7 +94003,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 57,
+            "fixedbinaryorder": 60,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -94168,7 +94054,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 58,
+            "fixedbinaryorder": 61,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -97360,20 +97246,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           }
         ]
       },
@@ -97536,20 +97408,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           }
         ]
       },
@@ -97754,20 +97612,6 @@
             "printedName": "Constraintable",
             "usr": "s:12LyraMaterial14ConstraintableP",
             "mangledName": "$s12LyraMaterial14ConstraintableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           }
         ]
       },
@@ -102487,7 +102331,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/TextFieldRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 6604,
+      "offset": 6933,
       "length": 3,
       "value": "1.0"
     },
@@ -103075,28 +102919,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/LoadingView.swift",
       "kind": "StringLiteral",
-      "offset": 321,
+      "offset": 306,
       "length": 13,
       "value": "\"LoadingView\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/LoadingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 494,
+      "offset": 479,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/LoadingView.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 709,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController+UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 5060,
+      "offset": 5057,
       "length": 5,
       "value": "false"
     },
@@ -103537,9 +103381,16 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/MessageView.swift",
       "kind": "StringLiteral",
-      "offset": 311,
+      "offset": 296,
       "length": 13,
       "value": "\"MessageView\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/MessageView.swift",
+      "kind": "Array",
+      "offset": 632,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/LanguageUtil.swift",
@@ -103719,35 +103570,35 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 875,
+      "offset": 803,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 910,
+      "offset": 838,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 955,
+      "offset": 883,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 960,
       "length": 20,
       "value": "\"TestCardIdentifier\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/TestCardForm\/TestCardFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2142,
+      "offset": 2070,
       "length": 4,
       "value": "true"
     },
@@ -104440,42 +104291,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Configurations\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 311,
-      "length": 18,
-      "value": "\"InvalidSentryKey\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Configurations\/Configuration.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
+      "offset": 318,
       "length": 24,
       "value": "\"InvalidPlatformMapping\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Configurations\/Configuration.swift",
-      "kind": "StringLiteral",
-      "offset": 460,
-      "length": 11,
-      "value": "\"SentryKey\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Configurations\/Configuration.swift",
       "kind": "BooleanLiteral",
-      "offset": 531,
+      "offset": 370,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Configurations\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 479,
       "length": 12,
       "value": "\"SDKVersion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Configurations\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 507,
       "length": 2,
       "value": "\"\""
     },
@@ -106792,49 +106629,49 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 612,
+      "offset": 597,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 652,
+      "offset": 637,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 691,
+      "offset": 676,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 724,
+      "offset": 709,
       "length": 4,
       "value": "25.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 756,
+      "offset": 741,
       "length": 4,
       "value": "38.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3159,
+      "offset": 3120,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3284,
+      "offset": 3245,
       "length": 5,
       "value": "false"
     },
@@ -106953,147 +106790,154 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 462,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 506,
+      "offset": 491,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 534,
+      "offset": 519,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 817,
+      "offset": 802,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 917,
+      "offset": 902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1078,
+      "offset": 1063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1114,
+      "offset": 1099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1190,
+      "offset": 1175,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1228,
+      "offset": 1213,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2775,
+      "offset": 2768,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2881,
+      "offset": 2874,
       "length": 3,
       "value": "888"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
+      "kind": "Array",
+      "offset": 3034,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2996,
+      "offset": 3191,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3037,
+      "offset": 3232,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3077,
+      "offset": 3272,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 3481,
       "length": 21,
       "value": "\"authenticationError\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3476,
+      "offset": 3671,
       "length": 23,
       "value": "\"authenticationSuccess\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3596,
+      "offset": 3791,
       "length": 14,
       "value": "\"dccSelection\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3716,
+      "offset": 3911,
       "length": 11,
       "value": "\"dccCancel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3749,
+      "offset": 3944,
       "length": 13,
       "value": "\"closeTicket\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9482,
+      "offset": 9677,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10341,
+      "offset": 10536,
       "length": 4,
       "value": "true"
     },
