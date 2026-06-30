@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'LyraMaterial', '~> 1.0.6'
   s.dependency 'LyraMotion', '~> 4.0.2'
-  s.dependency 'SnapKit', '~> 5.7.1'
   
   s.subspec 'AdditionalSDK' do |subspec|
         subspec.dependency 'LyraCardScan'
