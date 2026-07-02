@@ -18,7 +18,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/lyra/card-scan-ios.git",
-            exact: "1.0.1"
+            exact: "1.0.2"
         )
     ],
     targets: [
