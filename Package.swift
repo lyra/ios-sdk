@@ -1,9 +1,9 @@
-// swift-tools-version: 6.2
+// swift-tools-version: 5.4
 import PackageDescription
 let package = Package(
     name: "LyraPaymentSDK",
     platforms: [
-        .iOS(.v26)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -14,11 +14,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/lyra/Material.git",
-            exact: "1.0.10"
+            exact: "1.0.11"
         ),
         .package(
             url: "https://github.com/lyra/card-scan-ios.git",
-            exact: "1.0.0"
+            exact: "1.0.1"
         )
     ],
     targets: [
