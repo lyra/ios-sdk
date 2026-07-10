@@ -103184,7 +103184,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/TextFieldRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 6933,
+      "offset": 6963,
       "length": 3,
       "value": "1.0"
     },
@@ -103793,7 +103793,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/PaymentFormViewController\/PaymentFormViewController+UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 5057,
+      "offset": 5068,
       "length": 5,
       "value": "false"
     },
