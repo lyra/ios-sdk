@@ -24,6 +24,14 @@
 		<data>
 		hWypphB5eoKjkN2rQh4LICIw9tY=
 		</data>
+		<key>BrandSelectorTileView.nib</key>
+		<data>
+		yz7VajYq1xXxFrNK5NZ88XpXzTQ=
+		</data>
+		<key>BrandSelectorView.nib</key>
+		<data>
+		9m8yJuDjKJbTQ2PHGOj6nvLnF0A=
+		</data>
 		<key>BrandView.nib</key>
 		<data>
 		5zb8cLRvkzBXgYSNnCINgZI1fY8=
@@ -62,7 +70,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mwXExc2KpV7wB8Po41SV35mpyDA=
+		Y6BGuiEYnbvEmxl6fSv9cS9Ni8k=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
@@ -74,7 +82,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nd2YpzHkb4HPbjiSBgnrQeVckTE=
+		pBJhDKqKWmDV/g/CXzEZCa2qn/I=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -82,7 +90,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JWF/Fh4f4Fu3WDDvXUP1LmDZOvU=
+		AaVUNXYIjv0eTFdoY6CcZqXz5Gw=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -90,11 +98,11 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3KVYW4ABNU22zug5viD3YYmbTuU=
+		jdvZyqwDfAsyB1uPyPRoC2UMef8=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nd2YpzHkb4HPbjiSBgnrQeVckTE=
+		pBJhDKqKWmDV/g/CXzEZCa2qn/I=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -102,7 +110,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		00tmOVtr/xNWCqbZNj+4rAOR3kM=
+		uLOW01TDVV03AYXEjL7qyfamZRM=
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -110,7 +118,7 @@
 		</data>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UcJ0vOI4x/p454OFMhF7eM7FwzI=
+		bolIxFwhlS3L9hRS2lKRFdFhdfs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -142,27 +150,27 @@
 		</data>
 		<key>en_Localizable.strings</key>
 		<data>
-		2T+j6KVvkoRyaiTq08cTjUcmVMY=
+		8Sf7IxKpSYaF/PWLymFX/Xng7cc=
 		</data>
 		<key>error_en_Localizable.strings</key>
 		<data>
-		BUwAIjt3IJduBgazd05Mf2KUvNQ=
+		TmCVUcUNWJ6jXT2P/j8tndNBL2U=
 		</data>
 		<key>error_es_Localizable.strings</key>
 		<data>
-		YYXqEQjSS6MtmGX6ffSiHFX/nDg=
+		la6InuUWs9N0K3d2hUjDZEBrcWc=
 		</data>
 		<key>error_fr_Localizable.strings</key>
 		<data>
-		An/YdhpDmQmnyxBwRbTCsts6pds=
+		G8UxezRL2U3MJ7V5widtiy5t9u4=
 		</data>
 		<key>es_Localizable.strings</key>
 		<data>
-		K1KF/zr2yS8TEi3H9RwlpTsRIw4=
+		yIJk4HH1E0Ejx2YKaMcIMDMGDBc=
 		</data>
 		<key>fr_Localizable.strings</key>
 		<data>
-		2vjzpYQ+mv2ZyG853n/FB9Ok1Rc=
+		LIJxTE+1HXXqkYw3DXofOCLaGoM=
 		</data>
 		<key>lyra-authentication-client-lib.umd.js</key>
 		<data>
@@ -204,6 +212,20 @@
 			<key>hash2</key>
 			<data>
 			KaVvpJHBe0Wiwv7JRsioKMMj9c6BwgdloiL9TSWe+Ro=
+			</data>
+		</dict>
+		<key>BrandSelectorTileView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SCRSrKmuZZFM39equ8XCG28xc93PR3ot1Nnpk5uFjeE=
+			</data>
+		</dict>
+		<key>BrandSelectorView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l6oQS9JYyg+850HqJdHJN1rw1wJyOc6dDYZIrrQ1UdU=
 			</data>
 		</dict>
 		<key>BrandView.nib</key>
@@ -287,7 +309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnvddNe6vDoJOkYwI/9pvyjsi3tpZ1ksPCC3gUO+ENo=
+			o9q7BuEvy83guURuTWX+yFYAMXjbgFQvtLYKcCbiKCI=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -301,7 +323,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NpdeagALQiTZRnXcm5gSu+eSKXHCFV7id06Z6Lxguks=
+			4eaX9J6S4YDGqsDplRxW7Od1VirhqC6HX1gjArnU+kA=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -315,14 +337,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GVh/H0uoOVI+BEhDi2vCRmfKGmuefzihoHpPy5abpq0=
+			uJw73DU53KOxvcDSw3z6t673UngDeGD4GAb+QxwYQeg=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnvddNe6vDoJOkYwI/9pvyjsi3tpZ1ksPCC3gUO+ENo=
+			o9q7BuEvy83guURuTWX+yFYAMXjbgFQvtLYKcCbiKCI=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -336,7 +358,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0ke6nGPQQdzrAa8JGtQVlUVBGEQkXTHhAUPYAYJrbw=
+			aXhwex1uKNbJH0UF3ODqfZrzRi3nyVsOs7LgD9npkNM=
 			</data>
 		</dict>
 		<key>Modules/LyraPaymentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -350,7 +372,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oNo8jRpMMGowAuCtNwB1E2/0RJZMoweUwPkIzjqFfAM=
+			igFDaEWQaJs2WQa2xWIC1E0NXZUA+yLgf3BCnCZC+so=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -406,42 +428,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hZ3n44aHuSlzwolzxFlk9uU5qg9hjScxmsnO7zHklXo=
+			AhCz9tN+AxpHwKEQ1zo0W0eWAcTozmu5iPPSLRuMZyg=
 			</data>
 		</dict>
 		<key>error_en_Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C2Rqf91oRnR0MtDNbAurJpWBLqsCEOFpP/G7GdZQf+U=
+			ExTSNY7ZOd+3Pgz1Ov4g4rgQzH/OdaRhOBas0HGaNVM=
 			</data>
 		</dict>
 		<key>error_es_Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PmjJQJIAbFzLLjPrPB4gel7wwUr0Cm10Dxw0RIH8sJ0=
+			706E7pZSw5ZIAjmeCvorJN9oMPdmtVPt4QsCV9kwBEY=
 			</data>
 		</dict>
 		<key>error_fr_Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wlh5l7fWiICx66BbUlkYdU3V1B3IqNW9oORFHKUTGAA=
+			vS9bRFIh7SWxq7cIwTTa8CK9JfjKnXXWohV2VaG8cbM=
 			</data>
 		</dict>
 		<key>es_Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGsBBg4Q+9yMnjxFkRgyXNGa3iWKBAx/YGCXQmppgI0=
+			jeHi9LAAEEyv/PBY6jgTkaa1uS1oyePrtFXIiQEaNKc=
 			</data>
 		</dict>
 		<key>fr_Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XV7v6behgFhsE+MW34bsuY+jPUFe2+kbNAol1cr5log=
+			bLUlcgSmic0kMBqwK70lJ6K5B6Ovo3rzmpLgQ5WFFb4=
 			</data>
 		</dict>
 		<key>lyra-authentication-client-lib.umd.js</key>

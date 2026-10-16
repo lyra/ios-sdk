@@ -97,15 +97,15 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "LyraCardScan",
+        "printedName": "LyraCardScan",
         "declKind": "Import",
         "moduleName": "LyraPaymentSDK"
       },
       {
         "kind": "Import",
-        "name": "LyraCardScan",
-        "printedName": "LyraCardScan",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "LyraPaymentSDK"
       },
@@ -25069,6 +25069,1412 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LyraPaymentSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrandSelectorTileView",
+        "printedName": "BrandSelectorTileView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cardButton",
+            "printedName": "cardButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIButton?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC10cardButton33_CBFBA3B7DCF77C437BBFB356494D7D5CLLSo8UIButtonCSgvp",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC10cardButton33_CBFBA3B7DCF77C437BBFB356494D7D5CLLSo8UIButtonCSgvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "cardImageView",
+            "printedName": "cardImageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIImageView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC09cardImageG033_CBFBA3B7DCF77C437BBFB356494D7D5CLLSo07UIImageG0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC09cardImageG033_CBFBA3B7DCF77C437BBFB356494D7D5CLLSo07UIImageG0CSgvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "checkmarkImageView",
+            "printedName": "checkmarkImageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIImageView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC014checkmarkImageG033_CBFBA3B7DCF77C437BBFB356494D7D5CLLSo07UIImageG0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC014checkmarkImageG033_CBFBA3B7DCF77C437BBFB356494D7D5CLLSo07UIImageG0CSgvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "brandData",
+            "printedName": "brandData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(imageId: Swift.Int, imageName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC9brandDataSS0H4Name_Si7imageId_SS0kJ0t0K0tSgvp",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC9brandDataSS0H4Name_Si7imageId_SS0kJ0t0K0tSgvp",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(imageId: Swift.Int, imageName: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC9brandDataSS0H4Name_Si7imageId_SS0kJ0t0K0tSgvg",
+                "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC9brandDataSS0H4Name_Si7imageId_SS0kJ0t0K0tSgvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brandButton",
+            "printedName": "brandButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC11brandButtonSo8UIButtonCvp",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC11brandButtonSo8UIButtonCvp",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC11brandButtonSo8UIButtonCvg",
+                "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC11brandButtonSo8UIButtonCvg",
+                "moduleName": "LyraPaymentSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkmarkView",
+            "printedName": "checkmarkView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC09checkmarkG0So07UIImageG0Cvp",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC09checkmarkG0So07UIImageG0Cvp",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC09checkmarkG0So07UIImageG0Cvg",
+                "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC09checkmarkG0So07UIImageG0Cvg",
+                "moduleName": "LyraPaymentSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrandSelectorTileView",
+                "printedName": "LyraPaymentSDK.BrandSelectorTileView",
+                "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorTileView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorTileView(im)initWithFrame:",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "LyraPaymentSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LyraPaymentSDK.BrandSelectorTileView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrandSelectorTileView",
+                    "printedName": "LyraPaymentSDK.BrandSelectorTileView",
+                    "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorTileView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorTileView(im)initWithCoder:",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LyraPaymentSDK",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadFromNib",
+            "printedName": "loadFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrandSelectorTileView",
+                "printedName": "LyraPaymentSDK.BrandSelectorTileView",
+                "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorTileView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC11loadFromNibACyFZ",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC11loadFromNibACyFZ",
+            "moduleName": "LyraPaymentSDK",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(_:onBrandSelected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(imageId: Swift.Int, imageName: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(imageId: Swift.Int, imageName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC9configure_02onD8SelectedySS9brandName_Si7imageId_SS0mL0t0M0t_ySSAF_SiAG_SSAHtAIt_tctF",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC9configure_02onD8SelectedySS9brandName_Si7imageId_SS0mL0t0M0t_ySSAF_SiAG_SSAHtAIt_tctF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSelected",
+            "printedName": "setSelected(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK21BrandSelectorTileViewC11setSelectedyySbF",
+            "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC11setSelectedyySbF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorTileView",
+        "mangledName": "$s14LyraPaymentSDK21BrandSelectorTileViewC",
+        "moduleName": "LyraPaymentSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnchorView",
+            "printedName": "AnchorView",
+            "usr": "c:@M@LyraPaymentSDK@objc(pl)AnchorView",
+            "mangledName": "$s14LyraPaymentSDK10AnchorViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutAnchorable",
+            "printedName": "LayoutAnchorable",
+            "usr": "s:12LyraMaterial16LayoutAnchorableP",
+            "mangledName": "$s12LyraMaterial16LayoutAnchorableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Constraintable",
+            "printedName": "Constraintable",
+            "usr": "s:12LyraMaterial14ConstraintableP",
+            "mangledName": "$s12LyraMaterial14ConstraintableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LyraPaymentSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrandSelectorView",
+        "printedName": "BrandSelectorView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "brandSelectorStackView",
+            "printedName": "brandSelectorStackView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIStackView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC05brande5StackF033_2BF4EA537B13F187C86C6165425A4484LLSo07UIStackF0CSgvp",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC05brande5StackF033_2BF4EA537B13F187C86C6165425A4484LLSo07UIStackF0CSgvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "brandHelperLabel",
+            "printedName": "brandHelperLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UILabel?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC16brandHelperLabel33_2BF4EA537B13F187C86C6165425A4484LLSo7UILabelCSgvp",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC16brandHelperLabel33_2BF4EA537B13F187C86C6165425A4484LLSo7UILabelCSgvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "brandTileCount",
+            "printedName": "brandTileCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC14brandTileCountSivp",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC14brandTileCountSivp",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK17BrandSelectorViewC14brandTileCountSivg",
+                "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC14brandTileCountSivg",
+                "moduleName": "LyraPaymentSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHelperLabelHidden",
+            "printedName": "isHelperLabelHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC19isHelperLabelHiddenSbvp",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC19isHelperLabelHiddenSbvp",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK17BrandSelectorViewC19isHelperLabelHiddenSbvg",
+                "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC19isHelperLabelHiddenSbvg",
+                "moduleName": "LyraPaymentSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadFromNib",
+            "printedName": "loadFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrandSelectorView",
+                "printedName": "LyraPaymentSDK.BrandSelectorView",
+                "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC11loadFromNibACyFZ",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC11loadFromNibACyFZ",
+            "moduleName": "LyraPaymentSDK",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC9configureyyF",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC9configureyyF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureBrands",
+            "printedName": "configureBrands(_:onBrandSelected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(imageId: Swift.Int, imageName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(imageId: Swift.Int, imageName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC15configureBrands_02onD8SelectedySaySS9brandName_Si7imageId_SS0mL0t0M0tG_ySSAF_SiAG_SSAHtAIt_tctF",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC15configureBrands_02onD8SelectedySaySS9brandName_Si7imageId_SS0mL0t0M0tG_ySSAF_SiAG_SSAHtAIt_tctF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSelectionEnabled",
+            "printedName": "setSelectionEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC19setSelectionEnabledyySbF",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC19setSelectionEnabledyySbF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSelectedBrand",
+            "printedName": "setSelectedBrand(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(imageId: Swift.Int, imageName: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC011setSelectedD0yySS9brandName_Si7imageId_SS0kJ0t0K0t_tF",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC011setSelectedD0yySS9brandName_Si7imageId_SS0kJ0t0K0t_tF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alignSelectorCenterY",
+            "printedName": "alignSelectorCenterY(to:constant:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutYAxisAnchor",
+                "printedName": "UIKit.NSLayoutYAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC05alignE7CenterY2to8constantySo19NSLayoutYAxisAnchorC_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC05alignE7CenterY2to8constantySo19NSLayoutYAxisAnchorC_12CoreGraphics7CGFloatVtF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "point",
+            "printedName": "point(inside:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView(im)pointInside:withEvent:",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC5point6inside4withSbSo7CGPointV_So7UIEventCSgtF",
+            "moduleName": "LyraPaymentSDK",
+            "overriding": true,
+            "objc_name": "pointInside:withEvent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "brandTile",
+            "printedName": "brandTile(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LyraPaymentSDK.BrandSelectorTileView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrandSelectorTileView",
+                    "printedName": "LyraPaymentSDK.BrandSelectorTileView",
+                    "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorTileView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LyraPaymentSDK17BrandSelectorViewC9brandTile2atAA0dehF0CSgSi_tF",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC9brandTile2atAA0dehF0CSgSi_tF",
+            "moduleName": "LyraPaymentSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrandSelectorView",
+                "printedName": "LyraPaymentSDK.BrandSelectorView",
+                "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView(im)initWithFrame:",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "LyraPaymentSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LyraPaymentSDK.BrandSelectorView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrandSelectorView",
+                    "printedName": "LyraPaymentSDK.BrandSelectorView",
+                    "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView(im)initWithCoder:",
+            "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LyraPaymentSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView",
+        "mangledName": "$s14LyraPaymentSDK17BrandSelectorViewC",
+        "moduleName": "LyraPaymentSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnchorView",
+            "printedName": "AnchorView",
+            "usr": "c:@M@LyraPaymentSDK@objc(pl)AnchorView",
+            "mangledName": "$s14LyraPaymentSDK10AnchorViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutAnchorable",
+            "printedName": "LayoutAnchorable",
+            "usr": "s:12LyraMaterial16LayoutAnchorableP",
+            "mangledName": "$s12LyraMaterial16LayoutAnchorableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Constraintable",
+            "printedName": "Constraintable",
+            "usr": "s:12LyraMaterial14ConstraintableP",
+            "mangledName": "$s12LyraMaterial14ConstraintableP"
           },
           {
             "kind": "Conformance",
@@ -65427,62 +66833,8 @@
           },
           {
             "kind": "Var",
-            "name": "kOrderStatusKey",
-            "printedName": "kOrderStatusKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK9VADClientC15kOrderStatusKey33_8F212620F07286D4F3C47A29A88DFF4CLLSSvp",
-            "mangledName": "$s14LyraPaymentSDK9VADClientC15kOrderStatusKey33_8F212620F07286D4F3C47A29A88DFF4CLLSSvp",
-            "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 29,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "kOrderStatusUnpaid",
-            "printedName": "kOrderStatusUnpaid",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK9VADClientC18kOrderStatusUnpaid33_8F212620F07286D4F3C47A29A88DFF4CLLSSvp",
-            "mangledName": "$s14LyraPaymentSDK9VADClientC18kOrderStatusUnpaid33_8F212620F07286D4F3C47A29A88DFF4CLLSSvp",
-            "moduleName": "LyraPaymentSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 30,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "kAcceptedPaymentStatus",
-            "printedName": "kAcceptedPaymentStatus",
+            "name": "kOrderStatusKeys",
+            "printedName": "kOrderStatusKeys",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -65500,8 +66852,78 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK9VADClientC09kAcceptedB6Status33_8F212620F07286D4F3C47A29A88DFF4CLLSaySSGvp",
-            "mangledName": "$s14LyraPaymentSDK9VADClientC09kAcceptedB6Status33_8F212620F07286D4F3C47A29A88DFF4CLLSaySSGvp",
+            "usr": "s:14LyraPaymentSDK9VADClientC16kOrderStatusKeys33_8F212620F07286D4F3C47A29A88DFF4CLLSaySSGvp",
+            "mangledName": "$s14LyraPaymentSDK9VADClientC16kOrderStatusKeys33_8F212620F07286D4F3C47A29A88DFF4CLLSaySSGvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 29,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "kUnpaidTransactionStatus",
+            "printedName": "kUnpaidTransactionStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK9VADClientC24kUnpaidTransactionStatus33_8F212620F07286D4F3C47A29A88DFF4CLLSaySSGvp",
+            "mangledName": "$s14LyraPaymentSDK9VADClientC24kUnpaidTransactionStatus33_8F212620F07286D4F3C47A29A88DFF4CLLSaySSGvp",
+            "moduleName": "LyraPaymentSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 30,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "kAcceptedTransactionStatus",
+            "printedName": "kAcceptedTransactionStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK9VADClientC26kAcceptedTransactionStatus33_8F212620F07286D4F3C47A29A88DFF4CLLSaySSGvp",
+            "mangledName": "$s14LyraPaymentSDK9VADClientC26kAcceptedTransactionStatus33_8F212620F07286D4F3C47A29A88DFF4CLLSaySSGvp",
             "moduleName": "LyraPaymentSDK",
             "isInternal": true,
             "declAttributes": [
@@ -75573,6 +76995,106 @@
           },
           {
             "kind": "Var",
+            "name": "brandSelectorViewId",
+            "printedName": "brandSelectorViewId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK32AccessibilityIdentifiersConstantV19brandSelectorViewIdSSvpZ",
+            "mangledName": "$s14LyraPaymentSDK32AccessibilityIdentifiersConstantV19brandSelectorViewIdSSvpZ",
+            "moduleName": "LyraPaymentSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK32AccessibilityIdentifiersConstantV19brandSelectorViewIdSSvgZ",
+                "mangledName": "$s14LyraPaymentSDK32AccessibilityIdentifiersConstantV19brandSelectorViewIdSSvgZ",
+                "moduleName": "LyraPaymentSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brandSelectorTileId",
+            "printedName": "brandSelectorTileId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK32AccessibilityIdentifiersConstantV19brandSelectorTileIdSSvpZ",
+            "mangledName": "$s14LyraPaymentSDK32AccessibilityIdentifiersConstantV19brandSelectorTileIdSSvpZ",
+            "moduleName": "LyraPaymentSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK32AccessibilityIdentifiersConstantV19brandSelectorTileIdSSvgZ",
+                "mangledName": "$s14LyraPaymentSDK32AccessibilityIdentifiersConstantV19brandSelectorTileIdSSvgZ",
+                "moduleName": "LyraPaymentSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "btnCloseHelperViewId",
             "printedName": "btnCloseHelperViewId",
             "children": [
@@ -75661,56 +77183,6 @@
                 "declKind": "Accessor",
                 "usr": "s:14LyraPaymentSDK32AccessibilityIdentifiersConstantV15cvvHelperViewIdSSvgZ",
                 "mangledName": "$s14LyraPaymentSDK32AccessibilityIdentifiersConstantV15cvvHelperViewIdSSvgZ",
-                "moduleName": "LyraPaymentSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "brandChoixHelperViewId",
-            "printedName": "brandChoixHelperViewId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK32AccessibilityIdentifiersConstantV22brandChoixHelperViewIdSSvpZ",
-            "mangledName": "$s14LyraPaymentSDK32AccessibilityIdentifiersConstantV22brandChoixHelperViewIdSSvpZ",
-            "moduleName": "LyraPaymentSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK32AccessibilityIdentifiersConstantV22brandChoixHelperViewIdSSvgZ",
-                "mangledName": "$s14LyraPaymentSDK32AccessibilityIdentifiersConstantV22brandChoixHelperViewIdSSvgZ",
                 "moduleName": "LyraPaymentSDK",
                 "static": true,
                 "implicit": true,
@@ -81906,6 +83378,97 @@
           },
           {
             "kind": "Var",
+            "name": "brandSelectionView",
+            "printedName": "brandSelectionView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrandSelectorView",
+                "printedName": "LyraPaymentSDK.BrandSelectorView",
+                "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LyraPaymentSDK11PANRendererC18brandSelectionViewAA013BrandSelectorG0Cvp",
+            "mangledName": "$s14LyraPaymentSDK11PANRendererC18brandSelectionViewAA013BrandSelectorG0Cvp",
+            "moduleName": "LyraPaymentSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrandSelectorView",
+                    "printedName": "LyraPaymentSDK.BrandSelectorView",
+                    "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11PANRendererC18brandSelectionViewAA013BrandSelectorG0Cvg",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC18brandSelectionViewAA013BrandSelectorG0Cvg",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrandSelectorView",
+                    "printedName": "LyraPaymentSDK.BrandSelectorView",
+                    "usr": "c:@M@LyraPaymentSDK@objc(cs)BrandSelectorView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11PANRendererC18brandSelectionViewAA013BrandSelectorG0Cvs",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC18brandSelectionViewAA013BrandSelectorG0Cvs",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LyraPaymentSDK11PANRendererC18brandSelectionViewAA013BrandSelectorG0CvM",
+                "mangledName": "$s14LyraPaymentSDK11PANRendererC18brandSelectionViewAA013BrandSelectorG0CvM",
+                "moduleName": "LyraPaymentSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "cardListName",
             "printedName": "cardListName",
             "children": [
@@ -81935,7 +83498,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "hasStorage": true,
             "accessors": [
               {
@@ -82043,7 +83606,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -82152,7 +83715,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true,
             "accessors": [
               {
@@ -82293,7 +83856,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true,
             "accessors": [
               {
@@ -82435,7 +83998,7 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "hasStorage": true
           },
           {
@@ -82698,7 +84261,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "hasStorage": true,
             "accessors": [
               {
@@ -82792,7 +84355,7 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "hasStorage": true
           },
           {
@@ -82844,7 +84407,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true,
             "accessors": [
               {
@@ -82987,7 +84550,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "hasStorage": true,
             "accessors": [
               {
@@ -83080,7 +84643,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 14,
             "hasStorage": true,
             "accessors": [
               {
@@ -83180,7 +84743,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 15,
             "hasStorage": true,
             "accessors": [
               {
@@ -83287,7 +84850,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 16,
             "hasStorage": true,
             "accessors": [
               {
@@ -83387,7 +84950,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 17,
             "hasStorage": true,
             "accessors": [
               {
@@ -83503,7 +85066,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 18,
             "hasStorage": true,
             "accessors": [
               {
@@ -83590,472 +85153,6 @@
           },
           {
             "kind": "Var",
-            "name": "btnBrandSelection",
-            "printedName": "btnBrandSelection",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIButton",
-                "printedName": "UIKit.UIButton",
-                "usr": "c:objc(cs)UIButton"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC17btnBrandSelectionSo8UIButtonCvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC17btnBrandSelectionSo8UIButtonCvp",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 18,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC17btnBrandSelectionSo8UIButtonCvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC17btnBrandSelectionSo8UIButtonCvg",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC17btnBrandSelectionSo8UIButtonCvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC17btnBrandSelectionSo8UIButtonCvs",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC17btnBrandSelectionSo8UIButtonCvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC17btnBrandSelectionSo8UIButtonCvM",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "btnHelp",
-            "printedName": "btnHelp",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIButton",
-                "printedName": "UIKit.UIButton",
-                "usr": "c:objc(cs)UIButton"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC7btnHelpSo8UIButtonCvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC7btnHelpSo8UIButtonCvp",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 19,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC7btnHelpSo8UIButtonCvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC7btnHelpSo8UIButtonCvg",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC7btnHelpSo8UIButtonCvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC7btnHelpSo8UIButtonCvs",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC7btnHelpSo8UIButtonCvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC7btnHelpSo8UIButtonCvM",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dropDownBrand",
-            "printedName": "dropDownBrand",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "LyraPaymentSDK.DropDownKH?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DropDownKH",
-                    "printedName": "LyraPaymentSDK.DropDownKH",
-                    "usr": "c:@M@LyraPaymentSDK@objc(cs)DropDownKH"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC13dropDownBrandAA04DropF2KHCSgvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC13dropDownBrandAA04DropF2KHCSgvp",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 20,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "LyraPaymentSDK.DropDownKH?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DropDownKH",
-                        "printedName": "LyraPaymentSDK.DropDownKH",
-                        "usr": "c:@M@LyraPaymentSDK@objc(cs)DropDownKH"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC13dropDownBrandAA04DropF2KHCSgvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC13dropDownBrandAA04DropF2KHCSgvg",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "LyraPaymentSDK.DropDownKH?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DropDownKH",
-                        "printedName": "LyraPaymentSDK.DropDownKH",
-                        "usr": "c:@M@LyraPaymentSDK@objc(cs)DropDownKH"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC13dropDownBrandAA04DropF2KHCSgvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC13dropDownBrandAA04DropF2KHCSgvs",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC13dropDownBrandAA04DropF2KHCSgvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC13dropDownBrandAA04DropF2KHCSgvM",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "tapGestureRecognizer",
-            "printedName": "tapGestureRecognizer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITapGestureRecognizer?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITapGestureRecognizer",
-                    "printedName": "UIKit.UITapGestureRecognizer",
-                    "usr": "c:objc(cs)UITapGestureRecognizer"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC20tapGestureRecognizerSo05UITapfG0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC20tapGestureRecognizerSo05UITapfG0CSgvp",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 21,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UITapGestureRecognizer?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UITapGestureRecognizer",
-                        "printedName": "UIKit.UITapGestureRecognizer",
-                        "usr": "c:objc(cs)UITapGestureRecognizer"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC20tapGestureRecognizerSo05UITapfG0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC20tapGestureRecognizerSo05UITapfG0CSgvg",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UITapGestureRecognizer?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UITapGestureRecognizer",
-                        "printedName": "UIKit.UITapGestureRecognizer",
-                        "usr": "c:objc(cs)UITapGestureRecognizer"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC20tapGestureRecognizerSo05UITapfG0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC20tapGestureRecognizerSo05UITapfG0CSgvs",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC20tapGestureRecognizerSo05UITapfG0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC20tapGestureRecognizerSo05UITapfG0CSgvM",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "btnHelpExtension",
-            "printedName": "btnHelpExtension",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIButton",
-                "printedName": "UIKit.UIButton",
-                "usr": "c:objc(cs)UIButton"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC16btnHelpExtensionSo8UIButtonCvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC16btnHelpExtensionSo8UIButtonCvp",
-            "moduleName": "LyraPaymentSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 22,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC16btnHelpExtensionSo8UIButtonCvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC16btnHelpExtensionSo8UIButtonCvg",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "allowedBrandList",
             "printedName": "allowedBrandList",
             "children": [
@@ -84111,7 +85208,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 23,
+            "fixedbinaryorder": 19,
             "hasStorage": true,
             "accessors": [
               {
@@ -84250,122 +85347,6 @@
           },
           {
             "kind": "Var",
-            "name": "activeCardMarginConstraint",
-            "printedName": "activeCardMarginConstraint",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.NSLayoutConstraint?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSLayoutConstraint",
-                    "printedName": "UIKit.NSLayoutConstraint",
-                    "usr": "c:objc(cs)NSLayoutConstraint"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvp",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvp",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 24,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.NSLayoutConstraint?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NSLayoutConstraint",
-                        "printedName": "UIKit.NSLayoutConstraint",
-                        "usr": "c:objc(cs)NSLayoutConstraint"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvg",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvg",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.NSLayoutConstraint?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NSLayoutConstraint",
-                        "printedName": "UIKit.NSLayoutConstraint",
-                        "usr": "c:objc(cs)NSLayoutConstraint"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvs",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvs",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvM",
-                "mangledName": "$s14LyraPaymentSDK11PANRendererC26activeCardMarginConstraintSo08NSLayoutH0CSgvM",
-                "moduleName": "LyraPaymentSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "scanOptionView",
             "printedName": "scanOptionView",
             "children": [
@@ -84395,7 +85376,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 25,
+            "fixedbinaryorder": 20,
             "hasStorage": true,
             "accessors": [
               {
@@ -84503,7 +85484,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 26,
+            "fixedbinaryorder": 21,
             "hasStorage": true,
             "accessors": [
               {
@@ -84603,7 +85584,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 27,
+            "fixedbinaryorder": 22,
             "hasStorage": true,
             "accessors": [
               {
@@ -84712,7 +85693,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 28,
+            "fixedbinaryorder": 23,
             "hasStorage": true,
             "accessors": [
               {
@@ -85637,32 +86618,6 @@
           },
           {
             "kind": "Function",
-            "name": "showBrandSelectionView",
-            "printedName": "showBrandSelectionView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@LyraPaymentSDK@objc(cs)PANRenderer(im)showBrandSelectionView",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC22showBrandSelectionViewyyF",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "Dynamic",
-              "Preconcurrency",
-              "Custom",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "configureBrandSelection",
             "printedName": "configureBrandSelection(isEnabled:)",
             "children": [
@@ -85693,30 +86648,6 @@
           },
           {
             "kind": "Function",
-            "name": "configureBrandDropDow",
-            "printedName": "configureBrandDropDow()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK11PANRendererC21configureBrandDropDowyyF",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC21configureBrandDropDowyyF",
-            "moduleName": "LyraPaymentSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "selectBrand",
             "printedName": "selectBrand(_:)",
             "children": [
@@ -85727,14 +86658,40 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Tuple",
+                "printedName": "(brandName: Swift.String, image: (imageId: Swift.Int, imageName: Swift.String))",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(imageId: Swift.Int, imageName: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:14LyraPaymentSDK11PANRendererC11selectBrandyySiF",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC11selectBrandyySiF",
+            "usr": "s:14LyraPaymentSDK11PANRendererC11selectBrandyySS9brandName_Si7imageId_SS0iH0t0I0t_tF",
+            "mangledName": "$s14LyraPaymentSDK11PANRendererC11selectBrandyySS9brandName_Si7imageId_SS0iH0t0I0t_tF",
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
@@ -85810,8 +86767,8 @@
           },
           {
             "kind": "Function",
-            "name": "showHelperView",
-            "printedName": "showHelperView()",
+            "name": "updateFormBottomConstraint",
+            "printedName": "updateFormBottomConstraint()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -85820,16 +86777,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@LyraPaymentSDK@objc(cs)PANRenderer(im)showHelperView",
-            "mangledName": "$s14LyraPaymentSDK11PANRendererC14showHelperViewyyF",
+            "usr": "s:14LyraPaymentSDK11PANRendererC26updateFormBottomConstraintyyF",
+            "mangledName": "$s14LyraPaymentSDK11PANRendererC26updateFormBottomConstraintyyF",
             "moduleName": "LyraPaymentSDK",
             "isOpen": true,
             "declAttributes": [
-              "Dynamic",
               "Preconcurrency",
-              "Custom",
-              "ObjC",
-              "RawDocComment"
+              "Custom"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -103892,337 +104846,358 @@
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
       "offset": 1330,
-      "length": 103,
-      "value": "\"The connection was lost during the creation of the payment. The status of the transaction is unknown.\""
+      "length": 88,
+      "value": "\"The connection was lost during the creation of the transaction. The status is unknown.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 1439,
+      "offset": 1424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
+      "offset": 1471,
       "length": 9,
       "value": "\"MOB_006\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1497,
+      "offset": 1482,
       "length": 26,
       "value": "\"Network is not available\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 1525,
+      "offset": 1510,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1584,
+      "offset": 1569,
       "length": 9,
       "value": "\"MOB_007\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1595,
+      "offset": 1580,
       "length": 35,
       "value": "\"Invalid response of Lyra Rest API\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 1632,
+      "offset": 1617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1684,
+      "offset": 1669,
       "length": 9,
       "value": "\"MOB_008\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1695,
-      "length": 17,
-      "value": "\"Payment refused\""
+      "offset": 1680,
+      "length": 21,
+      "value": "\"Transaction refused\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 1714,
+      "offset": 1703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1769,
+      "offset": 1758,
       "length": 9,
       "value": "\"MOB_009\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1780,
-      "length": 19,
-      "value": "\"Payment cancelled\""
+      "offset": 1769,
+      "length": 23,
+      "value": "\"Transaction cancelled\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 1801,
+      "offset": 1794,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1858,
+      "offset": 1851,
       "length": 9,
       "value": "\"MOB_010\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1869,
+      "offset": 1862,
       "length": 33,
       "value": "\"Server timeout error, check IPN\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 1904,
+      "offset": 1897,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 1955,
       "length": 9,
       "value": "\"MOB_011\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 1973,
+      "offset": 1966,
       "length": 25,
       "value": "\"Unknown API Server Name\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 2000,
+      "offset": 1993,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2056,
+      "offset": 2049,
       "length": 9,
       "value": "\"MOB_012\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2067,
+      "offset": 2060,
       "length": 22,
       "value": "\"Unknown Order Status\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 2091,
+      "offset": 2084,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2153,
+      "offset": 2146,
       "length": 9,
       "value": "\"MOB_013\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2164,
-      "length": 29,
-      "value": "\"Payment cannot be cancelled\""
+      "offset": 2157,
+      "length": 33,
+      "value": "\"Transaction cannot be cancelled\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 2195,
+      "offset": 2192,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2261,
+      "offset": 2258,
       "length": 9,
       "value": "\"MOB_014\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2272,
+      "offset": 2269,
       "length": 36,
       "value": "\"Payment by Apple Pay not available\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 2310,
+      "offset": 2307,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2400,
       "length": 18,
       "value": "\"Unexpected error\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "BooleanLiteral",
-      "offset": 2423,
+      "offset": 2420,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2506,
+      "offset": 2503,
       "length": 16,
       "value": "\"MOB_DETAIL_001\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2524,
+      "offset": 2521,
       "length": 21,
       "value": "\"Checksum is invalid\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2601,
+      "offset": 2598,
       "length": 16,
       "value": "\"MOB_DETAIL_002\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2619,
+      "offset": 2616,
       "length": 24,
       "value": "\"FormToken is malformed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
+      "offset": 2687,
       "length": 16,
       "value": "\"MOB_DETAIL_003\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2708,
+      "offset": 2705,
       "length": 28,
       "value": "\"DNA base64 decoding failed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2785,
+      "offset": 2782,
       "length": 16,
       "value": "\"MOB_DETAIL_004\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2803,
+      "offset": 2800,
       "length": 14,
       "value": "\"Invalid JSON\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2883,
+      "offset": 2880,
       "length": 16,
       "value": "\"MOB_DETAIL_005\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2901,
+      "offset": 2898,
       "length": 31,
       "value": "\"Invalid CreatePaymentResponse\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 2998,
+      "offset": 2995,
       "length": 16,
       "value": "\"MOB_DETAIL_006\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 3016,
+      "offset": 3013,
       "length": 74,
       "value": "\"Please use the version get with getFormToken version in createPayment WS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 3146,
+      "offset": 3143,
       "length": 16,
       "value": "\"MOB_DETAIL_007\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 3164,
+      "offset": 3161,
       "length": 73,
       "value": "\"The domain for this platform does not exist. Please contact the support\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 3295,
+      "offset": 3292,
       "length": 16,
       "value": "\"MOB_DETAIL_008\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 3313,
+      "offset": 3310,
       "length": 78,
       "value": "\"The domain for this platform does not use HTTPS. Please contact the support.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Error\/LyraMobError.swift",
       "kind": "StringLiteral",
-      "offset": 3528,
+      "offset": 3525,
       "length": 9,
       "value": "\"MOB_999\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/BrandSelector\/BrandSelectorTileView.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 23,
+      "value": "\"BrandSelectorTileView\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/BrandSelector\/BrandSelectorView.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 19,
+      "value": "\"BrandSelectorView\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/BrandSelector\/BrandSelectorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2332,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/View\/BrandView.swift",
@@ -105563,85 +106538,85 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1791,
-      "length": 13,
-      "value": "\"orderStatus\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1840,
-      "length": 8,
-      "value": "\"UNPAID\""
+      "kind": "Array",
+      "offset": 1792,
+      "length": 33,
+      "value": "[\"orderStatus\", \"transferStatus\"]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "Array",
-      "offset": 1888,
-      "length": 37,
-      "value": "[\"PAID\", \"RUNNING\", \"PARTIALLY_PAID\"]"
+      "offset": 1867,
+      "length": 27,
+      "value": "[\"UNPAID\", \"UNTRANSFERRED\"]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
+      "kind": "Array",
+      "offset": 1938,
+      "length": 52,
+      "value": "[\"PAID\", \"RUNNING\", \"PARTIALLY_PAID\", \"TRANSFERRED\"]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 1965,
+      "offset": 2030,
       "length": 14,
       "value": "\"ecsPaymentId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2012,
+      "offset": 2077,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 2050,
+      "offset": 2115,
       "length": 13,
       "value": "\"paymentForm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 2159,
       "length": 15,
       "value": "\"walletPayload\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 2135,
+      "offset": 2200,
       "length": 11,
       "value": "\"APPLE_PAY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2184,
+      "offset": 2249,
       "length": 3,
       "value": "504"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "FloatLiteral",
-      "offset": 2261,
+      "offset": 2326,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 2680,
+      "offset": 2745,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Client\/VADClient.swift",
       "kind": "StringLiteral",
-      "offset": 16790,
+      "offset": 16855,
       "length": 2,
       "value": "\"\""
     },
@@ -107279,35 +108254,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/AccessibilityIdentifiersConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2531,
+      "offset": 2470,
+      "length": 21,
+      "value": "\"brandSelectorViewId\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/AccessibilityIdentifiersConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 2597,
+      "length": 21,
+      "value": "\"brandSelectorTileId\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/AccessibilityIdentifiersConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 2776,
       "length": 22,
       "value": "\"btnCloseHelperViewId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/AccessibilityIdentifiersConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2639,
+      "offset": 2884,
       "length": 17,
       "value": "\"cvvHelperViewId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/AccessibilityIdentifiersConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
-      "length": 24,
-      "value": "\"brandChoixHelperViewId\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/AccessibilityIdentifiersConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2946,
+      "offset": 3063,
       "length": 23,
       "value": "\"paymentSelectorViewId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Util\/AccessibilityIdentifiersConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3113,
+      "offset": 3230,
       "length": 12,
       "value": "\"btnTokenId\""
     },
@@ -107517,14 +108499,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3120,
+      "offset": 2840,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/LyraPaymentSDK\/Engine\/PaymentForm\/Renderer\/PANRenderer\/PANRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3245,
+      "offset": 2965,
       "length": 5,
       "value": "false"
     },
