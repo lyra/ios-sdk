@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = 'LyraPaymentSDK.xcframework'
 
-  s.dependency 'LyraMaterial', '~> 1.0.6'
-  s.dependency 'LyraMotion', '~> 4.0.2'
+  s.dependency 'LyraMaterial', '~> 1.0.12'
+  s.dependency 'LyraMotion', '~> 4.0.6'
   
   s.subspec 'AdditionalSDK' do |subspec|
         subspec.dependency 'LyraCardScan'

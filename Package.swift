@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/lyra/Material.git",
-            exact: "1.0.11"
+            exact: "1.0.12"
         ),
         .package(
             url: "https://github.com/lyra/card-scan-ios.git",
